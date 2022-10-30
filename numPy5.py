@@ -34,3 +34,4 @@ print(v[:2,1:3])
 print(v[0,1])
 b=np.array(y)
 print(b[2:1])
+
