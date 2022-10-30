@@ -22,3 +22,15 @@ print(darr1.shape)
 print(darr1.size)
 print(darr1.dtype)
 
+x=[[1,2,3],[4,5,6]]
+y=(1,2,3)
+z={1,2,3}
+a={1:2,3:4}
+np.array(a)
+
+v=np.array(x)
+print(v[0])
+print(v[:2,1:3])
+print(v[0,1])
+b=np.array(y)
+print(b[2:1])
