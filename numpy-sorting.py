@@ -1,7 +1,7 @@
 import numpy as np
-# a=np.array([(1,4),(1,3)])
-# print(np.sort(a))
-# print(np.sort(a, axis=None))
+a=np.array([(1,4),(1,3)])
+print(np.sort(a))
+print(np.sort(a, axis=None))
 
 
 # a=np.array([1,3,2])
@@ -16,7 +16,13 @@ import numpy as np
 # print(np.argmax(a))
 
 
+# arr=np.array([2,1,3,4,5,4]
+
+t=x=[[1,2,4],[7,1,6],[3,10,6]]
+mnt=ar=np.array(t)
+print(mnt)
+mnt.argmax(axis=0)
 
 #Count
-arr=['kjddvstt',['bcbctt'],['hfhfsesef']]
-print(np.char.count(arr,'tt'))
+# arr=['kjddvstt',['bcbctt'],['hfhfsesef']]
+# print(np.char.count(arr,'tt'))
