@@ -1,6 +1,7 @@
 """ dialog-style application"""
 
-import sys
+import sys 
+m=sys.argv
 from PyQt6.QtWidgets import(
     QApplication,
     QDialog,
