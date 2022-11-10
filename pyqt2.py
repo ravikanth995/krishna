@@ -1,7 +1,6 @@
 """ dialog-style application"""
 
 import sys
-# from sys
 from PyQt6.QtWidgets import(
     QApplication,
     QDialog,
@@ -24,9 +23,9 @@ class Window(QDialog):
         formLayout.addRow('Hobbies:', QLineEdit())
         dialogLayout.addLayout(formLayout)
         buttons=QDialogButtonBox()
-        buttons.setStandardButtons(
-           QDialogButtonBox.StandardButton.Cancel,
-           QDialogButtonBox.StandardButton.Ok
+        buttons.setStandardButtons (
+        QDialogButtonBox.StandardButton.Cancel,
+            QDialogButtonBox.StandardButton.Ok
         )
 
         dialogLayout.addWidget(buttons)
