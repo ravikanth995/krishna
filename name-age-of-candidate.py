@@ -1,4 +1,4 @@
-name=input("Enter Your Name")
+name=input("Enter name")
 age=int(input("Hi%s, Enter Your Age:"%name))
 
 if (age<24):
