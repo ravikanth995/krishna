@@ -51,10 +51,21 @@
 
 
 #Return
-def func(v1,v2):
-    add=v1+v2
-    return add
-    sub=v1-v2
-    return sub
+# def func(v1,v2):
+#     add=v1+v2
+#     return add
+#     sub=v1-v2
+#     return sub
 
-print(func(2,3))    
+# print(func(2,3))    
+
+#Try and Except
+try:
+    b=2
+    a=6/b
+    print(a)
+except ZeroDivisionError:
+    print("Zero Divsion error")  
+
+
+
