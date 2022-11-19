@@ -60,12 +60,16 @@
 # print(func(2,3))    
 
 #Try and Except
-try:
-    b=2
-    a=6/b
-    print(a)
-except ZeroDivisionError:
-    print("Zero Divsion error")  
+# try:
+#     b=2
+#     a=6/b
+#     print(a)
+# except ZeroDivisionError:
+#     print("Zero Divsion error")  
+
+
+
+
 
 
 
