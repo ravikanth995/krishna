@@ -40,21 +40,32 @@
 # l="ravikanth"
 # l.isalpha()
 
-#is append
+# #is append
+# list=list()
+# print(list)
+
+# list.append(1)
+# print(list)
+
+# list.append(2)
+# print(list)
+
+# list.append(3)
+# print(list)
+
+# list.append(4)
+# print(list)
+
+# list.append(5)
+# print(list)
+
+#append
+
 list=list()
-print(list)
+# print(list)
 
 list.append(1)
 print(list)
 
 list.append(2)
-print(list)
-
-list.append(3)
-print(list)
-
-list.append(4)
-print(list)
-
-list.append(5)
 print(list)
