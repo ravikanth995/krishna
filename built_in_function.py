@@ -61,11 +61,25 @@
 
 #append
 
-list=list()
+# list=list()
+# # print(list)
+
+# list.append(1)
 # print(list)
 
-list.append(1)
-print(list)
+# list.append(2)
+# print(list)
 
-list.append(2)
-print(list)
+
+
+#Round
+# l=round(6.98) #returns the floating value into given digits but when digits is not given, then ot will be considered zero by default
+# print(l)
+
+
+# l=round(9.0089)
+# print(l)
+
+
+l=round(9.6267)
+print(l)
