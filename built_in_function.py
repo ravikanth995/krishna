@@ -171,3 +171,73 @@
 # separator="\t"
 # string=separator.join(list)
 # print(string)
+
+#split inbuilt function
+
+# str="Ravikanth is hired"
+# list=str.split(" ")
+# print(list)
+
+#join inbuilt function
+
+# list=['Python', 'is', 'programming','language']
+# separator=" "
+# string=separator.join(list)
+# print(string)
+
+# list=['ravi','kanth','is','hired','for','this','job','.']
+# separator=" "
+# str=separator.join(list)
+# print(str)
+
+# list=['Ravi','kanth','is','hired']
+# separator=" "
+# str=separator.join(list)
+# print(str)
+
+# list=['ravi','kant','is','hired']
+# separator=" "
+# str=separator.join(list)
+# print(str)
+
+
+# list=['ravi','kanth','is','hired']
+# separator=" "
+# str=separator.join(list)
+# print(str)
+
+# list=['I','Want','This','Job']
+# separator=" "
+# str=separator.join(list)
+# print(str)
+
+#Strip
+# str='pop sos pop sos pop'
+# # # print(str.strip())
+# # print(str.strip("sos"))
+# print(str.strip('pop'))
+# print(str.strip('pop'))
+# print(str.strip('pop'))
+
+# res=str(23)
+# print(res)
+
+# res=str(76)
+# print(res)
+
+
+# cars=['Ford','Honda','Jaguar','Kia']
+# cars.insert(2,'Tata')
+# print(cars)
+
+# cars=['Suzuki','Tata','Ambani','Chambani','Birla','Chengiz khan']
+# cars.insert(3,'Milk')
+# print(cars)
+
+# cars=['listed','function','inbuilt','ok','bro']
+# cars.insert(3,'Tuple')
+# print(cars)
+
+castes=['Gormati','Mahar','Lingayat','Brahmins','Kshatriya','Vaishya']
+castes.insert(4,'Dalit')
+print(castes)
