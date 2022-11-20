@@ -42,6 +42,10 @@
 # l1=list.extend([6,7,8])
 # print(list)
 
-list=[1,2,3]
-l1=list.extend([4,5])
+# list=[1,2,3]
+# l1=list.extend([4,5])
+# print(list)
+
+list=[1,2,3,4]
+l1=list.remove(4)
 print(list)
