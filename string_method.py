@@ -35,6 +35,25 @@
 # l1=str.count('w',0,len(str)) #w is printed is only one time the string, so output will be 1 and e is two times, so output will be 2
 # print(l1)
 
-str='ravi kanth'
-l1=str.count('a',0,len(str))
+# str='ravi kanth'
+# l1=str.count('a',0,len(str))
+# print(l1)
+
+#endswith
+# string_name.endswith(string,begin,end)
+# str='ravi kanth'
+# l1=str.endswith('g',0,len(str))
+# # print(l1)
+# l1=str.endswith('h',0,len(str))
+# print(l1)
+
+# str='ravi kanth'
+# l1=str.endswith('h',0,len(str))
+# print(l1)
+
+
+str='Buddha is enlightened'
+l1=str.endswith('d',0,len(str))
 print(l1)
+
+
