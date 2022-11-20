@@ -56,6 +56,10 @@
 # l1=list.reverse()
 # print(list)
 
-list=[1,2,3,4,5,5,6,6]
-l1=list.reverse()
+# list=[1,2,3,4,5,5,6,6]
+# l1=list.reverse()
+# print(list)
+
+list=[7,6,5,4,3,2,1]
+l1=list.sort()
 print(list)
