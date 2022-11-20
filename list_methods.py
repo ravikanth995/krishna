@@ -46,6 +46,16 @@
 # l1=list.extend([4,5])
 # print(list)
 
-list=[1,2,3,4]
-l1=list.remove(4)
+# list=[1,2,3,4]
+# l1=list.remove(4)
+# print(list)
+
+
+#Reverse
+# list=[1,2,3,4]
+# l1=list.reverse()
+# print(list)
+
+list=[1,2,3,4,5,5,6,6]
+l1=list.reverse()
 print(list)
