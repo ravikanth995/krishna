@@ -52,8 +52,46 @@
 # print(l1)
 
 
-str='Buddha is enlightened'
-l1=str.endswith('d',0,len(str))
+# str='Buddha is enlightened'
+# l1=str.endswith('d',0,len(str))
+# print(l1)
+
+#Find
+#This method searches the entire string for the specified value and the position of that specified value is returned
+#string_name.find(string,begining,end)
+
+
+# str='Welcome to Python Programming'
+# l1=str.find('l')
+# print(l1)
+
+# str='Ravikanth chavan' #it searches the index of the string char
+# l1=str.find('t')
+# print(l1)
+
+# str='ravikanth'
+# l1=str.find('t')
+# print(l1)
+
+
+#Islower
+#if all the character in string are all in lower case or small latters, then it prints TRUE or FALSE
+
+# str='rvikanth'
+# l1=str.islower()
+# print(l1)
+
+# str='Ravikanth'
+# l1=str.islower()
+# print(l1)
+
+
+#isupper
+#if all char in the string are in upper case then it returns 'True', otherwise, 'FALSE'
+# str='RAVIKANTH'
+# l1=str.isupper()
+# print(l1)
+
+str='ravikanth'
+l1=str.isupper()
 print(l1)
-
-
