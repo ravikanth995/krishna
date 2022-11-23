@@ -92,6 +92,8 @@
 # l1=str.isupper()
 # print(l1)
 
-str='ravikanth'
-l1=str.isupper()
-print(l1)
+# str='ravikanth'
+# l1=str.isupper()
+# print(l1)
+
+

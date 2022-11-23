@@ -23,10 +23,12 @@
 # print("Average of all three numbers is:", avg)
 
 
-num1=float(input("Enter First Number"))
-num2=int(input("Enter Second Number"))
-num3=int(input("Enter Third Number"))
-sum=num1+num2+num3
-avg=sum/3
-print("Average of all three values is:", sum)
-print("Average of all three value is:", avg)
+# num1=float(input("Enter First Number"))
+# num2=int(input("Enter Second Number"))
+# num3=int(input("Enter Third Number"))
+# sum=num1+num2+num3
+# avg=sum/3
+# print("Average of all three values is:", sum)
+# print("Average of all three value is:", avg)
+
+

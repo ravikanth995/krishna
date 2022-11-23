@@ -7,3 +7,8 @@ def sum_digits(num):
 sum_digits(23)
 # num=int(input("Enter a number:"))
 print("Sum of digits:", sum)
+
+
+
+
+

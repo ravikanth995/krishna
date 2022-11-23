@@ -18,6 +18,7 @@
 # pounds=2.2*Kg
 # print("Weight in Pounds:", pounds)
 
-Kg=float(input("Enter Weight in Kilograms"))
-pounds=2.2*Kg
-print("Weight in Pounds:", pounds)
+# Kg=float(input("Enter Weight in Kilograms"))
+# pounds=2.2*Kg
+# print("Weight in Pounds:", pounds)
+

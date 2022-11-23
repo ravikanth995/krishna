@@ -45,10 +45,4 @@
 #     print(name)
 
 
-name=input("Enter name:")
-n=int(input("Enter how many times:"))
-for i in range(1,n+1):
-    for j in range(i):
-        print(name)
-    print()    
-
+ 

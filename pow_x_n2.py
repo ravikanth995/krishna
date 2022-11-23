@@ -6,3 +6,6 @@ p=power()
 x=int(input("Enter X value"))
 n=int(input("Enter N value"))        
 p.pow(x,n)
+
+
+

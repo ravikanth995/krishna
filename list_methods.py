@@ -60,6 +60,8 @@
 # l1=list.reverse()
 # print(list)
 
-list=[7,6,5,4,3,2,1]
-l1=list.sort()
-print(list)
+# list=[7,6,5,4,3,2,1]
+# l1=list.sort()
+# print(list)
+
+

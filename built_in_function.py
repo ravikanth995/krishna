@@ -238,6 +238,9 @@
 # cars.insert(3,'Tuple')
 # print(cars)
 
-castes=['Gormati','Mahar','Lingayat','Brahmins','Kshatriya','Vaishya']
-castes.insert(4,'Dalit')
-print(castes)
+# castes=['Gormati','Mahar','Lingayat','Brahmins','Kshatriya','Vaishya']
+# castes.insert(4,'Dalit')
+# print(castes)
+
+
+
