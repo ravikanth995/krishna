@@ -187,6 +187,15 @@
 # x=merge(a,b)
 # print("List after sorted:",x)   
 
+# def merge(s1,s2):
+#     s=s1+s2
+#     s.sort()
+#     return s
+# a=list(map(int, input("Enter List 1:").split()))
+# b=list(map(int, input("Enter List 2:").split()))
+# x=merge(a,b)
+# print("List after sorted:",x)
+
 def merge(s1,s2):
     s=s1+s2
     s.sort()
@@ -194,4 +203,6 @@ def merge(s1,s2):
 a=list(map(int, input("Enter List 1:").split()))
 b=list(map(int, input("Enter List 2:").split()))
 x=merge(a,b)
-print("List after sorted:",x)
+print("Lists After Sorted:",x)    
+
+
