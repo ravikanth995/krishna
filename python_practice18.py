@@ -108,14 +108,92 @@
 # l=list(input("Enter List Items:").split())
 # print(is_sorted(l))            
 
+# def is_sorted(l):
+#     x=l[:]
+#     x.sort()
+#     if x==l:
+#         return True
+#     else:
+#         return False
+# l=list(input("Enter List Items:").split())
+# print(is_sorted(l))            
+
+# def is_sorted(l):
+#     x=l[:]
+#     x.sort()
+#     if x==l:
+#       return True
+#     else:
+#         return False
+# l=list(input("Enter List Items:").split()) 
+# print(is_sorted(l))          
+
+# def is_sorted(l):
+#     x=l[:]
+#     x.sort()
+#     if x==l:
+#         return True
+#     else:
+#         return False
+# l=list(input("Enter List Items:").split())
+# print(is_sorted(l))   
+
+# def is_sorted(l):
+#     x=l[:]
+#     x.sort()
+#     if x==l:
+#         return True
+#     else:
+#         return False
+# l=list(input("Enter List Items:").split())
+# print(is_sorted(l))                     
+
+# def is_sorted(l):
+#     x=l[:]
+#     x.sort()
+#     if x==l:
+#         return True
+#     else:
+#         return False
+# l=list(input("Enter List Items:").split())
+# print(is_sorted(l))            
+
+# def is_sorted(l):
+#     x=l[:]
+#     x.sort()
+#     if x==l:
+#         return True
+#     else:
+#         return False
+# l=list(input("Enter List Items:").split())
+# print(is_sorted(l))            
+
+# def is_sorted(l):
+#     x=l[:]
+#     x.sort()
+#     if x==l:
+#        return True
+#     else:
+#         return False
+# l=list(input("Enter List Items:").split())
+# print(is_sorted(l))           
+
+# def is_sorted(l):
+#     x=l[:]
+#     x.sort()
+#     if x==l:
+#         return True
+#     else:
+#         return False
+# l=list(input("Enter List Items:").split())
+# print(is_sorted(l))            
+
 def is_sorted(l):
     x=l[:]
     x.sort()
     if x==l:
         return True
     else:
-        return False
+        return  False
 l=list(input("Enter List Items:").split())
 print(is_sorted(l))            
-
-
