@@ -54,9 +54,16 @@
 #         s.append(i)
 # print(s)        
 
-l=list(map(int, input("Enter elements into list with duplicates:").split(',')))
+# l=list(map(int, input("Enter elements into list with duplicates:").split(',')))
+# s=[]
+# for i in l:
+#     if i not in s:
+#         l.append(i)
+# print(s)        
+
+l=list(map(int, input("Enter elements with duplicates:").split(',')))
 s=[]
 for i in l:
     if i not in s:
-        l.append(i)
+        s.append(i)
 print(s)        
