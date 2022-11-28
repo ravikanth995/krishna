@@ -89,7 +89,7 @@
 # file=open(input("Enter File Name:"),"r")
 # lines=file.readlines()
 # for line in range(len(lines)):
-#     if(line==len(lines)):
+#     if(line==len(lines)-1):
 #         print("{}".format(lines[line].strip()))
 #     else:
 #         print("{}".format(lines[line]),end="")    
@@ -97,15 +97,65 @@
 # file=open(input("Enter File Name:"),"r")
 # lines=file.readlines()
 # for line in range(len(lines)):
-#     if(line==len(lines)):
+#     if(line==len(lines)-1):
 #         print("{}".format(lines[line].strip()))
 #     else:
 #         print("{}".format(lines[line]),end="")  
 
-file=open(input("Enter File Name:"),"r") 
+# file=open(input("Enter File Name:"),"r") 
+# lines=file.readlines()
+# for line in range(len(lines)):
+#     if(line==len(lines)-1):
+#         print("{}".format(lines[line].strip()))
+#     else:
+#         print("{}".format(lines[line]),end="")     
+
+# file=open(input("Enter File Name:"))
+# lines=file.readlines()
+# for line in range(len(lines)):
+#     if(line==len(lines)-1):
+#         print("{}".format(lines[line].strip()))
+#     else:
+#         print("{}".format(lines[line]),end=";")    
+
+# file=open(input("Enter File Name:"))
+# lines=file.readlines()
+# for line in range(len(lines)):
+#     if(line==len(lines)-1):
+#         print("{}".format(lines[line].strip()))
+#     else:
+#         print("{}".format(lines[line]),end=";")    
+
+# file=open(input("Enter file Name:"))
+# lines=file.readlines()
+# for line in range(len(lines)):
+#     if(line==len(lines)-1):
+#         print("{}".format(lines[line].strip()))
+#     else:
+#         print("{}".format(lines[line]),end=";")    
+
+# file=open(input("Enter File Name:"))
+# lines=file.readlines()
+# for line in range(len(lines)):
+#     if(line==len(lines)-1):
+#         print("{}".format(lines[line].strip()))
+#     else:
+#         print("{}".format(lines[line]),end=";")
+
+# file=open(input("Enter File Name:"))
+# lines=file.readlines()
+# for line in range(len(lines)):
+#     if(line==len(lines)-1):
+#         print("{}".format(lines[line].strip()))
+#     else:
+#         print("{}".format(lines[line]),end=";")    
+
+
+file=open(input("Enter File Name:"))
 lines=file.readlines()
 for line in range(len(lines)):
-    if(line==len(lines)):
+    if(line==len(lines)-1):
         print("{}".format(lines[line].strip()))
     else:
-        print("{}".format(lines[line]),end="")     
+        print("{}".format(lines[line]),end=";")    
+
