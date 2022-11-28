@@ -74,13 +74,13 @@
 #     print("Your guess is wrong")     
 # print("Random number is:",n)    
 
-# import random
-# n=random.randint(1,10)
-# user_number=int(input("Enter a number"))
-# if(user_number==n):
-#     print("Your guess is right")
-# else:
-#     print("Your guess is wrong")    
-# print("random number is:",n)    
+import random
+n=random.randint(1,3)
+user_number=int(input("Enter a number"))
+if(user_number==n):
+    print("Your guess is right")
+else:
+    print("Your guess is wrong")    
+print("random number is:",n)    
 
 

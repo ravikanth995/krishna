@@ -19,7 +19,82 @@ from itertools import permutations
 #     for p in permutations(s,i):
 #         print(s.join(p),end="")
 
+# s=input("Enter a Word:")
+# for i in range(len(s)):
+#     for p in permutations(s,i):
+#         print(s.join(p),end='')
+
+# s=input("Enter a Word:")
+# for i in range(len(s)):
+#     for p in permutations(s,i):
+#         print(s.join(p),end="")
+
+# s=input("Enter a Word:")
+# for i in range(len(s)):
+#     for p in permutations(s,i):
+#         print(s.join(p),end="")
+
+# s=input("Enter a Word:")
+# for i in range(len(s)):
+#     for p in permutations(s,i):
+#         print(s.join(p),end="")
+
+# s=input("Enter a Word:")
+# for i in range(len(s)):
+#     for p in permutations(s,i):
+        # print(s.join(p),end="")
+
+# s=input("Enter a Word:")
+# for i in range(len(s)):
+#     for p in permutations(s,i):
+#         print(s.join(s),end="")
+
+# s=input("Enter a Word:")
+# for i in range(len(s)):
+#     for p in permutations(s,i):
+#         print(s.join(p),end="")        
+
+# s=input("Enter a Word:")
+# for i in range(len(s)):
+#     for p in permutations(s,i):
+#         print(s.join(p),end="")
+
+# s=input("Enter a Word:")
+# for i in range(len(s)):
+#     for p in permutations(s,i):
+#         print(s.join(p),end="")
+
+# s=input("Enter a Word:")
+# for i in range(len(s)):
+#     for p in permutations(s,i):
+#         print(s.join(p),end="")
+
+# s=input("Enter a Word:")
+# for i in range(len(s)):
+#     for p in permutations(s,i):
+#         print(s.join(p),end="")
+
+# s=input("Enter a Word:")
+# for i in range(len(s)):
+#     for p in permutations(s,i):
+#         print(s.join(p),end="")
+
+# s=input("Enter word:")
+# for i in range(len(s)):
+#     for p in permutations(s,i):
+#         print(s.join(p),end="")
+
+# s=input("Enter A Word:")
+# for i in range(len(s)):
+#     for p in permutations(s,i):
+#         print(s.join(p),end="")
+
+# s=input("Enter a Word:")
+# for i in range(len(s)):
+#     for p in permutations(s,i):
+#         print(s.join(p),end="")
+
 s=input("Enter a Word:")
 for i in range(len(s)):
     for p in permutations(s,i):
-        print(s.join(p),end='')
+        print(s.join(p),end="")
