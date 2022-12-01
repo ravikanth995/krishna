@@ -168,9 +168,23 @@
 # print("Area of the Circle=%.2f"%area)
 # print("Circumference of the Circle is=%.3f"%circumference)
 
+# pi=3.142
+# r=float(input("Enter Radius Value:"))
+# area=pi*r*r
+# circumference=2*pi*r
+# print("Area of the circle %.3f"%area)
+# # print("Circumference of the Circle %.3f"%circumference)
+
+# pi=3.142
+# r=float(input("Enter Radius Value:"))
+# area=pi*r*r
+# circumference=2*pi*r
+# print("Area of the Circle is %.2f"%area)
+# print("Circumference of the Circle is%.2f"%circumference)
+
 pi=3.142
 r=float(input("Enter Radius Value:"))
 area=pi*r*r
 circumference=2*pi*r
-print("Area of the circle %.3f"%area)
-print("Circumference of the Circle %.3f"%circumference)
+print("Area of the Circle =%.3f"%area)
+print("Circumference of the Circle =%.3f"%circumference)
