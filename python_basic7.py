@@ -52,12 +52,18 @@
 # str1=x+y
 # print(str1)
 
-x=int(input("Enter X Value:"))
-y=int(input("Enter Y Value:"))
-print("Before Swapping of X is:",x, "\nbefore Swapping of Y is:",y)
+# x=int(input("Enter X Value:"))
+# y=int(input("Enter Y Value:"))
+# print("Before Swapping of X is:",x, "\nbefore Swapping of Y is:",y)
+# temp=x
+# x=y
+# y=temp
+# print("After Swapping of X is:{0}, \nAfter Swapping of Y is:{1}".format(x,y))
+
+x=input("Enter String X:")
+y=input("Enter String Y:")
+print("Before Swapping of X:",x, "\nBefore Swapping of Y:",y)
 temp=x
 x=y
 y=temp
-print("After Swapping of X is:{0}, \nAfter Swapping of Y is:{1}".format(x,y))
-
-# x=int(input("Enter X value:"))
+print("After Swapping of String X:{0}",x, "\nAfter Swapping of String Y:{1}",y)
