@@ -37,5 +37,12 @@ if n==rev:
 else:
     print("The Number is not Palindrome")        
 
-
+# rev=0
+# num=int(input("Enter Number:"))
+# n=num
+# while num:
+#     rem=num%10
+#     rev=rev%10+rem
+#     num//=10
+# print("")    
 
