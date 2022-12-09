@@ -171,11 +171,140 @@
 # else:
 #     print("Loop ended")    
 
-i=0
-while i<=5:
-    if i==5:
-        break
+# i=0
+# while i<=5:
+#     if i==5:
+#         break
+#     print(i)
+#     i+=1
+# else:
+#     print("Ended")    
+
+# i=0
+# while i<=6:
+#     if i==4:
+#         break
+#     print(i)
+#     i+=1
+
+
+# #Continue Statement
+# for i in "Python":
+#     if i=="t":
+#         continue
+#     else:
+#         print(i)
+# print("Continue Statement")        
+
+# for i in "Ravikantjh":
+#     if i=="j":
+#         continue
+#     else:
+#         print(i)
+# print("End")        
+
+# for i in "Lounrge":
+#     if i=="r":
+#         continue
+#     print(i)
+# print("Ended")    
+
+# for i in "Ling":
+#     if i=="i":
+#         continue
+#     print(i)
+# print("Ended")    
+
+# i=10
+# while i>0:
+#     i=i-1
+#     if i==6:
+#         continue
+#     print(i)
+# print("Loop Ended")    
+
+# i=15
+# while i>0:
+#     i-=1
+#     if i==13:
+#         continue
+#     print(i)
+
+# i=10
+# while i>0:
+#     i-=1
+#     if i==7:
+#         continue
+#     print(i)
+# print("Ended")        
+
+# i=10
+# while i>0:
+#     i-=1
+#     if i==3:
+#         continue
+#     print(i)
+# print("Ended")    
+
+# i=10
+# while i>0:
+#     i-=1
+#     if i==9:
+#         continue
+#     print(i)
+
+# i=10
+# while i>0:
+#     i-=1
+#     if i==4:
+#         continue
+#     print(i)
+
+# i=11
+# while i>0:
+#     i-=1
+#     if i==4:
+#         continue
+#     print(i)
+
+# i=12
+# while i>0:
+#     i-=1
+#     if i==11:
+#         continue
+#     print(i)
+
+# i=13
+# while i>0:
+#     i-=1
+#     if i==12:
+#         continue
+#     print(i)
+
+# i=14
+# while i>0:
+#     i-=1
+#     if i==6:
+#         continue
+#     print(i)
+
+# i=13
+# while i>0:
+#     i-=1
+#     if i==5:
+#         continue
+#     print(i)
+
+# i=13
+# while i>0:
+#     i-=2
+#     if i==5:
+#         continue
+#     print(i)
+
+i=15
+while i>0:
+    i-=2
+    if i==9:
+        continue
     print(i)
-    i+=1
-else:
-    print("Ended")    
