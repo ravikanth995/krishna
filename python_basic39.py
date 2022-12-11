@@ -139,5 +139,32 @@
 # l=[2,3,4,5,6]
 # print(sorted(l,reverse=True))
 
-l=[2,3,4,5,6,60]
-print(sorted(l,reverse=True))
+# l=[2,3,4,5,6,60]
+# print(sorted(l,reverse=True))
+
+# l='ravikanth'
+# print(list(reversed(l)))
+
+# l='krishna'
+# print(list(reversed(l)))
+
+# l='ramakrishna'
+# print(list(reversed(l)))
+
+# l='ramakrishna'
+# print(list(reversed(l)))
+
+# l='ramakrishna'
+# print(list(reversed(l)))
+
+# l='mangalmai'
+# print(list(reversed(l)))
+
+# l='cattle'
+# print(list(reversed(l)))
+
+# l='keotle'
+# print(list(reversed(l)))
+
+l='leetle'
+print(list(reversed(l)))
