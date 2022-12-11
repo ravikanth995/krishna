@@ -107,11 +107,105 @@
 # b.append(l)
 # print(b)
 
-l=[]
-for i in range(0,19,2):
-    l.append(i)
-print(l)
+# l=[]
+# for i in range(0,19,2):
+#     l.append(i)
+# print(l)
 
-b=[9,7,6]
-b.append(l)
-print(b)
+# b=[9,7,6]
+# b.append(l)
+# print(b)
+
+# l=[]
+# for i in range(0,6):
+#     l.append(i)
+# print(l)    
+
+# b=[1,2,3]
+# b.append(l)
+# print(b)
+
+# l=[100,200,300]
+# l.insert(1,400)
+# print(l)
+# l.insert(2,500)
+# print(l)
+
+# l=[2,4,6,8,10]
+# l.insert(0,1)
+# print(l)
+
+# l.insert(2,3)
+# print(l)
+
+# l.insert(4,5)
+# print(l)
+
+# l=[0,2,5,6]
+# l.insert(1,1)
+# # print(l)
+
+# l=[0,2,3,4]
+# l.insert(1,1)
+# print(l)
+
+# l.insert(5,5)
+# print(l)
+
+# l.insert(6,6)
+# print(l)
+
+# l=[]
+# for i in range(0,6):
+#     l.append(i)
+# print(l)    
+
+# j=[6,7,8]
+# j.append(l)
+# print(j)
+
+# l=[]
+# for i in range(0,6):
+#     l.append(i)
+# print(l)
+
+# j=[9,7,6]
+# j.append(l)
+# print(j)
+
+# l=[4,5,6,7,8,9]
+# l.insert(0,0)
+# print(l)
+
+# l.insert(1,1)
+# print(l)
+
+# l.insert(2,2)
+# print(l)
+
+# l.insert(3,3)
+# print(l)
+
+# l=[1,2,3,4]
+# l.extend([5,6,7,8,9])
+# print(l)
+
+# l=[1,2,3,4,5,6]
+# l.extend([7,8,9])
+# print(l)
+
+# l=[1,2,3,4,5]
+# l.extend([6,7,8,9])
+# print(l)
+
+# l=[1,2,3,4,5]
+# l.extend([6,7,8,9,10,11])
+# print(l)
+
+# l=[1,2,3,4]
+# l.extend([5,6,7,8,9])
+# print(l)
+
+l=[1,2,3,4]
+l.extend([5,6,7,8,9])
+print(l)
