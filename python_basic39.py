@@ -100,6 +100,44 @@
 # l.sort(reverse=True)
 # print(l)
 
-l=[1,2,3,4,5]
-l.sort(reverse=True)
-print(l)
+# l=[1,2,3,4,5]
+# l.sort(reverse=True)
+# print(l)
+
+#Sorted List in-built Functions
+# #Sorted(iterable[,key][,reverse])
+# l=[70,50,60,1,20]
+# print("Original List:",l)
+# print("Sorted(Ascending order) list:",sorted(l))
+
+# l=[70,60,40,20,1,80]
+# print("original List:",l)
+# print("After Sorted List:",sorted(l))
+
+# l=[90,1,20,30,6,8,44,50]
+# print("Original List:",l)
+# print("After Sorted:",sorted(l))
+
+# l=[2,0,1,4,50,30,29,12,74,26]
+# print("Original List:",l)
+# print("After Sorted List:",sorted(l))
+
+# l=[1,20,30,40,50,60]
+# print("before reverse sorted list:",l)
+# print("After reverse list:",sorted(l,reverse=True))
+
+# l=[1,2,30,40,60,70]
+# print("before sorted in reverse order:",l)
+# print("After Sorting in Reverse order:",sorted(l,reverse=True))
+
+# l=[1,3,5,7,70,90]
+# print(sorted(l,reverse=True))
+
+# l=[1,2,3,4,5,6]
+# print(sorted(l,reverse=True))
+
+# l=[2,3,4,5,6]
+# print(sorted(l,reverse=True))
+
+l=[2,3,4,5,6,60]
+print(sorted(l,reverse=True))
