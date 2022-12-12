@@ -166,5 +166,14 @@
 # l='keotle'
 # print(list(reversed(l)))
 
-l='leetle'
-print(list(reversed(l)))
+# l='leetle'
+# print(list(reversed(l)))
+
+#Reverse a list using Slicing Operator
+lst=['a','b','c','d']
+print("Before reverse")
+print(lst)
+
+lst=lst[::-1]
+print("After reversing using slice operator")
+print(lst)
