@@ -1,13 +1,41 @@
-#List Accessing Methods
-# #List.index(element[,start[,end]])
-# list1=[1,2,3,1,2,1,2,3,2,1]
-# print(list1.index(1))
+#Alisasing and Cloning of List Objects
+#The Process of giving another reference variable to the existing list 
+# x=[10,20,'zero','one']
+# y=x
+# print("x",id(x))
+# print("Y",id(y))
 
-# list1=[1,2,2,3,3,4,5,6,7,7,7,7,]
-# print(list1.count(7))
+# x=[10,20,'zero','one']
+# y=x
+# print("x",id(x))
+# print("y",id(y))
 
-# lst=[1,1,1,1,2,2,2,2,3,3,3,3,3,4,4,4,5,7,8,9]
-# print(lst.count(3))
+# y[0]=15
+# print(y)
+# print(x)
 
-lst=[1,1,1,1,1,1,1,1,1,1,3,4,5,6,7,8]
-print(lst.count(1))
+# x=[10,20,40,60]
+# y=x[:]
+# y[1]=30
+# print("Y",y)
+# print("x",x)
+
+# x=[1,2,3,'chitt','sayyanm','vairagyam']
+# y=x[:]
+# y[3]=5
+# print("Of x is",x)
+# print("Copied y",y)
+
+# x=['mann','kshan','bhangur','chir','kaal']
+# y=x.copy()
+# y[0]=3
+# y[1]=2
+# print("X:",x)
+# print("Y:",y)
+
+x=['brutrahari','shatakam','Vairagya']
+y=x.copy()
+y[0]='upanishad'
+y[1]='Dhammapada'
+print("Before cloning:",x)
+print("After Cloning:",y)
