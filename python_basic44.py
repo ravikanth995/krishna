@@ -675,9 +675,146 @@
 # print("Maximum Money is of:",max(income, key=income.get)) 
 # print("Minimum Money is of:",min(income, key=income.get))      
 
-income={"Ravi":10000,
-       "Shashi":23000,
-       "Kalavati":24000,
-       "KasuBai":55000}
-print("maximum Income is of:", max(income, key=income.get))
-print("Minimum Income is of:",min(income, key=income.get))       
+# income={"Ravi":10000,
+#        "Shashi":23000,
+#        "Kalavati":24000,
+#        "KasuBai":55000}
+# print("maximum Income is of:", max(income, key=income.get))
+# print("Minimum Income is of:",min(income, key=income.get))   
+
+# #Finding the mean    
+# #Initializing the dictionary
+# marks={"Hindi":35, "English":39, "Maths":38, "Science":55, "Social":54}
+
+# #printing the original dictionary
+# print("The original Dictionary(Marks) is:\n"+str(marks))
+
+# #Loop to sum all values
+# res=0
+# for var in marks.values():
+#     res+=var
+
+# #Using len() to get total keys for mean computation
+# res=res/len(marks)
+
+# #printing results
+# print("Average marks is(the computed mean :) is: "+str(res))
+
+# marks={"Science":91, "Maths":88, "Geography":77, "History":62}
+# print("The Original marks is:\n"+str(marks))
+
+# res=0
+# for val in marks.values():
+#     res+=val
+# res=res/len(marks) 
+# print("Average Marks is:\n"+str(res))   
+
+# marks={"Science":56, "History":71, "Maths":81, "Geography":92, "Social":83}
+# print("Original Marks is:\n"+str(marks))
+# res=0
+# for var in marks.values():
+#     res+=var
+# res=res/len(marks)    
+# print("Average marks is the:\n"+str(res))    
+
+# marks={"Science":91, "Social Science":61, "Maths":57, "History":82}
+# print("Marks are:\n"+str(marks))
+# var=0
+# for val in marks.values():
+#     var+=val
+# var=var/len(marks)    
+# print("Average marks are:\n"+str(var))    
+
+# marks={"Science":81, "Maths":88, "History":44}
+# print("Marks are:\n"+str(marks))
+# i=0
+# for val in marks.values():
+#     i+=val
+# i=i/len(marks) 
+# print("Average marks are:\n"+str(i))   
+
+# marks={"Science":81, "Maths":82, "Social":71, "English":85, "Hindi":90}
+# print("Marks are:\n"+str(marks))
+# var=0
+# for val in marks.values():
+#     var+=val
+# var=var/len(marks)
+# print("Average marks are:\n"+str(var))    
+
+# marks={"Science":92, "Maths":90, "Social_Science":81, "History":83, "English":98}
+# print("Marks are:\n"+str(marks))
+# var=0
+# for i in marks.values():
+#     var+=i
+# var=var/len(marks)
+# print("The Average marks are:\n"+str(var))    
+
+# marks={"Science":81, "Maths":71, "English":90}
+# print("Marks are:"+str(marks))
+# res=0
+# for val in marks.values():
+#     res+=val
+# res=res/len(marks)
+# print('Average Mark is:'+str(res)) 
+
+# marks={"Science":51, "Maths":61, "Social_Studies":71,"English":81}
+# print("Marks are:"+str(marks))
+# res=0
+# for val in marks.values():
+#     res+=val
+# res=res/len(marks) 
+# print("Average marks are:"+str(res))   
+
+# marks={"English":71, "Hindi":81, "Kannada":90, "Sanskrit":91, "telugu":82}
+# print("Language marks are:"+str(marks))
+# res=0
+# for val in marks.values():
+#     res+=val
+# res=res/len(marks)
+# print("Average marks is:"+str(res))    
+
+# marks={"Science":51, "maths":90, "history":91, "Social_studies":89}
+# print(str(marks))
+# res=0
+# for val in marks.values():
+#     res+=val
+# res=res/len(marks)
+# print("Average marks are:"+str(res))    
+
+# marks={"History":91, "Maths":92, "Science":69, "Biology":81, "Physics":71, "Chemistry":88}
+# print("Marks are as:"+str(marks))
+# res=0
+# for val in marks.values():
+#     res+=val
+# res=res/len(marks) 
+# print("Average marks is:"+str(res))   
+
+#using Statistis module to find mean
+# import statistics
+# marks={"Science":71,
+#       "History":91,
+#       "Maths":71,
+#       "English":90}
+# print("Marks are:"+str(marks))      
+# mean=statistics.mean(marks.values())
+# print("Average marks are:", mean)      
+
+# import statistics
+# marks={"science":81, "english":72, "hindi":94}
+# mean=statistics.mean(marks.values())
+# print("Average are:",mean)
+
+# import statistics
+# marks={"Biology":61, "Chemistry":91, "Maths":93, "Physics":77, "English":83, "Hindi":79}
+# mean=statistics.mean(marks.values())
+# print("Average is:",mean)
+
+# import statistics
+# marks={"History":61, "Biology":81, "Chemistry":92, "Physics":88}
+# mean=statistics.mean(marks.values())
+# print("Average is:",mean)
+
+import statistics
+marks={"Science":77, "Maths":90, "English":71}
+mean=statistics.mean(marks.values())
+print("Average is:",mean)
