@@ -292,16 +292,312 @@
 # for i in dict.items():
 #        print(i)
 
-def count(mylist):
-    frequency={}
-    for i in mylist:
-        if (i in frequency):
-            frequency[i]+=1
-        else:
-            frequency[i]=1
-    for key, values in frequency.items():
-        print("%d : %d"%(key,values))
-mylist=[5,8,3,4,0,1,2,3] 
-count(mylist)               
+# def count(mylist):
+#     frequency={}
+#     for i in mylist:
+#         if (i in frequency):
+#             frequency[i]+=1
+#         else:
+#             frequency[i]=1
+#     for key, values in frequency.items():
+#         print("%d : %d"%(key,values))
+# mylist=[5,8,3,4,0,1,2,3] 
+# count(mylist)              
+
+##Write a program to combine two dictionary adding values for common keys.
+# from collections import Counter
+# d1={'a':100, 'b':200, 'c':300}
+# d2={'a':300, 'b':200, 'd':400}
+# d=Counter(d1)+Counter(d2)
+# print(d)
+
+# from collections import Counter
+# d1={'a':200, 'b':100}
+# d2={'a':200, 'b':300}
+# d=Counter(d1)+Counter(d2)
+# print(d)
+
+# from collections import Counter
+# d1={'a':100, 'b':500, 'c':199}
+# d2={'a':299, 'b':900, 'c':399, 'd':700}
+# d=Counter(d1)+Counter(d2)
+# print(d)
+
+#Write a program that takes sentence as input from the user and computes the frequency of each other letter. use a variable of dictionary type to maintain and show frequency of each other.
+# test_str=input("Enter a String:")
+# all_frq={}
+# for i in test_str:
+#     if i in all_frq:
+#         all_frq[i]+=1
+#     else:
+#         all_frq[i]=1
+# print("Count of all characters  in",test_str,"is:\n"+str(all_frq))    
+
+# test_str=input("Enter string:")
+# all_freq={}
+# for i in test_str:
+#     if i in all_freq:
+#         all_freq[i]+=1
+#     else:
+#         all_freq[i]=1
+# print("count of all character is:",test_str, "is:\n"+str(all_freq))  
+
+# test_str=input("Enter String:")
+# all_freq={}
+# for i in test_str:
+#     if i in all_freq:
+#         all_freq[i]+=1
+#     else:
+#         all_freq[i]=1
+# print("Count of characters",test_str,"is \n"+str(all_freq))                      
+
+# test_str=input("Enter String:")
+# all_freq={}
+# for i in test_str:
+#     if i in all_freq:
+#         all_freq[i]+=1
+#     else:
+#         all_freq[i]=1
+# print("Count of Characaters",test_str,"is \n"+str(all_freq))            
+
+# test_str=input("Enter String:")
+# all_freq={}
+# for i in test_str:
+#     if i in all_freq:
+#         all_freq[i]+=1
+#     else:
+#         all_freq[i]=1
+# print("Count of characters",test_str, "is \n"+str(all_freq)) 
+
+# test_str=input("Enter String:")
+# all_freq={}
+# for i in test_str:
+#     if i in all_freq:
+#         all_freq[i]+=1
+#     else:
+#         all_freq[i]=1
+# print("Count of Character",test_str,"is \n"+str(all_freq))                     
+
+# test_str=input("Enter a String:")
+# all_freq={}
+# for i in test_str:
+#     if i in all_freq:
+#         all_freq[i]+=1
+#     else:
+#         all_freq[i]=1
+# print("Count of Characters",test_str,'is\n'+str(all_freq))        
+
+# test_str=input("Enter String:")
+# all_freq={}
+# for i in test_str:
+#     if i in all_freq:
+#         all_freq[i]+=1
+#     else:
+#         all_freq[i]=1
+# print("Count of Characaters",test_str,"is\n"+str(all_freq))            
+
+#Write a program to convert dictionary to list tuples
+# month={"Jan":1, "Feb":2, "March":3}
+# list=[]
+# for i in month:
+#     k=(i,month[i])
+#     list.append(k)
+# print(list)
+
+# month={"Jan":1, "Feb":2, "March":3}
+# list=[]
+# for i in month:
+#     k=(i,month[i])
+#     list.append(k)
+# print(list)    
+
+# month={"Jan":1, "Feb":2, "March":3}
+# list1=[]
+# for i in month:
+#     k=(i,month[i])
+#     list1.append(k)
+# print(list1)    
+
+# month={"Jan":1, "Feb":2, "March":3}
+# list1=[]
+# for i in month:
+#     k=(i,month[i])
+#     list1.append(k)
+# print(list1)    
+
+# month={"Jan":1, "Feb":2, "March":3}
+# list1=[]
+# for i in month:
+#     k=(i, month[i])
+#     list1.append(k)
+# print(list1)    
+
+# month={'Jan':1, "Feb":2, "March":3, "April":4}
+# list1=[]
+# for i in month:
+#     k=(i,month[i])
+#     list1.append(k)
+# print(list1)    
+
+# month={"Jan":1, "Feb":2, "March":3}
+# list1=[]
+# for i in month:
+#     k=(i, month[i])
+#     list1.append(k)
+# print(list1)    
+
+# month={"Jan":1, "Feb":2, "March":3}
+# list1=[]
+# for i in month:
+#     k=(i, month[i])
+#     list1.append(k)
+# print(list1)    
+
+# month={"Jan":1, "Feb":2, "March":3}
+# list1=[]
+# for i in month:
+#     k=(i, month[i])
+#     list1.append(k)
+# print(list1)    
+
+# month={"Jan":1, "Feb":2, "Dec":12}
+# list1=[]
+# for i in month:
+#     k=(i, month[i])
+#     list1.append(k)
+# print(list1)    
+
+#Write a Program to Convert a list of tuples into a dictionary
+# list1=[("Jan",1),("Jan",2),("Jan",3),("Feb",1),("Feb",2),("March",1)]
+# d={}
+# for a, b in list1:
+#     d.setdefault(a,[]).append(b)
+# print(d)    
+
+# list1=[("Jan",1),("Jan",2),("Jan",3),("Feb",1),("Feb",2),("March",1)]
+# d={}
+# for a, b in list1:
+#        d.setdefault(a,[]).append(b)
+# print(d)       
+
+# list1=[("Jan",1),("Jan",2),("Jan",3),("Feb",1),("Feb",2),("March",1)]
+# d={}
+# for a, b in list1:
+#     d.setdefault(a,[]).append(b)
+# print(d)    
+
+# list1=[("Jan",1),("Jan",2),("Feb",1)]
+# dict={}
+# for a, b in list1:
+#     dict.setdefault(a,[]).append(b)
+# print(dict)    
+
+# list1=[("Jan",1),("Jan",2),("Jan",3),("Jan",4),("Feb",1),("Feb",2),("Feb",3),("March",1),("March",2),("April",1)]
+# dict={}
+# for a, b in list1:
+#     dict.setdefault(a,[]).append(b)
+# print(dict)    
+
+# list1=[("Jan",1),("Jan",2),("Jan",3),("Jan",4),("Jan",5),("Feb",1),("Feb",2),("Feb",3),("Feb",4),("March",1),("March",2),("March",3),("April",1),("April",2),("May",1)]
+# dict={}
+# for a, b in list1:
+#     dict.setdefault(a,[]).append(b)
+# print(dict)
+
+# list1=[("jan",1),("jan",2),("feb",1)]
+# dict={}
+# for a, b in list1:
+#     dict.setdefault(a,[]).append(b)
+# print(dict)    
+
+# rec=dict()
+# num=int(input("Enter Number of Students:"))
+# i=1
+# while i<=num:
+#     name=input("Enter Name of Student:")
+#     per=int(input("Enter Marks% of the Student:"))
+#     rec[name]=per
+#     i+=1
+#     ls=rec.keys()
+# print("Name of Student:","\t",    "Marks%") 
+# for i in sorted(ls,key=rec.get):
+#     print("\t", i, "\t\t\a", rec[i])   
+
+# rec=dict()
+# num=int(input("Enter Number of Student:"))
+# i=1
+# while i<=num:
+#     name=input("Enter Name of Student:")
+#     per=int(input("Enter Marks of the Student:"))
+#     rec[name]=per
+#     i+=1
+#     ls=rec.keys()
+# print("Name of the Student:","\t","Marks%") 
+# for i in sorted(ls,key=rec.get):
+#     print("\t",i,"\t\t\a",rec[i])
 
 
+# rec=dict()
+# num=int(input("Enter NUmber of Students:"))
+# i=1
+# while i<=num:
+#     name=input("Enter Name of the Student:")
+#     per=int(input("Enter Student Marks:"))
+#     rec[name]=per
+#     i+=1
+#     ls=rec.keys()
+# print("Name of the Student:","\t","    Marks%")
+# for i in sorted(ls,key=rec.get):
+#     print("\t",i,"\t\t",rec[i])    
+
+# rec=dict()
+# num=int(input("Enter Number of Student:"))
+# i=1
+# while i<=num:
+#     name=input("Enter Students Name:")
+#     per=int(input("Enter Student\'s Marks:"))
+#     rec[name]=per
+#     i+=1
+#     ls=rec.keys()
+# print("Name of the Student:","\t","   Marks%")
+# for i in sorted(ls,key=rec.get):
+#     print("\t",i,"\t\t\a",rec[i])    
+
+# rec=dict()
+# num=int(input("Enter Number of Student:"))
+# i=1
+# while i<=num:
+#     name=input("Enter Name of the Student:")
+#     per=int(input("Enter Marks of the Student:"))
+#     rec[name]=per
+#     i+=1
+#     ls=rec.keys()
+# print("Name of Students","\t"," Marks%") 
+# for i in sorted(ls,key=rec.get):
+#     print("\t",i,"\t\t\a",rec[i])
+
+# rec=dict()
+# num=int(input("Enter Number of Student:"))
+# i=1
+# while i<=num:
+#     name=input("Enter Name of the Student:")
+#     per=int(input("Enter Student\'s Marks:"))
+#     rec[name]=per
+#     i+=1
+#     ls=rec.keys()
+# print("Name of the Students\'s:", "\t", "Marks%")
+# for i in sorted(ls,key=rec.get):
+#     print("\t",i,"\t\t\a",rec[i])
+
+rec=dict()
+num=int(input("Enter Number of Students:"))
+i=1
+while i<num:
+    name=input("Enter Name of the Student:")
+    per=int(input("Enter Marks:"))
+    rec[name]=per
+    i+=1
+    ls=(rec.keys())
+print("Name of the Students'\s","\t", "Marks%")
+for i in sorted(ls,key=rec.get):
+    print("\t",i, "\t\t\a", rec[i])    
