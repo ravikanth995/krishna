@@ -171,11 +171,204 @@
 # t=tupleFun(8,5,3,1)
 # print("Into Tuple is:",t)        
 
-def tupleFun(*args):
-    m_List=[]
-    for args in args:
-        m_List.append(args*19)
-    return tuple(m_List)
-t=tupleFun(2,4,6,10,19,16,18,19000)
-print("Into Tuple:",t)        
+# def tupleFun(*args):
+#     m_List=[]
+#     for args in args:
+#         m_List.append(args*19)
+#     return tuple(m_List)
+# t=tupleFun(2,4,6,10,19,16,18,19000)
+# print("Into Tuple:",t)        
+
+#DocString
+# def power(a,b):
+#     """returns arg1 raised to power arg2"""
+#     return a**b
+
+# def sample_func():
+#     '''this functions prints hello World!'''
+#     print("Hello World!")
+#     return 
+# print("Method-1:-")
+# help(sample_func)
+# print("method-2-:") 
+# print(sample_func.__doc__)   
+
+# y,z=1,2
+# def all_global():
+#     global x
+#     x=y+z
+#     print(x)
+# all_global()    
+# print(x)
+
+#OneLine Docstring
+# def power(a,b):
+#     """returns arg1 raised to power arg2"""
+#     return a**b
+
+#Multi-Line Docstring
+# def my_function(arg1):
+#     """
+#     Summary Line.
+#     Extended description of function.
+#     parameters:
+#     arg1(int): description of arg1
+    
+#     returns :
+#     int: description of return value
+
+#     """
+#     return arg1
+
+#Accessing DocString
+# def sample_func():
+#     '''this function prints Hello World!'''
+#     print("Hello World!")
+#     return
+# print("Method 1:-")
+# help(sample_func)
+# print("Method 2:-")
+# print(sample_func.__doc__)
+
+# def sample_func():
+#     '''this function prints Hello World!'''
+#     print("Hello World!")
+#     return
+# print("Method 1:-")
+# print(sample_func)
+# print("Method 2-:") 
+# print(sample_func.__doc__)       
+
+# z,y=1,2
+# def all_global():
+#     global x
+#     x=y+z
+#     print(x)
+# all_global()
+# print(x)    
+
+# z,y=1,2
+# def all_global():
+#     global x
+#     x=z+y
+#     print(x)
+# all_global()
+# print(x)    
+
+# z,y=1,2
+# def all_global():
+#     global x
+#     x=z+1
+#     print(x)
+# all_global()
+# print(x)    
+
+# #Functions Parameters and Arguments
+# def fun(a,b):# Fomal argument
+#     print("First Value:",a)
+#     print("Second Value:",b)
+#     return a+b
+# x=fun(10,20) #Actual argument
+# print("Addition of two number is:",x)
+
+# def func(a,b):
+#     print("First Value:",a)
+#     print("Second Value:",b)
+#     return a+b
+# x=func(10,40)
+# print(x)    
+
+#A function that accepts a string as the parameters and prints it
+# def fun(name):
+#     print("Hello",name)
+# fun(input("Enter your name:"))    
+
+# def func(name):
+#     print("Hello !",name)
+# func(input("Enter your name:"))   
+
+# def func(name):
+#     print("hello !",name)
+# func(input("Enter name:"))     
+
+# def func(name):
+#     print("Hi..",name)
+# func(input("Enter Name:"))    
+
+# def func(name):
+#     print("Hi...",name)
+# func(input("Enter Name:"))    
+
+# def fun(name):
+#     print("Hi...",name)
+# fun(input("Enter Name:")) 
+
+#Find out Passing argument is an odd or even 
+# def funEO(x):
+#     if x%2==0:
+#         print("Even Number:")
+#     else:
+#         print("odd Number")
+# funEO(1)
+# funEO(2)
+# funEO(3)          
+
+# def funEO(x):
+#     if x%2==0:
+#         print("Even Number:")
+#     else:
+#         print("odd Number:")
+# funEO(1)
+# funEO(2)
+# funEO(8)              
+
+#Create a Small calculator(Addition, Subtraction, multiplication, division) program by using function
+# def add(a,b):
+#     print("Addition of Two Values:",a+b)
+# def Sub(a,b):
+#     print("Subtraction of Two Values:",a-b)
+# def Multi(a,b):
+#     print("Multiplication of Two Number:",a*b)
+# def Div(a,b):
+#     print("Division of Two Values:",a/b)
+
+# x=int(input("Enter X Value:"))
+# y=int(input("Enter Y Value:"))
+
+# add(x,y)
+# Sub(x,y)
+# Multi(x,y)
+# Div(x,y)
+
+# def Add(a,b):
+#     print("Addition of Two Values:",a+b)
+# def Sub(a,b):
+#     print("Subtraction of Two Values:",a-b)
+# def Multi(a,b):
+#     print("Multiplication of Two Values:",a*b)
+# def Div(a,b):
+#     print("Division of Two Value:",a/b)
+
+# x=int(input("Enter X Value:"))
+# y=int(input("Enter Y Value:"))
+# Add(x,y)
+# Sub(x,y)
+# Multi(x,y)
+# Div(x,y)
+
+def Add(a,b):
+    print("Addition:",a+b)
+def Sub(a,b):
+    print("Subtraction:",a-b)
+def Multi(a,b):
+    print("Multiplication:",a*b)
+def Div(a,b):
+    print("Division:",a/b) 
+
+x=int(input("Enter X Value:"))
+y=int(input("Enter Y Value:"))
+Add(x,y)
+Sub(x,y)
+Multi(x,y)
+Div(x,y)               
 
