@@ -356,19 +356,236 @@
 # Multi(x,y)
 # Div(x,y)
 
-def Add(a,b):
-    print("Addition:",a+b)
-def Sub(a,b):
-    print("Subtraction:",a-b)
-def Multi(a,b):
-    print("Multiplication:",a*b)
-def Div(a,b):
-    print("Division:",a/b) 
+# def Add(a,b):
+#     print("Addition:",a+b)
+# def Sub(a,b):
+#     print("Subtraction:",a-b)
+# def Multi(a,b):
+#     print("Multiplication:",a*b)
+# def Div(a,b):
+#     print("Division:",a/b) 
 
-x=int(input("Enter X Value:"))
-y=int(input("Enter Y Value:"))
-Add(x,y)
-Sub(x,y)
-Multi(x,y)
-Div(x,y)               
+# x=int(input("Enter X Value:"))
+# y=int(input("Enter Y Value:"))
+# Add(x,y)
+# Sub(x,y)
+# Multi(x,y)
+# Div(x,y)               
 
+#Types of Parameters and Formal Arguments
+#1.Positional argument or required argument
+#2.default argument
+#3.Keyward Argument
+#4.Variable Length Arguments
+#5. Keyword Variable Length Argument
+
+
+# def reqArgfun(a,b):
+#     print(a,b)
+# reqArgfun(12,100)
+# reqArgfun(100,12)    
+
+# def argfun(a,b):
+#     print(a,b)
+# argfun(100,12)
+# argfun(12,100)    
+
+# def reqArgfun(num,str):
+#     print(num,str)
+# reqArgfun(12,"apple")
+# reqArgfun("apple",12)    
+
+#Default Argument
+# def myfun(name="Balaji argument"):
+#     print("Hello",name,"Thank You")
+# myfun()
+# myfun("Pawan Argument")    
+
+# def myFun(name="Advait Vedant"):
+#     print("Hello",name,"Rakshak")
+# myFun()
+# myFun("Dhoka Diya bro")    
+
+# def myFun(name="Conciousness"):
+#     print("Hi..",name,"meet you")
+# myFun()
+# myFun("Upanishads")    
+
+# def Turbine(name="Default Arg"):
+#     print("Hello..",name,"Okay")
+# Turbine()
+# Turbine("Fun")
+
+# def wish(name="guest", msg="good morning"):
+#        print("Hi.",name,msg,"welcome") 
+# wish()
+# wish("Not come")          
+
+# def wish(name="guest", msg="good morning"):
+#     print("hello..",name,msg)
+# wish()
+# wish("Good after")    
+
+# def myFun(name="Balaji Publication", name1="ABC"):
+#     print("Hello",name,"Thank You",name1)
+# myFun()
+# myFun("Ravikanth")    
+
+# def reqArgFun(name,msg):
+#     print(name,msg)
+# reqArgFun(name="Tbalaji", msg="Computer Book")
+# reqArgFun(msg="Computer Book",name="Tbalaji")    
+
+# def myFun(name,msg):
+#     print("hello", name,msg)
+# myFun("Banana","Indian fruit")    
+# myFun("mango",msg="yummy")
+# myFun(name="Appke","awesome")
+
+# def sum(*n):
+#     total =0
+#     for a in n:
+#         total+=a
+#     print("The Sum is=",total)
+# sum()
+# sum(10)
+# sum(1,2,3)
+# sum(1,2,3,4,5,6,7,8)    
+
+# def sum(*n):
+#     total=0
+#     for i in n:
+#         total+=i
+#     print("the Sum is=",total)
+# sum()
+# sum(10)
+# sum(1,2,3)
+# sum(1,2,3,4,5,6)        
+
+# def multi(*n):
+#     total=0
+#     for i in n:
+#         total+=i
+#     print("The Sum is=",total)
+# multi()
+# multi(10)
+# multi(1,2,3,4)
+# multi(12,34,21)        
+
+# def multi(*n):
+#     total=0
+#     for i in n:
+#         total+=i
+#     print("The Sum is=",total) 
+# multi()
+# multi(2)
+# multi(1,2,3,4)       
+
+# def sum(*n):
+#     total=0
+#     for i in n:
+#         total+=i
+#     print("The Sum is:",total)
+# sum()
+# sum(1,2)
+# sum(1,2,4,6,9)        
+
+# def sum(*n):
+#     total=0
+#     for a in n:
+#         total+=a
+#     print("The SUm is:",total)
+# sum()
+# sum(1,2,3,4)
+# sum(10,20,30,50) 
+
+# def sum(*n):
+#     total=0
+#     for a in n:
+#         total+=a
+#     print("The Sum is :",total)
+# sum()
+# sum(1,2,3)
+# sum(10,20,30,40)
+
+# def myFun(n,*s):
+#     print(n)
+#     for a in s:
+#         print(a)
+# print("MyFun(10) Output is:")
+# myFun(10)
+# print("myFun (10,20,30,40) Output:") 
+# myFun(10,20,30,40)
+# print("myFun (10,'a',20,'b'):")
+# myFun(10,'a',20,'b')      
+
+# def myFun(*n,s):
+#     for a in n:
+#         print(a)
+#     print(s)
+
+# myFun('A',"B",s=100)             
+
+# def myFun(*n,s):
+#     for a in n:
+#         print(a)
+#     print(s)
+# myFun('A','B',s=100)        
+
+# def myFun(*n,s):
+#     for a in n:
+#         print(a)
+#     print(s)
+# myFun('A','B',s=99)        
+
+# def myFun(**n):
+#     for a, b in n.items():
+#         print(a,"=",b)
+# print("Calling myfun(n1=100,n2=200,n3=300,n4=400)")
+# myFun(n1=100,n2=200,n3=300,n4=400)
+# print("Calling myfun(rno=1, name=Ravi, marks=89, subject=python)")
+# myFun(rno=1, name="ravi", marks=89, subject="python")      
+
+# def myfun(**n):
+#     for a,b in n.items():
+#         print(a,"=",b)
+# print("Calling myFun(n1=100,n2=200,n3=300,n4=400")
+# myfun(n1=100,n2=200,n3=300,n4=400)
+# print("Rno=1, name=Ravi, Marks=300, Sub=Python")
+# myfun(Rno=1, name="Ravi", Marks=300, Sub="Python")          
+
+# def myFun(**n):
+#     for a, b in n.items():
+#         print(a, "=", b)
+# print("N1=100, N2=200, N3=300, n4=400")
+# myFun(n1=100, n2=200, n3=300, n4=400)
+# print("Rno=1, name=ravi, marks=300, SUb=Python")
+# myFun(Rno=123, name="Ravi", marks=600, sub="Python" )        
+
+# def myFun(**n):
+#     for a,b in n.items():
+#         print(a, "=", b)
+# print("n1=100, n2=200, n3=300, n4=400")
+# myFun(n1=100, n2=200, n3=300, n4=400)
+# print("Rno=14627, name=ravi, Marks=900, Sub=Python") 
+# myFun(Rno=1387762, name="Ravi", marks=7900, sub="Python")       
+
+# def myFun(**n):
+#     for a,b in n.items():
+#         print(a,"=",b)
+# myFun(n1=100, n2=200, n3=300, n4=400) 
+# myFun(Rno=2671, name="Ravi", marks=234, Sub="Python")       
+
+# def myFun(a,b, c=300, d=400):
+#     print(a,b,c,d)
+# myFun(3,2)
+# myFun(1,2,3,4)
+# myFun(3,4,2,d=100)
+# myFun(d=300, a=2, b=6)
+
+def myFun(a,b,c=100,d=500):
+    print(a,b,c,d)
+myFun(1,2)
+myFun(1,2,3,5)
+myFun(1,2,c=400,d=588)
+myFun(a=2,c=400,b=7)    
