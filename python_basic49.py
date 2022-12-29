@@ -384,11 +384,62 @@ import random
 # print(random.randrange(0,12,1))
 
 #Date Time Functions
+# from datetime import date
+# from datetime import time
+# from datetime import datetime
+# # today=date.today()
+# print("today\'s date",today.day)
+# print("today\'s time",today.month)
+# print("today\'s year",today.year)
+# print("todays\'s weekday",today.weekday())
+
+# from datetime import date
+# from datetime import time
+# from datetime import datetime
+# today=date.today()
+# print("Today date:",today)
+# print(today.day)
+# print(today.month)
+# print(today.year)
+
+# from datetime import date
+# from datetime import time
+# from datetime import datetime
+# today=date.today()
+# print(today)
+# print(today.month)
+# print(today.year)
+# today=datetime.now()
+# print(today)
+
 from datetime import date
 from datetime import time
 from datetime import datetime
-today=date.today()
-print("today\'s date",today.day)
-print("today\'s time",today.month)
-print("today\'s year",today.year)
-print("todays\'s weekday",today.weekday())
+# today=datetime.today()
+# print(today)
+# today=datetime.today()
+# print(today)
+
+# today=datetime.now()
+# print(today)
+
+#current time
+# today=datetime.time(datetime.now())
+# print(today)
+
+# from datetime import date
+# from datetime import time
+# from datetime import datetime
+# today=date.today()
+# print(today)
+# print(today.day)
+# print(today.month)
+# print(today.year)
+
+from datetime import date
+from datetime import time
+from datetime import datetime
+today=datetime.now()
+print(today)
+t=datetime.time(datetime.now())
+print(t)
