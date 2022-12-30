@@ -53,9 +53,151 @@
 # print(f.readline())
 # f.close()
 
-f=open("example_file.py","r")
-for x in f:
-    print(x)
-    print(f.read())
-f.close()    
+# f=open("example_file.py","r")
+# for x in f:
+#     print(x)
+#     print(f.read())
+# f.close()    
 
+#Writing on to a file
+# fileObject=open("test_file.txt","w")
+# fileObject.write("Hi Man.. How are you")
+# fileObject.close()
+
+# try:
+#     fileObject=open("test_example.txt","w")
+# finally:
+#     fileObject.close()
+
+# fileObject=open("test_file.txt","r")
+# data=fileObject.read()
+# print(data)
+# fileObject.close()
+
+# fileObject=open("test_file.txt","r")
+# data=fileObject.read()
+# print(data)
+# fileObject.close()
+
+# fileObject=open("write.txt","r")
+# data=fileObject.read()
+# print(data)
+# fileObject.close()
+
+# fileObject=open("write.txt","r")
+# data=fileObject.read()
+# print(data)
+# fileObject.close()
+
+# fileObject=open("write.txt","r")
+# data=fileObject.read()
+# print(data)
+# fileObject.close()
+
+# fileObject=open("write.txt","r")
+# data=fileObject.read()
+# print(data)
+# fileObject.close()
+
+# fileObject=open("write.txt","r")
+# data=fileObject.readline(7)
+# print(data)
+# fileObject.close()
+
+# fileObject=open("write.txt","r")
+# data=fileObject.readline(12)
+# print(data)
+# fileObject.close()
+
+# fileObject=open("write.txt","r")
+# data=fileObject.readlines(10)
+# print(data)
+
+# fileObject=open("write.txt","r")
+# data=fileObject.readlines(10)
+# print(data)
+# fileObject.close()
+
+# fileObject=open("write.txt","r")
+# data1=fileObject.readline()
+# data2=fileObject.readline()
+# data3=fileObject.readline()
+# print(data1)
+# print(data2)
+# print(data3)
+# fileObject.close()
+
+# fileObject=open("write.txt","r")
+# print(fileObject.readlines())
+
+# fileObject=open("write.txt","r")
+# print(fileObject.readlines())
+
+#Write()
+# fileObject=open("write.txt","a")
+# fileObject.write("\nHello main kaun hu??\n")
+# fileObject.close()
+# fileObject=open("write.txt","r")
+# print(fileObject.read())
+# fileObject.close
+
+# fileObject=open("write.txt","a")
+# fileObject.write("\n Nainam Chidanti Shastrani\nNainam dahati pawahka\nna chainam kledayanpappo\nna shoshayati marutah")
+# fileObject.close()
+# fileObject=open("write.txt","r")
+# print(fileObject.read())
+# fileObject.close()
+
+#writelines()
+#fileObject.writelines(list)
+# fileObject=open("hello.txt",'w')
+# lines_of_text=["a line of text","another line of text","a third line of text"]
+# fileObject.writelines(lines_of_text)
+# fileObject.close()
+
+# fileObject=open("hello1.txt",'w')
+# lines=["Hi Gustakh Miyaa","\nKya Karre","\nkuch nhi miyaa jaan","\nok Miyaa Jaan"]
+# fileObject.writelines(lines)
+# fileObject.close()
+# fileObject=open("hello1.txt","r")
+# data=fileObject.read()
+# print(data)
+# fileObject.close()
+
+# fileObject=open("hello1.txt",'w')
+# lines=["Arre..","\nKya hua","\nMaine na yeh jaan","\nArre re","kuch ho gaya"]
+# fileObject.writelines(lines)
+# fileObject.close()
+# fileObject=open("hello1.txt",'r')
+# data=fileObject.read()
+# print(data)
+# fileObject.close()
+
+# fileObject=open("hello1.txt",'w')
+# lines=["Arre..","\nKya hua","\nMaine na yeh jaan","\nArre re","kuch ho gaya"]
+# fileObject.writelines(lines)
+# fileObject.close()
+# fileObject=open("hello1.txt","r")
+# data=fileObject.read()
+# print(data)
+# fileObject.close()
+
+#tell() used to get the position of the file handle. returns the current position of the file object
+#fileObject.tell()
+
+# fileObject=open('write.txt','r')
+# print("File position",fileObject.tell())
+# print("1st Line",fileObject.tell())
+# print("FileObject:",fileObject.tell())
+# print("2nd Position:",fileObject.tell())
+# print("file position:",fileObject.tell())
+# fileObject.close()
+
+#seek() : method sets the current file position to set the current file stream position
+# fileObject.seek(offset)
+fileObject=open("hello.txt",'r')
+print("File Position:",fileObject.tell())
+print(fileObject.readline())
+fileObject.seek(4)
+print(fileObject.readline())
+print("File Position:",fileObject.seek(4))
