@@ -1,10 +1,16 @@
+import numpy as np
+import time
+import sys
+SIZE=1000000
+l1=range(SIZE)
+l2=range(SIZE)
+a1=np.arange(SIZE)
+a2=np.arange(SIZE)
 
-list1=[10,20,30,10,20,50,60,30]
-size=len(list1)
-new_list=[]
-for i in range(size):
-    k=i+1
-    for j in range(k,size):
-        if list1[i]==list1[j] and list1[i] not in new_list:
-            new_list.append(list1[i])
-print(new_list)            
+start=time.time()
+result=[(x,y) for x,y in zip(l1,l2)]
+print((time.time()-start)*1000)
+
+start=time.time()
+result=a1+a2
+print((time.time()-start)*1000)
