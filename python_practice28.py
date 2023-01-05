@@ -33,5 +33,6 @@
 
 
 #Eval() function is used to evaluate the value of string. it takes a string as an argument , evaluates string as number and returns the numeric value"
-eval('33**2')
-print(eval)
+# eval('33**2')
+# print(eval)
+

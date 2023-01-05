@@ -195,9 +195,11 @@
 
 #seek() : method sets the current file position to set the current file stream position
 # fileObject.seek(offset)
-fileObject=open("hello.txt",'r')
-print("File Position:",fileObject.tell())
-print(fileObject.readline())
-fileObject.seek(4)
-print(fileObject.readline())
-print("File Position:",fileObject.seek(4))
+# fileObject=open("hello.txt",'r')
+# print("File Position:",fileObject.tell())
+# print(fileObject.readline())
+# fileObject.seek(4)
+# print(fileObject.readline())
+# print("File Position:",fileObject.seek(4))
+
+

@@ -14,7 +14,8 @@
 # print("Sum of all three float is:",sum)
 # print("Average of all three Float value is:",average)
 
-Name=input("Enter Name:")
-age=int(input("Enter Age:"))
-Address=input("Enter Address here:")
-print("Name:{}, age{},, Address:{}".format(Name,age,Address))
+# Name=input("Enter Name:")
+# age=int(input("Enter Age:"))
+# Address=input("Enter Address here:")
+# print("Name:{}, age{},, Address:{}".format(Name,age,Address))
+

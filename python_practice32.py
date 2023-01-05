@@ -330,17 +330,19 @@
 # print("Sum of Even Is:",E_sum)
 # print("Sum of Odd is:",O_sum)            
 
-num=[]
-E_sum=0
-O_sum=0
-n=int(input("Enter Number of Elements in a List:"))
-for i in range(1,n+1):
-    values=int(input("Enter Number:"))
-    num.append(values)
-for j in range(n):
-    if num[j]%2==0:
-        E_sum=E_sum+num[j] 
-    else:
-        O_sum=O_sum+num[j]
-print("Even Sum is:",E_sum)
-print("Odd Sum is:",O_sum)               
+# num=[]
+# E_sum=0
+# O_sum=0
+# n=int(input("Enter Number of Elements in a List:"))
+# for i in range(1,n+1):
+#     values=int(input("Enter Number:"))
+#     num.append(values)
+# for j in range(n):
+#     if num[j]%2==0:
+#         E_sum=E_sum+num[j] 
+#     else:
+#         O_sum=O_sum+num[j]
+# print("Even Sum is:",E_sum)
+# print("Odd Sum is:",O_sum)              
+
+ 

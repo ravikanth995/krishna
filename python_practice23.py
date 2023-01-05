@@ -251,21 +251,21 @@
 # print("Time In Hours:Minutes:Seconds-->",x.t_Hours()) 
 # print("Time Minutes:Seconds-->",x.t_Mins())
 
-class time:
-    def __init__(self,sec):
-        self.sec=sec
-    def t_Hours(self):
-        n=self.sec
-        Hours=n//3600
-        Minutes=(n//60)%60
-        Seconds=n%60
-        return(str(Hours)+":"+str(Minutes)+":"+str(Seconds))
-    def t_Mins(self):
-        n=self.sec
-        Minutes=(n//60)%69
-        Seconds=n%60
-        return(str(Minutes)+":"+str(Seconds))
-a=int(input("Enter Seconds:"))
-x=time(a)
-print("Time Format is Hours:Minutes:Seconds -->",x.t_Hours())
-print("Time Format in Minutes:Seconds -->",x.t_Mins())                    
+# class time:
+#     def __init__(self,sec):
+#         self.sec=sec
+#     def t_Hours(self):
+#         n=self.sec
+#         Hours=n//3600
+#         Minutes=(n//60)%60
+#         Seconds=n%60
+#         return(str(Hours)+":"+str(Minutes)+":"+str(Seconds))
+#     def t_Mins(self):
+#         n=self.sec
+#         Minutes=(n//60)%69
+#         Seconds=n%60
+#         return(str(Minutes)+":"+str(Seconds))
+# a=int(input("Enter Seconds:"))
+# x=time(a)
+# print("Time Format is Hours:Minutes:Seconds -->",x.t_Hours())
+# print("Time Format in Minutes:Seconds -->",x.t_Mins())                    

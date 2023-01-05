@@ -302,9 +302,9 @@
 #         continue
 #     print(i)
 
-i=15
-while i>0:
-    i-=2
-    if i==9:
-        continue
-    print(i)
+# i=15
+# while i>0:
+#     i-=2
+#     if i==9:
+#         continue
+#     print(i)

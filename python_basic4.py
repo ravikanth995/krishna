@@ -25,7 +25,8 @@
 # Square=num*num
 # print("Cube of the Given Number is :{1} \nSqaure of the Given Number is:{2}".format(num,Cube,Square))
 
-num=int(input("Enter Any Number:"))
-Cube=num*num*num
-Square=num*num
-print("The Cube of the Given NUmber is:{1} \nSquare of the Given Number is:{2}".format(num, Cube,Square))
+# num=int(input("Enter Any Number:"))
+# Cube=num*num*num
+# Square=num*num
+# print("The Cube of the Given NUmber is:{1} \nSquare of the Given Number is:{2}".format(num, Cube,Square))
+

@@ -169,14 +169,14 @@
 # else:
 #     print("Not Palindrome")       
 
-rev=0
-num=int(input("Enter Number"))
-n=num
-while num:
-    rem=num%10
-    rev=rev*10+rem
-    num//=10
-if n==rev:
-    print("Palindrome")
-else:
-    print("Not palindrome")        
+# rev=0
+# num=int(input("Enter Number"))
+# n=num
+# while num:
+#     rem=num%10
+#     rev=rev*10+rem
+#     num//=10
+# if n==rev:
+#     print("Palindrome")
+# else:
+#     print("Not palindrome")        

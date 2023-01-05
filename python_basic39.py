@@ -170,10 +170,12 @@
 # print(list(reversed(l)))
 
 #Reverse a list using Slicing Operator
-lst=['a','b','c','d']
-print("Before reverse")
-print(lst)
+# lst=['a','b','c','d']
+# print("Before reverse")
+# print(lst)
 
-lst=lst[::-1]
-print("After reversing using slice operator")
-print(lst)
+# lst=lst[::-1]
+# print("After reversing using slice operator")
+# print(lst)
+
+

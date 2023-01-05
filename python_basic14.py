@@ -53,9 +53,9 @@
 #     count=count+1
 # print("While Loop Exit")    
 
-count=0
-print("While Loop Starts")
-while count<=5:
-    print(count)
-    count=count+1
-print("Exit While Loops")    
+# count=0
+# print("While Loop Starts")
+# while count<=5:
+#     print(count)
+#     count=count+1
+# print("Exit While Loops")    

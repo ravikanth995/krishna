@@ -128,7 +128,7 @@
 # else:
 #     print("No Perfect")                        
 
-n=16
-for i in range(n,0,-1):
-    print((n-1) * ' ' +i* '*')
+# n=16
+# for i in range(n,0,-1):
+#     print((n-1) * ' ' +i* '*')
 

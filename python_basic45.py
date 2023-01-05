@@ -589,15 +589,16 @@
 # for i in sorted(ls,key=rec.get):
 #     print("\t",i,"\t\t\a",rec[i])
 
-rec=dict()
-num=int(input("Enter Number of Students:"))
-i=1
-while i<num:
-    name=input("Enter Name of the Student:")
-    per=int(input("Enter Marks:"))
-    rec[name]=per
-    i+=1
-    ls=(rec.keys())
-print("Name of the Students'\s","\t", "Marks%")
-for i in sorted(ls,key=rec.get):
-    print("\t",i, "\t\t\a", rec[i])    
+# rec=dict()
+# num=int(input("Enter Number of Students:"))
+# i=1
+# while i<num:
+#     name=input("Enter Name of the Student:")
+#     per=int(input("Enter Marks:"))
+#     rec[name]=per
+#     i+=1
+#     ls=(rec.keys())
+# print("Name of the Students'\s","\t", "Marks%")
+# for i in sorted(ls,key=rec.get):
+#     print("\t",i, "\t\t\a", rec[i])    
+

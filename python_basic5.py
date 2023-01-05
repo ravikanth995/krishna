@@ -98,7 +98,8 @@
 # days=Days%30
 # print("Months=",int(months),"\nDays=",days)
 
-Days=int(input("Enter Number of Days:"))
-month=Days/30
-days=Days%30
-print("Month=",int(month),"\nDays=",days)
+# Days=int(input("Enter Number of Days:"))
+# month=Days/30
+# days=Days%30
+# print("Month=",int(month),"\nDays=",days)
+

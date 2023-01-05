@@ -247,14 +247,15 @@
 # print("Even Sum is:",Even_sum)
 # print("Odd Sum is:",Odd_sum)   
 
-num=int(input("Enter Number:")) 
-count=0
-Even_sum=Odd_sum=0
-while count<=num:
-    if count%2==0:
-        Even_sum+=count
-    else:
-        Odd_sum+=count
-    count+=1
-print("The Sum of Even Number:",Even_sum)
-print("The Sum of Odd NUmber:",Odd_sum)                    
+# num=int(input("Enter Number:")) 
+# count=0
+# Even_sum=Odd_sum=0
+# while count<=num:
+#     if count%2==0:
+#         Even_sum+=count
+#     else:
+#         Odd_sum+=count
+#     count+=1
+# print("The Sum of Even Number:",Even_sum)
+# print("The Sum of Odd NUmber:",Odd_sum)                    
+

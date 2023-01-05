@@ -35,8 +35,8 @@
 # ci=p*(pow((1+r/100),t))
 # print("Compound Interest is:{}".format(ci))
 
-p=float(input("Enter Principal Amount:"))
-r=float(input("Enter Rate of Interest:"))
-t=float(input("Enter Time Period:"))
-Ci=p*(pow((1+r/100),t))
-print("Compound of Interest Is:{}".format(Ci))
+# p=float(input("Enter Principal Amount:"))
+# r=float(input("Enter Rate of Interest:"))
+# t=float(input("Enter Time Period:"))
+# Ci=p*(pow((1+r/100),t))
+# print("Compound of Interest Is:{}".format(Ci))

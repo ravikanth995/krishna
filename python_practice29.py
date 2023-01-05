@@ -71,9 +71,5 @@
 # total=si+p
 # print("interest on principal amount:",si)
 # print("total amount is:",total)
-
-p,r,t=float((input("Enter Principal amount:")),(input("Enter rate percent:")),(input("Enter Time period:")))
-si=p*r*t/100
-total=si+p
-print("Interest on principal amount is:",si)
-print("Total amount is:",total)
+ 
+ 

@@ -179,22 +179,24 @@
 # print("Minimum Element in the List:",min) 
 # print("product of list:",total)               
 
-list=[]
-n=int(input("Enter Size of List:"))
-print("\n")
-for i in range(0,n):
-    print("Enter Numnber at Location:",i,":")
-    item=int(input())
-    list.append(item)
-total=1
-max=list[0]
-min=list[0]
-for a in list:
-    total*=a
-    if a>max:
-        max=a
-    if a<min:
-        min=a
-print("Maximum Element in the List:",max)
-print("Minimum Element in the List:",min)
-print("product of the list Element:",total)                
+# list=[]
+# n=int(input("Enter Size of List:"))
+# print("\n")
+# for i in range(0,n):
+#     print("Enter Numnber at Location:",i,":")
+#     item=int(input())
+#     list.append(item)
+# total=1
+# max=list[0]
+# min=list[0]
+# for a in list:
+#     total*=a
+#     if a>max:
+#         max=a
+#     if a<min:
+#         min=a
+# print("Maximum Element in the List:",max)
+# print("Minimum Element in the List:",min)
+# print("product of the list Element:",total)     
+# 
+#            

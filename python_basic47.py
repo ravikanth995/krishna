@@ -55,5 +55,6 @@
 # print(exp)
 # exp=eval("2**3")
 # print(exp)
-exp=eval("3**9")
-print(exp)
+# exp=eval("3**9")
+# print(exp)
+

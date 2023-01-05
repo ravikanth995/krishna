@@ -163,10 +163,10 @@
 # c=reverse()
 # c.reverse_sentence(input("Enter String:"))
 
-class reverse:
-    def reverse_sentence(self,sentence):
-        words=sentence.split(" ")
-        reverse_words=" ".join(reversed(words))
-        print(reverse_words)
-c=reverse()
-c.reverse_sentence(input("Enter String:"))        
+# class reverse:
+#     def reverse_sentence(self,sentence):
+#         words=sentence.split(" ")
+#         reverse_words=" ".join(reversed(words))
+#         print(reverse_words)
+# c=reverse()
+# c.reverse_sentence(input("Enter String:"))        

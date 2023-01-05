@@ -38,13 +38,15 @@
 # with open("ravi7.txt","w") as file:
 #     file.write("Akshay Kumar")
 
-file=open("write.txt","w")
-try:
-    file.write("Now ! i am listening to Songs")
-finally:
-    file.close()
-with open("write1.txt","w") as file:
-    file.write("It is of Sonu Nigam called Ghum Shuda")
+# file=open("write.txt","w")
+# try:
+#     file.write("Now ! i am listening to Songs")
+# finally:
+#     file.close()
+# with open("write1.txt","w") as file:
+#     file.write("It is of Sonu Nigam called Ghum Shuda")
+
+
 
 
 

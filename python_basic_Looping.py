@@ -63,16 +63,18 @@
 # else:
 #     print("Grade is Lol")           
 
-Grade=int(input("Enter Grade :"))
-if Grade>=90:
-    print("Grade is A+")
-elif Grade>=80:
-    print("Grade is A")
-elif Grade>=70:
-    print("Grade is B")
-elif Grade>=60:
-    print("Grade is C")
-elif Grade>=59:
-    print("C grade")   
-else:
-    print("Failed !")                 
+# Grade=int(input("Enter Grade :"))
+# if Grade>=90:
+#     print("Grade is A+")
+# elif Grade>=80:
+#     print("Grade is A")
+# elif Grade>=70:
+#     print("Grade is B")
+# elif Grade>=60:
+#     print("Grade is C")
+# elif Grade>=59:
+#     print("C grade")   
+# else:
+#     print("Failed !")    
+
+             

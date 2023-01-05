@@ -146,22 +146,22 @@
 # print(d.size*d.itemsize)
 
 #2. Faster
-# import numpy as np
-# import time
-# import sys
-# SIZE=1000000
-# l1=range(SIZE)
-# l2=range(SIZE)
-# a1=np.arange(SIZE)
-# a2=np.arange(SIZE)
+import numpy as np
+import time
+import sys
+SIZE=1000000
+l1=range(SIZE)
+l2=range(SIZE)
+a1=np.arange(SIZE)
+a2=np.arange(SIZE)
 
-# start=time.time()
-# result=[(x,y) for x,y in zip(l1,l2)]
-# print((time.time()-start)*1000)
+start=time.time()
+result=[(x,y) for x,y in zip(l1,l2)]
+print((time.time()-start)*1000)
 
-# start=time.time()
-# result=a1+a2
-# print((time.time()-start)*1000)
+start=time.time()
+result=a1+a2
+print((time.time()-start)*1000)
 
 #Difference
 #1. Once a Numpy array is created, we cannot change its size, but list size can be changed
@@ -315,7 +315,7 @@ import numpy as np
 # s=np.eye(2)
 # print(s)
 
-print("Create an uninitialized array of three integers:\nThe values will be whatever happens to already exist at that memory location")
+# print("Create an uninitialized array of three integers:\nThe values will be whatever happens to already exist at that memory location")
 # j=np.empty(3)
 # print(j)
 # j=np.empty(3)
@@ -326,5 +326,6 @@ print("Create an uninitialized array of three integers:\nThe values will be what
 # print(j)
 # a=np.empty(3)
 # print(a)
-b=np.empty(5)
-print(b)
+# b=np.empty(5)
+# print(b)
+

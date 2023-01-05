@@ -60,10 +60,10 @@
 # y=temp
 # print("After Swapping of X is:{0}, \nAfter Swapping of Y is:{1}".format(x,y))
 
-x=input("Enter String X:")
-y=input("Enter String Y:")
-print("Before Swapping of X:",x, "\nBefore Swapping of Y:",y)
-temp=x
-x=y
-y=temp
-print("After Swapping of String X:{0}",x, "\nAfter Swapping of String Y:{1}",y)
+# x=input("Enter String X:")
+# y=input("Enter String Y:")
+# print("Before Swapping of X:",x, "\nBefore Swapping of Y:",y)
+# temp=x
+# x=y
+# y=temp
+# print("After Swapping of String X:{0}",x, "\nAfter Swapping of String Y:{1}",y)

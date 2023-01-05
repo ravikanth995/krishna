@@ -105,7 +105,8 @@
 #     print("The Value of X is:",x)
 #     x-=1
 
-x=10
-while x>0:
-    print("The Value of X is :",x)
-    x-=1
+# x=10
+# while x>0:
+#     print("The Value of X is :",x)
+#     x-=1
+

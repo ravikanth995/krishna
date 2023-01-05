@@ -88,11 +88,11 @@
 #     print(c)
 #     a,b=b,c
 
-n=6
-a,b=0,1
-print(a)
-print(b)
-for i in range(1,n):
-    c=a+b
-    print(c)
-    a,b=b,c
+# n=6
+# a,b=0,1
+# print(a)
+# print(b)
+# for i in range(1,n):
+#     c=a+b
+#     print(c)
+#     a,b=b,c

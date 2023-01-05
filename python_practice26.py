@@ -133,14 +133,14 @@
 # else:
 #     print("Division value is :",c)   
 
-try:
-    a=int(input("Enter a Value:"))
-    b=int(input("Enter b Value:")) 
-    c=a//b
-except ZeroDivisionError:
-    print("The Denominator must not be 0")
-else:
-    print("The value of a//b:",c)
-finally:
-    print("End of program")               
+# try:
+#     a=int(input("Enter a Value:"))
+#     b=int(input("Enter b Value:")) 
+#     c=a//b
+# except ZeroDivisionError:
+#     print("The Denominator must not be 0")
+# else:
+#     print("The value of a//b:",c)
+# finally:
+#     print("End of program")             
 

@@ -18,8 +18,8 @@
 # c=a+b
 # print(c)
 
-a=124
-b="123"
-b=int(b)
-c=a+b
-print(c)
+# a=124
+# b="123"
+# b=int(b)
+# c=a+b
+# print(c)

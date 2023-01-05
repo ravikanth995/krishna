@@ -60,6 +60,7 @@
 # mile=kilometers*0.621371
 # print("%.0f kilometers in miles is :%.4f"%(kilometers,mile))
 
-kilometers=float(input("Enter Value in Kilometers:"))
-miles=kilometers*0.621371
-print("%.0f Kilometers in miles is:%.4f"%(kilometers,miles))
+# kilometers=float(input("Enter Value in Kilometers:"))
+# miles=kilometers*0.621371
+# print("%.0f Kilometers in miles is:%.4f"%(kilometers,miles))
+

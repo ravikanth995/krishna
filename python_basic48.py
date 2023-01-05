@@ -251,6 +251,7 @@
 # print(x)
 
 #endswith
-str1="Hi.., How are you"
-x=str1.endswith("you")
-print(x)
+# str1="Hi.., How are you"
+# x=str1.endswith("you")
+# print(x)
+

@@ -583,9 +583,11 @@
 # myFun(3,4,2,d=100)
 # myFun(d=300, a=2, b=6)
 
-def myFun(a,b,c=100,d=500):
-    print(a,b,c,d)
-myFun(1,2)
-myFun(1,2,3,5)
-myFun(1,2,c=400,d=588)
-myFun(a=2,c=400,b=7)    
+# def myFun(a,b,c=100,d=500):
+#     print(a,b,c,d)
+# myFun(1,2)
+# myFun(1,2,3,5)
+# myFun(1,2,c=400,d=588)
+# myFun(a=2,c=400,b=7)    
+
+

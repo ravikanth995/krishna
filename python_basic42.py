@@ -224,12 +224,12 @@
 #             print(a[i][j],end=" ")
 #         print()    
 
-l=[[1,2,3],[4,5,6],[7,8,9]]
-for i in l:
-    print(i)
+# l=[[1,2,3],[4,5,6],[7,8,9]]
+# for i in l:
+#     print(i)
 
-for i in range(len(l)):
-    for j in range(len(l[i])):
-        print(l[i][j],end=" ")
-    print()    
+# for i in range(len(l)):
+#     for j in range(len(l[i])):
+#         print(l[i][j],end=" ")
+#     print()    
 

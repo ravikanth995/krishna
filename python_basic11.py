@@ -18,6 +18,7 @@
 # Far=(c*1.8)+32
 # print("%.2f of Degree celsius is Equal to :%.2f of Farhenheit"%(c,Far))
 
-c=float(input("Enter celsius Value:"))
-far=(c*1.8)+32
-print("%.0f Degree of celsius is Equal to %.3f"%(c,far))
+# c=float(input("Enter celsius Value:"))
+# far=(c*1.8)+32
+# print("%.0f Degree of celsius is Equal to %.3f"%(c,far))
+

@@ -33,9 +33,10 @@
 # print("X:",x)
 # print("Y:",y)
 
-x=['brutrahari','shatakam','Vairagya']
-y=x.copy()
-y[0]='upanishad'
-y[1]='Dhammapada'
-print("Before cloning:",x)
-print("After Cloning:",y)
+# x=['brutrahari','shatakam','Vairagya']
+# y=x.copy()
+# y[0]='upanishad'
+# y[1]='Dhammapada'
+# print("Before cloning:",x)
+# print("After Cloning:",y)
+

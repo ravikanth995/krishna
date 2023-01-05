@@ -144,14 +144,14 @@
 # print("Results",power(base,power1))          
 
 #Fibonacci Number
-def fib_sum(n):
-    if n<2:
-        return 1
-    else:
-        return fib_sum(n-1)+fib_sum(n-2)  
-fabseries=int(input("Enter a Number:"))
-for i in range(fabseries):
-    print(i,"=",fib_sum(i))    
+# def fib_sum(n):
+#     if n<2:
+#         return 1
+#     else:
+#         return fib_sum(n-1)+fib_sum(n-2)  
+# fabseries=int(input("Enter a Number:"))
+# for i in range(fabseries):
+#     print(i,"=",fib_sum(i))    
 
 # def fib_sum(n):
 #     if n<2:
@@ -161,4 +161,4 @@ for i in range(fabseries):
 # fabseries=int(input("Enter Numbers:")) 
 # for i in range(fabseries):
 #     print(i,"=",fib_sum(i))                 
-
+          
