@@ -6,4 +6,14 @@ for i in range(len(string1)):
         result=result+(string2[i]+string1[i])
         print(result)
 else:
-    print("Strings are of same length")        
+    print("Strings are of same length")
+
+
+
+
+
+
+
+
+
+
