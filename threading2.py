@@ -144,3 +144,173 @@ from threading import Thread, current_thread
 # t.join()            
 # for i in range(5):
 #     print("Main Threa")
+
+# import threading
+# import time
+# def cal_sqr(num):
+#     print("Calculate the Square root of a number:")
+#     for n in num:
+#         time.sleep(0.3)
+#         print("Square of a number:",n*n)
+# def cal_cube(num):
+#     print("Calculate the Cube of a Number:")
+#     for n in num:
+#         time.sleep(0.3)
+#         print("Cube of a given number:",n*n*n)
+# t1=time.time()
+# # num=int(input("Enter Number:"))
+# arr=[3,4,5,6,7]
+# cal_sqr(arr)
+# cal_cube(arr)
+# print("Total time Taken by Thread is:",time.time()-t1)  
+
+# import threading
+# import time
+# def call_sqr(num):
+#     print("Square of Number:")
+#     for n in num:
+#         time.sleep(0.3)
+#         print("Square of number is:",n*n)
+    
+# def call_cube(num):
+#     print("Cube of Given Number:")
+#     for n in num:
+#         time.sleep(0.3)
+#         print("Cube of Given Number:",n*n*n)
+# arr=[3,4,5,6,7,8]            
+# call_sqr(arr)
+# call_cube(arr)
+# t1=time.time()
+# print("Total time taken to print thread:",time.time()-t1)
+
+# import threading
+# import time
+# def call_sqr(num):
+#     print("*"*30)
+#     for n in num:
+#        time.sleep(0.3)
+#        print("Square is:",n*n)
+
+# def call_cube(num):
+#     print("-:"*30)
+#     for n in num:
+#         time.sleep(0.3)
+#         print("Cube is:",n*n*n)
+# t1= time.time()
+# arr=[1,2,3,4,5,6]
+# call_sqr(arr)
+# call_cube(arr)
+# print("Time taken by Thread is:",time.time()-t1)               
+
+# import threading
+# import time
+# def call_sqr(num):
+#     print("-"*20)
+#     for n in num:
+#       time.sleep(0.3)
+#       print("Square is:",)
+# def call_cube(num):
+#     print("-"*20)
+#     for n in num:
+#         time.sleep(0.3)
+#         print("Cube is:",n*n*n)
+# arr=[1,2,3,4,5]
+# t1=time.time()
+# call_sqr(arr)
+# call_cube(arr)
+# print("Total Time by Thread is:",time.time()-t1)              
+
+
+# import time
+# from threading import Thread
+# from threading import *
+# def call_sqr(num):
+#     print("-"*20)
+#     for n in num:
+#         time.time()
+#         print("Square is:",n*n)
+# def call_cube(num):
+#     print("-"*20)
+#     for n in num:
+#         time.time()
+#         print("Cube is:",n*n*n)
+# t1=time.time()
+# arr=[3,4,5,6,7]
+# th1=Thread(target=call_sqr, args=(arr,))
+# th2=Thread(target=call_cube, args=(arr,))
+# th1.start()
+# th2.start()
+# th1.join()
+# th2.join()
+# print("Total Time by Thread is:", time.time()-t1)
+# print("Again executing the Main Thread")
+# print("Thread 1 and Thread 2 have finished thier execution")
+
+# import time
+# from threading import *
+# from threading import Thread
+# def call_sqr(num):
+#     print("Square of the Number are:")
+#     for i in num:
+#         time.time()
+#         print("Square of Number is:",i*i)
+
+# def call_cube(num):
+#     print("Cube of the Number are:")
+#     for i in num:
+#         time.time()
+#         print("Cube of the Number:",i*i*i)
+# t=time.time()
+# arr=[2,3,4,5,6,7,8]                
+# call_sqr(arr)
+# call_cube(arr)
+# t1=Thread(target=call_sqr, args=(arr,))
+# t2=Thread(target=call_cube, args=(arr,))
+# t1.start()
+# t2.start()
+# t1.join()
+# t2.join()
+# print("Total Time by Thread:", time.time()-t)
+
+# from threading import Thread
+# from threading import *
+# import time
+# def call_sqr(num):
+#     print("Square of the Number is:")
+#     for n in num:
+#         time.time()
+#         print("Square is:",n*n)
+# def call_cube(num):
+#     print("Cube of Numbers:")
+#     for n in num:
+#         time.time()
+#         print("Cube of Number is:",n*n*n)
+# t=time.time()
+# arr=[9,8,7]
+# th1=Thread(target=call_sqr, args=(arr,))
+# th2=Thread(target=call_cube, args=(arr,))
+# th1.start()
+# th2.start()
+# th1.join()
+# th2.join()
+# print("Time taken by Thread is:",time.time()-t)                
+
+import threading
+import os
+def task1():
+    print("Task 1 assigned to thread{}".format(threading.current_thread))
+    print("ID of process running Task 1 :{}".format(os.getpid()))
+def task2():
+    print("Task 2 assigned to thread 2{}".format(threading.current_thread()))
+    print("Id of processes running task 2{}".format(os.getpid())) 
+if __name__=="__main__":
+    print("ID process main program {}".format(os.getpid()))
+    #Name of the Thread
+    print("Main thread name is{}".format(threading.current_thread().name))
+    #Creating Threads
+t1=Thread(target=task1, name="t1")
+t2=Thread(target=task2, name="t2")
+t1.start()
+t2.start()
+t1.join()
+t2.join()
