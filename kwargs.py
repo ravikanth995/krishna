@@ -85,12 +85,128 @@
 # items=["iPhone","SamSung","Nokia","Motorola"]
 # argsKwargs(name,*items)        
 
+# def display(name,*args,**kwargs):
+#     print(name)
+#     for i in args:
+#         for key, values in kwargs.items():
+#             print(f"{key} is a {values}")
+# name="class"
+# items=["Phone","Cooling","Magnet","Sneeking"]
+# d={"praveen":"Instrucor","Ravi":"Student"} 
+# display(name,*items,**d)         
+
+# def  myfun(**kwargs):
+#     for key, values in kwargs.items():
+#         print("%s:%s"%(key, values))
+# myfun(First="Hello", Mid="Good", Last="Morning")        
+
+# def fun(**kwargs):
+#     for key, values in kwargs.items():
+#         print("%s==%s"%(key, values))
+# fun(first="Dhammapada", Mid="Gautam", Last="Buddha")
+
+# def myFun(**kwargs):
+#     for key, value in kwargs.items():
+#         print("%s==%s"%(key, value))
+# myFun(Buddha="Dhammpada", Krishna="Bhagvat geeta",Nanak="GranthSahib")        
+
+# def myFun(**kawrgs):
+#     for key, values in kawrgs.items():
+#         print("%s==%s"%(key, values))
+# myFun(Buddha="Dhammapada", krishna="geeta", Advait="vedant")        
+
+# def myFun(**kwargs):
+#     for keys, values in kwargs.items():
+#         print("%s==%s"%(keys, values))
+# myFun(First="Education", Mid="Job", Last="Salvation")
+
+# def myFunn(*arg,**item):
+#         print(arg)
+#         print(item)
+# myFunn(First="hello", Mid="Chiit", Last="Chnachal")    
+
+# def myFun(*args, **items):
+#     print(args)
+#     print(items)
+# myFun(First="Prakriti", Mid="Suffering", Last="Mukti")    
+
+# def myFun(*args, **kwargs):
+#     print(args)
+#     print(kwargs)
+# myFun(First="Buddha", Mid="Upanishad", Last="Ashtavkra geeta")    
+
+# def myFun(args1, args2, args3):
+#     print("args1 :", args1)
+#     print("args2:", args2)
+#     print("args3:",args3)
+# args=("Hello","Python","World")
+# myFun(*args)
+# kwargs={"args1":"Hello", "args2":"Python", "args3":"World"}
+# myFun(**kwargs)    
+
+# def myFun(args1,args2,args3):
+#     print("args1=",args1)
+#     print("args2=",args2)
+#     print("args3=",args3)
+# args=("hello","Python","World")
+# myFun(*args)
+# print("-"*40)
+# kwargs={"args1":"Hello", "args2":"Python", "args3":"World"}
+# myFun(**kwargs)   
+
+# def myFun(*args, **kwargs):
+#     print("*args:",args)
+#     print("**kwargs:",kwargs)
+# myFun("Hello","Python","World", First="Hello", Mid="Python", Last="World")    
+
+# def myFun(*args, **kwargs):
+#     print("args:",args)
+#     print("kwargs:",kwargs)
+# myFun("Hello","Python","World", First="hello", mid="Python", last="World")    
+
+# def myFun(*args,**kwargs):
+#     print("args",args)
+#     print("kwargs",kwargs)
+
+# myFun("Hello", "Python", "World", First="Hello", Mid="Python", last="world")    
+
+# def display(name,*args,**kwargs):
+    
+#     for i in args:
+#         print(i)
+#     for key, value in kwargs.items():
+#         print(f"{key} is a {value}") 
+# name="Class"           
+# item=["Phone","Cool","Maggie","Sneak"]
+# d={"Praveen":"Tutor", "Ravikanth":"Student", "Shagun":"Student2"}
+# display(name,*item, **d)
+
+# def display(name, *args, **kwargs):
+#     for i in args:
+#         print(i)
+#         for keys,values in kwargs.items():
+#             print(f"{keys} is a {values}")
+# name="Ravikanth"
+# item=["Xiome","SamSung","Apple","Orange","msutatrd"]
+# d={"praveen":"tutor","ravikanth":"student",}
+# display(name,*item,**d)
+
+# def display(name,*args,**kwargs):
+#     for i in args:
+#         print(i)
+#         for keys,values in kwargs.items():
+#             print(f"{keys} in a {values}")
+# name="Ravikanth"
+# item=["Arijit Singh", "KK", "Sonu Nigam", "Shaan"]
+# d={"Moto":"Archadea","Himesh":"Suroor","KK":"Ajjab se"}            
+# display(name,*item,**d)
+
 def display(name,*args,**kwargs):
-    print(name)
     for i in args:
-        for key, values in kwargs.items():
+        print(i)
+        for key,values in kwargs.items():
             print(f"{key} is a {values}")
-name="class"
-args=["Phone","Cooling","Magnet","Sneeking"]
-d={"praveen":"Instrucor","Ravi":"Student"} 
-display(name,*args,**d)         
+name="RaviKanth"
+item=["Isro","Nasa","Jaxa","Europa"]
+d={"Chandrayaan":"isro","NASA":"Apollo","Jaxa":"idk"}
+display(name,*item,**d)
