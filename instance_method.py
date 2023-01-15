@@ -212,13 +212,99 @@
 # print(myClass.get_max_value(20,30))
 # print(obj.get_max_value(30,20))
 
-class myClass:
-    def __init__(self,value):
-        self.value=value
-    @staticmethod    
-    def get_max_value(x,y):
-        return max(x,y)
+# class myClass:
+#     def __init__(self,value):
+#         self.value=value
+#     @staticmethod    
+#     def get_max_value(x,y):
+#         return max(x,y)
         
-obj=myClass(10)
-print(myClass.get_max_value(10,8))
-print(obj.get_max_value(90,7))            
+# obj=myClass(10)
+# print(myClass.get_max_value(10,8))
+# print(obj.get_max_value(90,7))       
+# from datetime import date
+# class Person:
+#     def __init__(self,name,age):
+#         self.name=name
+#         self.age=age
+#     @classmethod
+#     def fromBirthYear(cls,name,year):
+#         return cls
+#     @staticmethod
+#     def isAdult(age):
+#         return age>18
+# person=Person("mayank",18)
+# person1=Person.fromBirthYear("Mayank",25)
+# print(person.age)
+# # print(person1.age)
+# print(person.isAdult(45))            
+
+# class Student:
+#     def __init__(self,name,age):
+#         self.name=name
+#         self.age=age
+#     def display(self):
+#         print(self.name+" "+self.age)
+# print("\nObject 1:")
+# s1=Student("Ravikanth","36")
+# # print(s1.name)
+# # print(s1.age)
+# s1.display()                 
+
+# print("\nObject 2:")
+# s2=Student("ShashiKanth","24")
+# # print(s2.name)
+# # print(s2.age)
+# s2.display()
+
+# class Student:
+#     def __init__(self,name,age):
+#         self.name=name
+#         self.age=age
+#     def display(self):
+#         print(self.name+' '+self.age)
+# print("Object 1:")
+# s1=Student("RaviKanth","24")
+# s1.display()
+# print("\nObject 2:")
+# s2=Student("Bhagvata","23")
+# s2.display()
+     
+# class Student:
+#     def __init__(self,name,age):
+#         self.name=name
+#         self.age=age
+#     def display(self):
+#         print(self.name+" "+self.age)
+# print("Object 1")
+# s1=Student("NanaSutta","12")
+# s1.display()
+# print("\nObject 2")
+# s2=Student("MamaSutta","25")
+# s2.display()
+
+# class Student:
+#     def __init__(self,name,age):
+#         self.name=name
+#         self.age=age
+#     def display(self):
+#         print(self.name+" "+self.age)
+# print("Object 1:") 
+# s1=Student("Example 1:","21")
+# s1.display()
+# print("\nObject 2:")
+# s2=Student("Example 2:","23")
+# s2.display()
+
+class Student:
+    def __init__(self,name,age):
+        self.name=name
+        self.age=age
+    def display(self):
+        print(self.name+" "+self.age)
+print("Object 1:")
+s1=Student("Bhaga","22")
+s1.display()
+print("\nObject 2") 
+s2=Student("Amman","25") 
+s2.display()          
