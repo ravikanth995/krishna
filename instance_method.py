@@ -296,15 +296,139 @@
 # s2=Student("Example 2:","23")
 # s2.display()
 
+# class Student:
+#     def __init__(self,name,age):
+#         self.name=name
+#         self.age=age
+#     def display(self):
+#         print(self.name+" "+self.age)
+# print("Object 1:")
+# s1=Student("Bhaga","22")
+# s1.display()
+# print("\nObject 2") 
+# s2=Student("Amman","25") 
+# s2.display()    
+
+#Class Method
+# class Student:
+#     counter=0
+#     collage_name="Disha Institute"
+#     def __init__(self,name,age):
+#         self.name=name
+#         self.age=age
+#         Student.collage_name=Student.counter+1
+
+#     def massage(self):
+#         print(self.name+" "+self.age)
+#     @classmethod
+#     def object_count(cls):
+#         return cls.counter
+# print(Student.collage_name)                
+# s1=Student("RaviKanth","21")
+# s2=Student("Bhavesh",32)
+# Student.object_count()
+# print(Student.object_count)
+
+# class Student:
+#     counter=0
+#     college_name="Creator Institute Pvt Ltd"
+#     def __init__(self,name,age):
+#         self.name=name
+#         self.age=age
+#         Student.college_name=Student.counter+1
+#     def message(self):
+#         print(self.name+" "+"Age is",self.age)
+#     @classmethod
+#     def object_count(cls):
+#         return cls.counter
+# print(Student.college_name)
+# s1=Student("Ravikanth","32")
+# s2=Student("Func","21")
+# s1.message()
+# s2.message()                
+
+# class Student:
+#     collegeName="Python Institution"
+#     counter=0
+#     def __init__(self,name,age):
+#         self.name=name
+#         self.age=age
+#         Student.counter=Student.counter+1
+#     def massege(self):
+#         print(self.name+" "+"Age is",self.age)
+#     @classmethod
+#     def method(cls):
+#         return cls.counter
+# s1=Student("Gaurav","21")
+# s2=Student("Naurav","23")
+# print(s1.collegeName)
+# s1.massege()
+# print(s2.collegeName)
+# s2.massege()
+        
+# class Student:
+#     def __init__(self,name,marks):
+#         self.name=name
+#         self.marks=marks
+#     def massege(self):
+#         print(self.name+" "+"Has got",self.marks)
+#     @classmethod
+#     def marks_info(cls,name,marks):
+#         cls.name=input("Enter Name:")
+#         cls.marks=input("Enter Marks:")
+#         return cls(name,str((int(marks)/600)*100))
+#     @staticmethod
+#     def object_info(age):
+#         if age<18:
+#             print("belongs to School")
+#         else:
+#             print("Does not belong to the School")
+# s1=Student.marks_info("Ravikanth","21")
+# s2=Student.marks_info("Happa","34")
+# s1.massege()
+# Student.marks_info(s1)
+# Student.marks_info
+# s2.massege()
+# s2.marks_info()
+
+# class Student:
+#     def __init__(self,name,marks):
+#         self.name=name
+#         self.marks=marks
+#     def massege(self):
+#         print(self.name+" "+" has got",self.marks)
+#     @classmethod
+#     def get_per(cls,name,marks):
+#         return cls(name, str((int(marks)/600)*100))
+#     @staticmethod
+#     def get_age(age):
+#         if age<17:
+#             print("Adult belongs to School")
+#         else:
+#             print("Does not belong to School")
+# s1=Student("Ravi","24")
+# s2=Student.get_per("Ravi","400")
+# s2.massege()
+# Student.get_age(17)                    
+
 class Student:
-    def __init__(self,name,age):
+    def __init__(self,name,marks):
         self.name=name
-        self.age=age
-    def display(self):
-        print(self.name+" "+self.age)
-print("Object 1:")
-s1=Student("Bhaga","22")
-s1.display()
-print("\nObject 2") 
-s2=Student("Amman","25") 
-s2.display()          
+        self.marks=marks
+    def massege(self):
+        print("Marks:",self.name+" "+" ",self.marks,"%")
+    @classmethod
+    def get_percent(cls,name,marks):
+        return cls(name, str((int(marks)/600)*100))
+    @staticmethod
+    def age_of(age):
+        if age<=18:
+            print("Person is Adult")
+        else:
+            print("Person is no Adult")
+s1=Student("Ravi","400")
+s2=Student.get_percent("ravi","399")
+s1.age_of(19)
+s1.massege() 
+s2.massege()           
+Student.age_of(18)                
