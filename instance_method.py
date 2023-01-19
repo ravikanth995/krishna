@@ -411,24 +411,30 @@
 # s2.massege()
 # Student.get_age(17)                    
 
-class Student:
-    def __init__(self,name,marks):
-        self.name=name
-        self.marks=marks
-    def massege(self):
-        print("Marks:",self.name+" "+" ",self.marks,"%")
-    @classmethod
-    def get_percent(cls,name,marks):
-        return cls(name, str((int(marks)/600)*100))
-    @staticmethod
-    def age_of(age):
-        if age<=18:
-            print("Person is Adult")
-        else:
-            print("Person is no Adult")
-s1=Student("Ravi","400")
-s2=Student.get_percent("ravi","399")
-s1.age_of(19)
-s1.massege() 
-s2.massege()           
-Student.age_of(18)                
+# class Student:
+#     def __init__(self,name,marks):
+#         self.name=name
+#         self.marks=marks
+#     def massege(self):
+#         print("Marks:",self.name+" "+" ",self.marks,"%")
+#     @classmethod
+#     def get_percent(cls,name,marks):
+#         return cls(name, str((int(marks)/600)*100))
+#     @staticmethod
+#     def age_of(age):
+#         if age<=18:
+#             print("Person is Adult")
+#         else:
+#             print("Person is no Adult")
+# s1=Student("Ravi","400")
+# s2=Student.get_percent("ravi","399")
+# s1.age_of(19)
+# s1.massege() 
+# s2.massege()           
+# Student.age_of(18)                
+
+a="Pie"
+if a=="pie":
+    print("Yes")
+else:
+    print("No")    

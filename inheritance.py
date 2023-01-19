@@ -128,20 +128,26 @@
 # test.func3()  
 # print(Present_Time.__mro__)              
 
-class Hinduism:
-    def func(self):
-        print("Hinduism is the Mother")
-class Buddhism:
-    def func1(self):
-        print("Buddha is reformer")
-class Jainism:
-    def func2(self):
-        print("Mahaveer Vardhaman is peaceful")
-class Logic(Hinduism,Buddhism,Jainism):
-    def func3(self):
-        print("Logic is evolved from Dharmic religions")
-test=Logic()
-test.func()
-test.func1()
-test.func2()
-test.func3()                
+# class Hinduism:
+#     def func(self):
+#         print("Hinduism is the Mother")
+# class Buddhism:
+#     def func1(self):
+#         print("Buddha is reformer")
+# class Jainism:
+#     def func2(self):
+#         print("Mahaveer Vardhaman is peaceful")
+# class Logic(Hinduism,Buddhism,Jainism):
+#     def func3(self):
+#         print("Logic is evolved from Dharmic religions")
+# test=Logic()
+# test.func()
+# test.func1()
+# test.func2()
+# test.func3()                
+
+a="pie"
+if a=="pie":
+    print("Yes")
+else:
+    print("No")    
