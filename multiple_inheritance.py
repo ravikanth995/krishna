@@ -89,23 +89,45 @@
 # Obj1=Derived_class("Mercedez Benz","Benz&8E",897)
 # print(Obj1.showName(),Obj1.showModel(),Obj1.getId())                                  
 
-class Cars:
-    def __init__(self,carName,carModel):
-        self.name=carName
-        self.model=carModel
-    def showName(self):
-        return self.name
-    def showModel(self):
-        return self.model
-class ID:
-    def __init__(self, carid):
-         self.carid=carid
-    def getid(self):
-        return self.carid
-class Main_class(Cars,ID):
-    def __init__(self,name,model,id):
-        Cars.__init__(self,name,model)
-        ID.__init__(self,id)
-obj=Main_class("Rolls Roys","BKU8D4",9000)
-print(obj.showName(),obj.showModel(),obj.getid())                     
+# class Cars:
+#     def __init__(self,carName,carModel):
+#         self.name=carName
+#         self.model=carModel
+#     def showName(self):
+#         return self.name
+#     def showModel(self):
+#         return self.model
+# class ID:
+#     def __init__(self, carid):
+#          self.carid=carid
+#     def getid(self):
+#         return self.carid
+# class Main_class(Cars,ID):
+#     def __init__(self,name,model,id):
+#         Cars.__init__(self,name,model)
+#         ID.__init__(self,id)
+# obj=Main_class("Rolls Roys","BKU8D4",9000)
+# print(obj.showName(),obj.showModel(),obj.getid())                     
+
+class Brands:
+    brand_name_1="Amazon"
+    brand_name_2="Ebay"
+    brand_name_3="OLX"
+class Products(Brands):
+    prod_1="Online E-commerce Store"
+    prod_2="Online Store"
+    prod_3="Online Buy Sell Store" 
+class Popularity(Brands):
+    prod_1_popularity=100
+    prod_2_popularity=70
+    prod_3_popularity=60
+class value(Brands):
+    prod_1_value="Excellent Value"
+    prod_2_value="Better Value"
+    prod_3_value="Good Value"
+
+obj1=Products()
+obj2=Popularity()
+obj3=value()
+print(obj1.brand_name_1+"is an"+obj1.prod_1)
 
