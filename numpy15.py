@@ -271,5 +271,160 @@ import numpy as np
 # print(a)
 # a=np.empty(3)
 # print(a)
-a=np.empty(4)
-print(a)
+# a=np.empty(4)
+# print(a)
+
+#Array Attributes
+#1. Shape()
+#This array attributes returns a tuple consisting of array dimensions. it can also be used to resize the array
+import numpy as np
+# a=np.array([[1,2,3],[4,5,6]])
+# print(a.shape)
+# a=np.array([[1,2,3],[4,5,6]])
+# a.shape=(3,2)
+# # print(a.shape)
+# print(a)
+#1. An array of evenly spaced numbers
+# a=np.array([[1,2,3],[4,5,6]])
+# print(a)
+# print(a.reshape(3,2))
+
+#2. ndim
+#This array attribute returns the mumber of array dimensions
+#1. An array of evenly spaced numbers'
+# a=np.arange(12)
+# print(a)
+# a=np.arange(13)
+# print(a)
+# a=np.arange(13)
+# print(a)
+
+#2. One dimension array
+# a=np.arange(24)
+# print(a.ndim)
+# #now reshaping it
+# b=a.reshape(2,3,4)
+# print(b)
+
+# a=np.arange(24)
+# a.ndim
+# b=a.reshape(2,4,3)
+# print(b)
+
+# a=np.arange(24)
+# a.ndim
+# b=a.reshape(2,4,3)
+# print(b)
+# a=np.arange(24)
+# a.ndim
+# b=a.reshape(2,4,3)
+# print(b)
+
+# a=np.arange(12)
+# a.ndim
+# b=a.reshape(2,2,3)
+# print(b)
+# a=np.arange(24)
+# a.ndim
+# b=a.reshape(2,3,4)
+# print(b)
+
+# a=np.arange(28)
+# a.ndim
+# b=a.reshape(2,4,3)
+# print(b)
+
+#3. itemsize
+#This array returns the length of each element of arrays in bytes
+#1. dtype of arrays is int8(1byte)
+# a=np.array([1,2,3,4], dtype= np.int8)
+# print(a.itemsize)
+
+# a=np.array([1,2,3,4], dtype=np.int8)
+# print(a.itemsize)
+# a=np.array([1,2,3,4], dtype=np.int8)
+# print(a.itemsize)
+# a=np.array([1,2,3,4,5], dtype=np.int8)
+# print(a.itemsize)
+
+#2. dtype of arrays is now float32 bytes(4 bytes)
+# a=np.array([1,2,3,4,5], dtype=np.float32)
+# print(a.itemsize)
+# a=np.array([1,2,3,4,5], dtype=np.float32)
+# print(a.itemsize)
+# a=np.array([10,20,30,40,50])
+# print(a.flags)
+
+#Array Creation Routines
+#1. empty : It creates an uninititated array of specified shape and dtype
+#The elements in an array show random values as they are not initialized.
+#syntax: empty(shape[,dtype, order])
+# a=np.empty([3,4], dtype=int)
+# print(a)
+# a=np.empty([3,4], dtype=int)
+# print(a)
+# a=np.empty([3,2], dtype=int)
+# print(a)
+# a=np.empty([3,3], dtype=int)
+# print(a)
+# a=np.empty([3,4], dtype=int)
+# print(a)
+
+#2. Eye: it returns a 2-D array with ones on the diagonal and zeros else where
+#syntax: np.eye(N, M=None, k=0, dtype=<class 'float'>, order='C')[source]
+#N=int : Number of rows in the output
+#M=int, optional: Number of columns.
+#k=int, optional: index of the diagonal; 0(the default) refers to the main diagonal, a positive value refers to an upper diagonal, and a negative value to a lower diagonal.
+# dtype=data-type
+# order{'C','F'}, optional
+# a=np.eye(2, dtype=int)
+# print("2 rows in the output:\n",a)
+# a=np.eye(3,k=1)
+# print("3 rows in the output:\n",a) 
+
+# a=np.eye(2, dtype=int)
+# print(a)
+# a=np.eye(3, k=1)
+# print(a)
+
+# a=np.eye(3, dtype=int)
+# print(a)
+# a=np.eye(3, k=1)
+# print(a)
+
+# a=np.eye(3, dtype=int)
+# print(a)
+# a=np.eye(3,k=1)
+# print(a)
+
+#identity: identity array is a square array with ones on the main diagonal
+#np.identity(n, dtype=None)
+#n= Number of rows(and columns) in n*n output. default dtype is float
+# a=np.identity(3, dtype=int)
+# print("3 rows :\n",a)
+# a=np.identity(4)
+# print("4 rows :\n",a)
+# a=np.identity(3, dtype=int)
+# print("3 rows and columns:\n",a)
+# a=np.identity(4)
+# print("4 rows and columns:\n",a)
+
+# a=np.identity(3, dtype=int)
+# print("3 rows:\n",a)
+# a=np.identity(4)
+# print(a)
+
+# a=np.identity(3, dtype=int)
+# print("3 rows and 3 columns:\n",a)
+# a=np.identity(4)
+# print("4 rows and 4 columns:\n",a)
+
+# a=np.identity(3, dtype=int)
+# print(a)
+# a=np.identity(4)
+# print(a)
+
+a=np.identity(3, dtype=int)
+print("3 rows and columns:\n",a)
+a=np.identity(4)
+print("4 rows and colums:\n",a)
