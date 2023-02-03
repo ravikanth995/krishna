@@ -424,7 +424,192 @@ import numpy as np
 # a=np.identity(4)
 # print(a)
 
-a=np.identity(3, dtype=int)
-print("3 rows and columns:\n",a)
-a=np.identity(4)
-print("4 rows and colums:\n",a)
+# a=np.identity(3, dtype=int)
+# print("3 rows and columns:\n",a)
+# a=np.identity(4)
+# print("4 rows and colums:\n",a)
+# import numpy as np
+# a=np.identity(3, dtype=int)
+# print("3 Rows and columns:\n",a)
+# a=np.identity(4)
+# print("4 rows and columns:\n",a)
+
+#4. zeros: it returns a nwe array of specified size which is filled with zeros
+#syntax: np.zeros(shape, dtype, order)
+#shape: shape of the array , e.g., (2,3)or 2
+#dtype: desired data type for the array, e.g., np.int8 default is np.float64
+#1. default data type is float
+import numpy as np
+# floatType=np.zeros(6)
+# print("The float data type is:",floatType)
+# a=np.zeros(4)
+# print("4 zeros:\n",a)
+
+#int data type
+# intType=np.zeros((5,), dtype=np.int)
+# print("Int data type is:\n",intType) 
+# a=np.zeros((4,),dtype=int)
+# print("The int data type is:\n",a)
+
+# a=np.zeros((8,), dtype=int)
+# print(a)
+# a=np.zeros((9,),dtype=int)
+# print(a)
+# a=np.zeros((5,), dtype=complex)
+# print(a)
+# a=np.zeros((6,),dtype=int)
+# print(a)
+
+#custom data type
+# custType=np.zeros((2,2), dtype=[('x','i4'), ('y','i4')])
+# print("Custom data type is:\n",custType)
+
+#ones: returns a new array of specified size and type which filled with ones
+#np.ones(shape, dtype, order)
+#arrayy of six ones Default dtype is float
+# a=np.ones(5)
+# print("default dtype is:\n",a)
+
+# a=np.ones([2,3], dtype=int)
+# print("int data type is:\n",a)
+
+#5. full: it returns a new array of given shape and type which filled with fill_value
+#np.full(shape,fill_value, dtype=None, order='C')
+# a=np.full((2,3), 11)
+# print(a)
+# a=np.full((3,3), 11)
+# print(a)
+
+#Array from existing Data
+#NumPy Provides us the way to create an array by using the existing data. 
+#1. asarray(a[,dtype, order]) : Converts the input to an array
+#2. asmatrix(data,[,dtype]) : Interpret the input as a matrix
+#3. frombuffer(buffer[,dtype, count, offset]) : Interprets a buffer as a 1-D array
+#4. fromfile(file,[dtype, count, sep, offset]) : construct an array from data in a text or binary file
+#5. fromiter(iterable, dtype, count=-1): create a new 1-D array from an iterable object
+#6. copy(a,[order]): return an array copy of the given object
+
+#1. asarray : This schedule is utilized to generate an array by using the existing data within the form of lists or tuples.
+     #This schedule is valuable within the situation where we ought to change over a python sequence into the numpy array object
+#syntax --> asarray(a,[,dtype, order])
+#creating numpy array using the list.
+# l=[1,2,3,4,5]
+# a=np.asarray(l)
+# print(type(a))
+# print(a)
+# l=[1,2,3,4,5]
+# a=np.asarray(l)
+# print(a)
+# print(type(a))
+
+# l=[1,2,3,4,5,6]
+# a=np.asarray(l)
+# print(type(a))
+# print(a)
+
+#creating a numpy array using tuple
+# t=(1,2,3,4,5,6,7,8)
+# a=np.asarray(t)
+# print(type(a))
+# print(a)
+# l=(1,2,3,4,5,6,7,8,9)
+# a=np.asarray(l)
+# print(type(a))
+# print(a)
+# l=(1,2,3,4,5,6,7,8,9)
+# a=np.asarray(l)
+# print("Data type of the list is:\n",type(a))
+# print(a)
+
+#creating a numpy array using more than one list
+# l=[[1,2,3,4,5,6,7],[8,9,10]]
+# a=np.asarray(l)
+# print("Type of Data:\n",a)
+# print(a)
+# l=[[1,2,3,4,5,6],[7,8,9]]
+# a=np.asarray(l)
+# print("data type:\n",type(a))
+# print("list into array:",a)
+# l=[[1,2,3],[4,5,6,7,8,9]]
+# a=np.asarray(l)
+# print('Data type:\n',type(a))
+# print(a)
+
+#2. asmatrix: It interpretes the input as a matrix. Unlike, matrix, asmatrix doesn't make a copy if the input is already a matrix or an ndarray
+#it is equivalent to a matrix(data=False)
+#syntax: asmatrix(data=dtype=None)
+# a=np.array([[10,20],[30,40]])
+# print("s:\n",a)
+# b=np.asmatrix(a)
+# print("b:\n",b)
+# a[0,0]=5
+# print("After Changing b:\n",b)
+# print("After Change a:\n",a)
+
+# a=np.array([[10,20],[40,50]])
+# print("a:\n",a)
+# b=np.asmatrix(a)
+# print("b :\n",b)
+# a[0,0]=4
+# print("After changing --b :\n",b)
+
+# a=np.array([[1,2,3],[5,4,1]])
+# print("a before change:\n",a)
+# b=np.asmatrix(a)
+# print("b copied:\n",b)
+# a[0,1]=9
+# print("b after mutate:\n",b)
+
+#3. frombuffer : It interpretes buffer as a 1-D array
+#syntax: np.frombuffer(buffer, dtype=float, count=-1, offset=0)
+#Note: If the buffer has data that is not in machine byte-order, this should be specified as part of the data-type
+#Initialize byte
+# l=b'Cravikanth!'
+# print(type(l))
+# a=np.frombuffer(l, dtype="S1")
+# print(type(a))
+# print(a)
+# l=b'CSonuNigam'
+# print(type(l))
+# a=np.frombuffer(l, dtype="S1")
+# print(type(a))
+# print(a)
+
+l=b"Hello World"
+# print(type(l))
+# print(l)
+# a=np.frombuffer(l, dtype="S1")
+# print(a)
+# arr=np.frombuffer(l, dtype="S1", count=5)
+# print(arr)
+# arr=np.frombuffer(l, dtype="S1",count=3)
+# print(arr)
+# arr=np.frombuffer(l, dtype="S1", count=7)
+# print(arr)
+
+# arr=np.frombuffer(l, dtype="S1", count=6, offset=2)
+# print(arr)
+# arr=np.frombuffer(l, dtype="S1", count=4, offset=5)
+# print(arr)
+
+#4. fromfile: It constructs an array from data in a text or binary file
+#syntax: np.fromfile(file, dtype=float, count=-1, sep=" ", offset=0)
+import tempfile
+#Construct an ndarray
+# dt=np.dtype([('time',[('min', np.int64),('sec',np.int64)]), ('temp', float)])
+# x=np.zeros((1,), dtype=dt)
+# x['time']['min']=11; x['temp']=96.74
+# print(x)
+# dt=np.dtype([('time',[('min', np.int64), ('sec',np.int64)]), ('temp',float)])
+# x=np.zeros((1,), dtype=dt)
+# x['time']['min']=11; x['temp']=96.05
+# print(x)
+dt=np.dtype([('time',[('min', np.int64),('sec',np.int64)]), ('temp',float)])
+x=np.zeros((1,), dtype=dt)
+x['time']['min']=11; x['temp']=99.99
+print(x)
+
+#Saving the raw data to disk
+fname=tempfile.mkstemp()[1]
+print(fname)
+x.tofile(fname)
