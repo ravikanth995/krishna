@@ -604,12 +604,151 @@ import tempfile
 # x=np.zeros((1,), dtype=dt)
 # x['time']['min']=11; x['temp']=96.05
 # print(x)
-dt=np.dtype([('time',[('min', np.int64),('sec',np.int64)]), ('temp',float)])
-x=np.zeros((1,), dtype=dt)
-x['time']['min']=11; x['temp']=99.99
-print(x)
+# dt=np.dtype([('time',[('min', np.int64),('sec',np.int64)]), ('temp',float)])
+# x=np.zeros((1,), dtype=dt)
+# x['time']['min']=11; x['temp']=99.99
+# print(x)
 
-#Saving the raw data to disk
-fname=tempfile.mkstemp()[1]
-print(fname)
-x.tofile(fname)
+# #Saving the raw data to disk
+# fname=tempfile.mkstemp()[1]
+# print(fname)
+# x.tofile(fname)
+
+# import numpy as np
+# import tempfile
+# # dt=np.dtype([('time',[('min',np.int64),('sec',np.int64)]), ('temp',float)])
+# # x=np.zeros((1,), dtype=dt)
+# # x['time']['min']=11; x['temp']=19.98
+# # print(x)
+
+# import numpy as np
+# import tempfile
+# dt=np.dtype([('time',[('min',np.int64),('sec',np.int64)]), ('temp',float)])
+# x=np.zeros((1,), dtype=dt)
+# x['time']['min']=12; x['temp']=99.12
+# print(x)
+# #Saving raw data to disk
+# # fname=tempfile.mkstemp()[1]
+# # print(fname)
+# # x.tofile(fname)
+# # filename=tempfile.mkstemp()[-1]
+# # print(x)
+# # x.tofile(filename)
+# filename=tempfile.mkstemp()[-1]
+# print(x)
+# x.tofile(filename)
+# #reading raw data from disk
+# np.fromfile(filename, dtype=dt)
+# #the recommanded way to store and load data
+# np.save(filename, x)
+# print(np.load(filename+'.npy'))
+
+# import numpy as np
+# import tempfile
+# dt=np.dtype([('time',[('min',np.int64), ('sec',np.int64)]),('temp',np.int64)])
+# x=np.zeros((1,),dtype=dt)
+# x['time']['min']=11; x['temp']=89.23
+# print(x)
+# #saving the raw data to disk
+# fname=tempfile.mkstemp()[1]
+# print(fname)
+# x.tofile(fname)
+# #read the data from disk
+# np.fromfile(fname,dtype=dt)
+# #store and load data
+# np.save(fname, x)
+# print(np.load(fname+'.npy'))
+
+# import numpy as np
+# import tempfile
+# dt=np.dtype([('time',[('min',np.int64),('sec',np.int64)]),('temp',np.int64)])
+# x=np.zeros((1,),dtype=dt)
+# x['time']['min']=99.1; x['temp']=99
+# print(x)
+# #save the raw data to disk
+# fname=tempfile.mkstemp()[1]
+# print(fname)
+# x.tofile(fname)
+# #read the raw data from disk
+# np.fromfile(fname, dtype=dt)
+# #load the data from disk
+# np.save(fname,x)
+# print(np.load(fname+'.npy'))
+
+# import numpy as np
+# import tempfile
+# dt=np.dtype([('time',[('min',np.int64), ('sec',np.int64)]),('temp',float)])
+# x=np.zeros((1,),dtype=dt)
+# x['time']['min']=9; x['temp']=11.09
+# print(x)
+# #save raw data to the disk
+# fname=tempfile.mkstemp()[1]
+# print(fname)
+# x.tofile(fname)
+# #read the data
+# np.fromfile(fname, dtype=dt)
+# #load the data from disk
+# np.save(fname,x)
+# print(np.load(fname+'.npy'))
+
+# import numpy as np
+# import tempfile
+# dt=np.dtype([('time',[('min',np.int64), ('sec',np.int64)]),('temp',float)])
+# x=np.zeros((1),dtype=dt)
+# x['time']['min']=11.22; x['temp']=11.72
+# print(x)
+# #save the data to the disk
+# fname=tempfile.mkstemp()[1]
+# print(fname)
+# x.tofile(fname)
+# #read the raw data from disk
+# np.fromfile(fname,dtype=dt)
+# #load the raw data from the disk
+# np.save(fname,x)
+# print(np.load(fname+'.npy'))
+
+#from iter() function : used to create a new 1-D array from an iterable object
+#syntx: np.fromiter(iterable, dtype, count=1)
+#obtain an iterator pbject from list
+import numpy as np
+# list=range(4)
+# iterator=iter(list)
+# #use iterator to create ndarray
+# x=np.fromiter(iterator, dtype=float)
+# print(x)
+
+# list=range(7)
+# iterator=iter(list)
+# x=np.fromiter(iterator, dtype=float)
+# # print(x)
+# list=range(5)
+# iterator=iter(list)
+# x=np.fromiter(iterator, dtype=int)
+# print(x)
+
+# import numpy as np
+# list=range(6)
+# iterator=iter(list)
+# x=np.fromiter(iterator, dtype=float)
+# print(x)
+# list=range(6)
+# iterator=iter(list)
+# x=np.fromiter(iterator, dtype=float)
+# print(x)
+# list=range(7)
+# iterator=iter(list)
+# x=np.fromiter(iterator, dtype=float)
+# print(x)
+# list=range(6)
+# iterator=iter(list)
+# x=np.fromiter(iterator, dtype=float)
+# print(x)
+# list=range(5)
+# iterator=iter(list)
+# x=np.fromiter(iterator, dtype=float)
+# print(x)
+
+list=range(7)
+iterator=iter(list)
+x=np.fromiter(iterator, dtype=float)
+print(x)
