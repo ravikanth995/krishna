@@ -748,7 +748,56 @@ import numpy as np
 # x=np.fromiter(iterator, dtype=float)
 # print(x)
 
-list=range(7)
-iterator=iter(list)
-x=np.fromiter(iterator, dtype=float)
-print(x)
+# list=range(7)
+# iterator=iter(list)
+# x=np.fromiter(iterator, dtype=float)
+# print(x)
+# list=range(9)
+# iterator=iter(list)
+# x=np.fromiter(iterator, dtype=float)
+# print(x)
+# import numpy as np
+# it=(x*x for x in range(5))
+# #creating numpy from an iterable
+# arr=np.fromiter(it, dtype=float)
+# print(arr)
+
+# td=(x*x for x in range(5))
+# arr=np.fromiter(td, dtype=int)
+# print(arr)
+# dt=(x*x for x in range(5))
+# n=np.fromiter(dt, dtype=float)
+# print(n)
+
+# td=(x*x for x in range(6))
+# y=np.fromiter(td, dtype=float)
+# print(y)
+
+#copy: returns the copy of given object
+#create an array x, with referrence y and a copy z:
+# x=np.array([1,2,3])
+# y=x
+# z=np.copy(x)
+# #note that, when we modifyx , y changes not z
+# x[0]=9
+# print("x[0]==y[0] is :",x[0]==y[0])
+# print("x[0]==z[0] is:",x[0]==z[0])
+# print(z)
+
+# x=np.array([1,2,3,4])
+# y=x
+# z=np.copy(x)
+# x[0]=9
+# print(x[0]==y[0])
+# print(x[0]==z[0])
+# print(y)
+# print(z)
+
+x=np.array([2,1,3,4,5])
+y=x
+z=np.copy(x)
+x[0]=7
+print(x[0]==y[0])
+print(x[0]==z[0])
+print(y)
+print(z)
