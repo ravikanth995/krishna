@@ -793,11 +793,106 @@ import numpy as np
 # print(y)
 # print(z)
 
-x=np.array([2,1,3,4,5])
-y=x
-z=np.copy(x)
-x[0]=7
-print(x[0]==y[0])
-print(x[0]==z[0])
-print(y)
-print(z)
+# x=np.array([2,1,3,4,5])
+# y=x
+# z=np.copy(x)
+# x[0]=7
+# print(x[0]==y[0])
+# print(x[0]==z[0])
+# print(y)
+# print(z)
+# x=np.dtype([('time',[('min',np.int64),('sec',np.int64)]),('temp',np.int64)])
+# y=np.zeros((1,),dtype=x)
+# y['time']['min']=11; y['temp']=99.99
+# print(y)
+# #Save raw data to disk
+# fname=tempfile.mkstemp()[1]
+# print(fname)
+# y.tofile(fname)
+# #Read the raw data from disk
+# np.fromfile(fname,dtype=x)
+# #recommended way to store and load data
+# np.save(fname,y)
+# print(np.load(fname+'.npy'))
+
+#From iter() function
+#used to create a new 1-d array from an iterable object
+# list=range(6)
+# iterator=iter(list)
+# x=np.fromiter(iterator,dtype=float)
+# # print(x)
+
+# list=range(7)
+# iterator=iter(list)
+# x=np.fromiter(iterator, dtype=float)
+# print(x)
+
+# list=range(8)
+# iterator=iter(list)
+# x=np.fromiter(iterator, dtype=int)
+# print(x)
+# list=range(8)
+# iterator=iter(list)
+# x=np.fromiter(iterator, dtype=float)
+# print(x)
+
+#2.
+# y=(x*x for x in range(5))
+# arr=np.fromiter(y, dtype=float)
+# print(arr)
+# y=(x*x for x in range(8))
+# x=np.fromiter(y, dtype=float)
+# print(x)
+
+# y=(x*x*x for x in range(6))
+# x=np.fromiter(y, dtype=int)
+# print(x)
+
+#copy
+# x=np.array([1,2,3,4])
+# y=x
+# z=np.copy(x)
+# x[0]=6
+# print(x[0]==y[0])
+# print(z[0]==y[0])
+# x=np.array([1,2,3,4,5])
+# y=x
+# z=np.copy(x)
+# x[0]=9
+# print(x[0]==y[0])
+# print(x[0]==z[0])
+# print(x[2]==y[2])
+# print(x[1]==z[1])
+
+#Array from numerical ranges
+#1. Arange()
+# a=np.arange(1,20,2,dtype=float)
+# print(a)
+# a=np.arange(1,22,2,dtype=float)
+# print(a)
+# a=np.arange(0,20,2,dtype=float)
+# print(a)
+
+#2. linspace()
+# a=np.linspace(0,20,num=5, endpoint=True)
+# print(a)
+# a=np.linspace(0,29,num=5,endpoint=True)
+# print(a)
+# a=np.linspace(1,30,num=3, endpoint=True, dtype=int)
+# print(a)
+# a=np.linspace(1,20,num=7, endpoint=True, dtype=float)
+# print(a)
+# a=np.linspace(1,20,num=5, endpoint=True, dtype=float)
+# print(a)
+
+# b=np.linspace(1,22,num=10,endpoint=True, dtype=float)
+# print(b)
+# a=np.linspace(1,22,num=10, endpoint=True, dtype=int)
+# print(a)
+
+#logspace
+# a=np.logspace(1,22,num=8, endpoint=True, dtype=float)
+# print(a)
+
+a=np.logspace(1,22,num=7, endpoint=True, dtype=float)
+print(a)
