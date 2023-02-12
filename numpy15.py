@@ -894,5 +894,70 @@ import numpy as np
 # a=np.logspace(1,22,num=8, endpoint=True, dtype=float)
 # print(a)
 
-a=np.logspace(1,22,num=7, endpoint=True, dtype=float)
-print(a)
+# a=np.logspace(1,22,num=7, endpoint=True, dtype=float)
+# print(a)
+
+#Slicing
+# a=np.array([1,2,3,4,5,6])
+# print("Index 3 to last index valiue :",a[3:])
+# print("Index 0 t0 3:",a[:3])
+# print("Index 3(included) upto the index (excluded):",a[3:6])
+# print("Value without last element:",a[:-1])
+# print("Value without second last and last element:",a[:-2])
+# print("All elements is in reverse order:",a[::-1])
+# print("All even number reverse order:",a[::-2])
+# print("All odd numbers in reverse order:",a[-2::-2])
+
+# a=np.array([1,2,3,4,5,6,7,8])
+# print("Index 3 to last value:",a[3:])
+# print("Index 0 to 3:",a[:3])
+# a=np.array([1,2,3,4,5,6,7])
+# print("Index 3 and last index value:",a[3:])
+# print("Index 0 to 3 index value:",a[:3])
+# print("Index 3 upto index 6:",a[3:6])
+# print("value without last element:",a[:-1:])
+# print("value without second last and last element:",a[:-2])
+# print("All elements in reverse order:",a[::-1])
+# print("All even numbers in reverse order:",a[:1:-2])
+# print(a[::])
+
+# a=np.array([[1,2,3,4],[5,6,7,8],[10,12,13,14]])
+# b=a[:2,1:3]
+# r1=a[0,:]
+# r2=a[0:3,:]
+# print("Row 1, shape of row:\n",r1, r1.shape)
+# print("Row 2, shape of row :\n",r2, r2.shape)
+# a=np.array([[1,2,3,4],[4,5,6,7],[8,9,10,11]])
+# b=a[:1,1:2]
+# r1=a[0,:]
+# r2=a[0:3,:]
+# print("Row 1, shape of the row:\n",r1,r1.shape)
+# print("Row 2, shape of the row 2:\n",r2,r2.shape)
+# a=np.array([[1,2,3,4],[5,6,7,8],[9,10,11,12]])
+# b=a[:2,1:2]
+# x=a[0,:]
+# y=a[0:3,:]
+# print("Row 1, shape of the row:\n",x,x.shape)
+# print("Row 2, shape of the row 2:\n",y,y.shape)
+# c1=a[:,1]
+# c2=a[:,1:2]
+# print("Column 1, shape of the column:\n",c1,c1.shape)
+# print("Column 2, shape of the column 2:\n",c2,c2.shape)
+
+a=np.array([[1,2,3],[4,5,6],[7,8,9]])
+# x=a[2,:]
+# y=a[0:3,:]
+# print("Row 1, shape of the row 1:\n",x,x.shape)
+# print("Row 2, shape of the row 2:\n",y,y.shape)
+# c1=a[:,1:2]
+# c2=a[:,0:3]
+# print("Column 1, shape of the column:\n",c1,c1.shape)
+# print("Column 2, shape of the column:\n",c2,c2.shape)
+# x=a[1,:]
+# y=a[0:3,:]
+# print("Row 1, shape of the row 1:\n",x,x.shape)
+# print("Row 2, shape of the row 2:\n",y,y.shape)
+c1=a[:,1]
+c2=a[:,1:2]
+print(c1,c1.shape)
+print(c2,c2.shape)
