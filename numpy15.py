@@ -957,7 +957,190 @@ a=np.array([[1,2,3],[4,5,6],[7,8,9]])
 # y=a[0:3,:]
 # print("Row 1, shape of the row 1:\n",x,x.shape)
 # print("Row 2, shape of the row 2:\n",y,y.shape)
-c1=a[:,1]
-c2=a[:,1:2]
-print(c1,c1.shape)
-print(c2,c2.shape)
+# c1=a[:,1]
+# c2=a[:,1:2]
+# print(c1,c1.shape)
+# print(c2,c2.shape)
+
+#indexing: it referes to the plave where the items of array are stored
+#two types of index 
+#1. integer
+#2. Bolean 
+#1. Integer: You can index into numpy using numpy slicing, the resulting array view will always be a sub-array of the original array.
+#in contrast, the integer array index allows you to construct arbitrary arrays using the data from another array
+# a=np.array([[1,2,3],[4,5,6],[7,8,9],[10,11,12]])
+# print(a[0,0],a[1,1],a[2,0])
+# a=np.array([[1,2,3],[4,5,6],[7,8,9],[10,11,12]])
+# print(a[0,0],a[1,1],a[2,2],a[3,0])
+# print(np.array([a[0,0],a[1,1],a[2,0]]))
+# print(a[[0,0],[1,1]])
+# print(np.array([a[0,1],a[0,1]]))
+
+# a=np.array([[1,2,3],[4,5,6],[7,8,9]])
+# print(a[0,0],a[1,1],a[2,2])
+# print(np.array([a[0,0],a[1,1],a[2,2]]))
+# print(a[[0,0],[1,1]])
+# print(np.array([a[0,1],a[0,1]]))
+
+# a=np.array([[1,2,3],[4,5,6],[7,8,9],[10,11,12]])
+# print("Array is a:\n",a)
+# b=np.array([1,2,0])
+# print(np.arange(3),b)
+# print(np.arange(3),b)
+# print(np.arange(3),b)
+# print("-"*30)
+# a[np.arange(3),b]+=10
+# print(a)
+
+#2. Boolean Array Indexing: It lets you pick out an arbitrary elements of an array
+# a=np.array([[1,20],[0,40],[2,60]])
+# bid=(a>2)
+# print(bid)
+# print(a[bid])
+# print(a[a>2])
+
+#Python program to demonstrate indexing in NumPy
+# a=np.array([[1,2,3,4],[4,5,6,7],[6,7,8,9],[5,5,5,5]])
+# print("Your Array is:\n",a)
+# #Slicing array
+# temp=a[:4,::2]
+# print(temp)
+
+# a=np.array([[1,2,3,4],[4,5,6,7],[6,7,8,9],[5,5,5,5]])
+# # temp=a[:4,::2]
+# # print("Temp file:\n",temp)
+# #Integer Array Indexing Example
+# temp=a[[0,1,2,3],[3,2,1,0]]
+# print("Elements at indices (0,3),(1,2),(2,1),(3,0):\n",temp)
+# b=a>0
+# temp=a[b]
+# print("\nElements greater than 0 is:",temp)
+
+#Joining of arrays : Concatenation
+# arr1=np.array([1,2,3])
+# arr2=np.array([4,5,6])
+# arr=np.concatenate((arr1,arr2))
+# print("Concatenation:\n",arr)
+# arr1=np.array([1,2,3])
+# arr2=np.array([4,5,6])
+# arr=np.concatenate((arr1,arr2))
+# print("Array after Concatenation:\n",arr)
+#2-d array Concatenation
+
+# arr1=np.array([[1,2],[3,4]])
+# arr2=np.array([[5,6],[7,8]])
+# arr=np.concatenate((arr1,arr2),axis=1)
+# print(arr)
+# arr1=np.array([[1,2],[3,4]])
+# arr2=np.array([[5,6],[7,8]])
+# arr=np.concatenate((arr1,arr2),axis=1)
+# print("Array 1 and 2:\n",arr)
+
+#Joining arrays using stack functions
+#inplace of concatenation, we use stack() method, the difference is that stacking done along a new axis
+# arr1=np.array([1,2,3])
+# arr2=np.array([4,5,6])
+# # arr=np.stack([arr1,arr2], axis=1)
+# # print(arr)
+# arr=np.hstack((arr1,arr2))
+# print(arr)
+# arr3=np.vstack((arr1,arr2))
+# print(arr)
+
+#Splitting the array
+#it breaks the one array into multiple
+# arr=np.array([1,2,3,4,5,6,7])
+# newArr=np.array_split(arr,4)
+# print(newArr)
+# arr=np.array([1,2,3,4,5,6,7,8])
+# newArr=np.array_split(arr,3)
+# print(newArr)
+# arr=np.array([1,2,3,4,5,6])
+# newArr=np.array_split(arr,2)
+# print(newArr)
+# arr=np.array([1,2,3,4,5,6,7,8,9])
+# newArr=np.array_split(arr,3)
+# print(newArr)
+# arr=np.array([1,2,3,4,5,6,7])
+# arrNew=np.array_split(arr,4)
+# print(arrNew)
+
+#Arithmetic operations on Array
+# a=np.array([[1,2],[3,4]],dtype=int)
+# b=np.array([[6,7],[3,2]],dtype=int)
+# print("Addition of a and b are:",a+b)
+# print("Addition of a and b using add(x,y):\n",np.add(a,b))
+# print("-"*50)
+# print("Subtraction of a and b are:",a-b)
+# print("Subtraction using np.subtract:\n",np.subtract(a,b))
+# print("-"*50)
+# print("Multiplication of a and b are:",a*b)
+# print("Multiplication of a and b using np.multiply(a,b)\n",np.multiply(a,b))
+# print("-"*50)
+# print("Division of a and b :",a/b)
+# print("Division of a and b are using np.divide(a,b):\n",np.divide(a,b))
+# print("-"*50)
+# print("Square root of numbers :\n",np.sqrt(a))
+# x=np.array([[10,20],[30,40]],dtype=int)
+# y=np.array([[50,60],[100,120]],dtype=int)
+# print("Addition of x and y:",x+y)
+# print("Addition using np.add(x,y):\n",np.add(x,y))
+# print("-"*50)
+# print("Subtraction of x and y are:",x-y)
+# print("Subtraction using np.subtract(x,y):;\n",np.subtract(x,y))
+# print("-"*50)
+# print("Multiplication of x and y are:",x*y)
+# print("Subtract using np.multiply(x,y)\n",np.multiply(x,y))
+# print("-"*50)
+# print("Division of x and y are:",x/y)
+# print("Division of x and y using np.divide(x,y):\n",np.divide(x,y))
+# print("-"*50)
+# print("Square root of x is:\n",np.sqrt(x))
+# print("-"*50)
+# print("Square root of y is:\n",np.sqrt(y))
+
+# x=np.array([[9,16],[25,36]],dtype=int)
+# y=np.array([[49,64],[81,100]],dtype=int)
+# print("Addition of x and y:",x+y)
+# print("Addition using np.add(x,y):",np.add(x,y))
+# print("-"*50)
+# print("Subtraction of x and y:",x-y)
+# print("Subtraction using np.subtract(x,y):",np.subtract(x,y))
+# print("-"*50)
+# print("Multiplication of x and y:",x*y)
+# print("Multiplication using np.multi(x,y):",np.multiply(x,y))
+# print("-"*50)
+# print("Divison of x and y:",x/y)
+# print("Division using np.divide(x,y):",np.divide(x,y))
+# print("-"*50)
+# print("Square root of x:",np.sqrt(x))
+# print("-"*50)
+# print("Square root of y:",np.sqrt(y))
+
+# x=np.array([[1,2],[3,4]])
+# print("Sum of all elements:",np.sum(x))
+# print("Sum of Columns is:",np.sum(x,axis=0))
+# print("Sum of row elements:",np.sum(x,axis=1))
+# x=np.array([[1,2],[4,5]])
+# print("Sum of all elements:",np.sum(x))
+# print("Sum of Columns is:",np.sum(x,axis=0))
+# print("Sum of Rows are :",np.sum(x,axis=1))
+# x=np.array([[1,2],[3,1]])
+# print("Sum of all elements :",np.sum(x))
+# print("Sum of Columns is:",np.sum(x,axis=0))
+# print("Sum of Rows is:",np.sum(x, axis=1))
+
+#Transpose of arrays
+# x=np.array([[1,2,3],[4,5,6]])
+# print("Matrix :",x)
+# print("Transposed matrix:",x.T)
+# ax=np.array([[1,2,3,4],[5,6,7,8]])
+# print("Normal Matrix:",ax)
+# print("Transposed Matrix:",ax.T)
+# x=np.array([[1,2,3],[5,3,1]])
+# print("Normal Matrix:",x)
+# print("Transposed Matrix:",x.T)
+
+bx=np.array([1,2,3,4,5])
+print("Matrix:",bx)
+print("Transposed Matrix:",bx.T)
