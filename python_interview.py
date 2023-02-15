@@ -196,9 +196,82 @@
 # print("Area of Circle:%.3f"%area)
 # print("Circumference of a Circle is:%.3f"%circumference)
 
-pi=3.142
-r=float(input("Enter Radius of a circle:"))
-area=pi*r*r
-circumference=2*pi*area
-print("Area of Circle:%.3f"%area)
-print("Circumference of a given Circle is :%.3f"%circumference)
+# pi=3.142
+# r=float(input("Enter Radius of a circle:"))
+# area=pi*r*r
+# circumference=2*pi*area
+# print("Area of Circle:%.3f"%area)
+# print("Circumference of a given Circle is :%.3f"%circumference)
+
+# Pi=3.142
+# r=int(input("Enter Radius of a circle:"))
+# area=Pi*r*r
+# circumference=2*Pi*area
+# print("Area of Circle:%.3f"%area)
+# print("Circumference of a Circle:%.3f"%circumference)
+
+# pi=3.142
+# r=int(input("Enter Radius of a Circle:"))
+# area=pi*r*r
+# circumference=2*pi*area
+# print("Area of Circle:%.3f"%area)
+# print("Circumference of a Circle:%.3f"%circumference)
+
+# name=input("Enter Name:")
+# age=int(input("Enter Age :"))
+# Address=input("Enter Address :")
+# print("Name is:{}\nAge is:{}\nAddress:{}".format(name,age,Address))
+
+# num1=int(input("Enter Number 1:"))
+# num2=int(input("Enter Number 2:"))
+# sum=float(num1)+float(num2)
+# print("Sum of {0} and {1} is :{2}".format(num1,num2,sum))
+
+#Swapping two Variables
+# x=input("Enter Value of x:")
+# y=input("Enter Value of y:")
+# temp=x
+# x=y
+# y=temp
+# print("The Value of x after swapping :{}".format(x))
+# print("The Value of Y after Swapping :{}".format(y))
+
+# x=23
+# y=44
+# temp=x
+# x=y
+# y=temp
+# print("Value of x after Swapping{}:".format(x))
+# print("Value of Y after Swapping {}:".format(y))
+
+# x=22
+# y=71
+# temp=x
+# x=y
+# y=temp
+# print("Value of X after Swapping:{}".format(x))
+# print("value of Y after Swapping:{}".format(y))
+
+# x=int(input("Enter X Value:"))
+# y=int(input("Enter Y Value:"))
+# temp=x
+# x=y
+# y=temp
+# print("Value of X After swapping:{}".format(x))
+# print("Value of Y after swapping{}:".format(y))
+
+# x=int(input("Enter X Value:"))
+# y=int(input("Enter Y Value:"))
+# temp=x
+# x=y
+# y=temp
+# print("Value of X After Swapping:{}".format(x))
+# print("Value of Y After Swapping:{}".format(y))
+
+x=int(input("Enter Value of X:"))
+y=int(input("Enter Value of Y:"))
+temp=x
+x=y
+y=temp
+print("Value of X After Swapping:{}".format(x))
+print("Value of Y after Swapping :{}".format(y))
