@@ -1141,6 +1141,354 @@ a=np.array([[1,2,3],[4,5,6],[7,8,9]])
 # print("Normal Matrix:",x)
 # print("Transposed Matrix:",x.T)
 
-bx=np.array([1,2,3,4,5])
-print("Matrix:",bx)
-print("Transposed Matrix:",bx.T)
+# bx=np.array([1,2,3,4,5])
+# print("Matrix:",bx)
+# print("Transposed Matrix:",bx.T)
+
+#NumPy Random
+import numpy as np
+import random
+# l=[1,2,3,4,5,6]
+# print(random.random())
+# print(random.choice(l))
+# l1=[1,2,3,4,5,6]
+# print(random.choice(l1))
+# print(random.random())
+
+#Sorting and Searching
+# a=np.array([[12,15],[10,1]])
+# arr1=np.sort(a,axis=0)
+# print("Along the First Axis:",arr1)
+# a=np.array([[10,12],[2,5]])
+# arr1=np.sort(a,axis=0)
+# print("Sorted along first axis:",arr1)
+
+#Sort along last axis
+# a=np.array([[10,15],[12,1]])
+# arr1=np.sort(a,axis=-1)
+# print(arr1)
+
+# a=np.array([[12,15],[10,1]])
+# arr3=np.sort(a,axis=None)
+# print(arr3)
+# a=np.array([[10,12],[3,1]])
+# arr1=np.sort(a,axis=None)
+# print(arr1)
+# a=np.array([[12,11],[9,2]])
+# arr1=np.sort(a,axis=None)
+# print(arr1)
+# a=np.array([[[12,7],[8,3],[9,1],[8,3],[6,2]]])
+# arr1=np.sort(a,axis=None)
+# print(arr1)
+# a=np.array([[[12,11],[10,9],[6,8],[5,4],[7,3],[2,1]]])
+# arr1=np.sort(a, axis=None)
+# print(arr1)
+
+#numpy.argsort(): This returns the indices that would sort an array
+# a=np.array([9,3,1,6,4,8,2])
+# print("Unsorted Array:",a)
+# b=np.argsort(a)
+# print("Sorted Indices of original array:",b)
+# c=np.zeros(len(b), dtype=int)
+# for i in range(0, len(b)):
+#      c[i]=a[b[i]]
+# print("Sorted array:",c)     
+
+# a=np.array([8,9,1,4,2,3,6,5,7,])
+# print("Unsorted Array:",a)
+# b=np.argsort(a)
+# print("Sorted indices of array:",b)
+# c=np.zeros(len(b), dtype=int)
+# for i in range(0,len(b)):
+#      c[i]=a[b[i]]
+# print("Sorted Array:",c)     
+
+# a=np.array([10,9,8,7,6,5,4,3,2,1])
+# print("Unsorted Array:",a)
+# b=np.argsort(a)
+# print("Sorted Indices of Array:",b)
+# c=np.zeros(len(b), dtype=int)
+# for i in range(0,len(b)):
+#      c[i]=a[b[i]]
+# print("Sorted Array:",c)     
+
+#np.lexsort: this function returns an indirect sort using a sequence of keys
+# a=np.array([1,3,6,8,5,2,6,2,5])
+# b=np.array([3,2,1,4,6,3,2,6,7])
+# print("Column a, \bColumn b")
+# for (i,j) in zip(a,b):
+#      print(i," ",j)
+# ind=np.lexsort((b,a))
+# print("Sorted Indices:",ind)
+
+# a=np.array([1,2,3,4,5,6,7,8,9])
+# b=np.array([9,8,7,6,5,4,3,2,1])
+# print("Column a,\bColumn b")
+# for (i,j) in zip(a,b):
+#      print(i, " ",j)
+# ind=np.lexsort((b,a))
+# print("Sorted Indices:",ind)     
+
+# a=np.array([1,2,3,4,5,6,7,8,9])
+# b=np.array([9,8,7,6,5,4,3,2,1])
+# print("Column a,\bColumn b")
+# for (i,j) in zip(a,b):
+#      print(i,"",j)
+# ind=np.lexsort((b,a))
+# print("Sorted Arrays:",ind)     
+
+# a=np.array([1,2,3,4,5,6,7,8])
+# b=np.array([8,6,4,3,1,5,7,8])
+# print("Column a,Column b")
+# for (i,j) in zip(a,b):
+#      print(i,"",j)
+# ind=np.lexsort((b,a))
+# print("Sorted Lexsort:",ind)    
+
+# a=np.array([1,2,3,4,5,6,7,8,9]) 
+# b=np.array([9,8,7,6,5,4,3,2,1])
+# print("Column a, Column b")
+# for (i,j) in zip(a,b):
+#      print(i,"",j)
+# ind=np.lexsort((b,a))
+# print(ind)     
+
+#NumPy vector : V
+#Scalar : Single Numbber
+# print(scalar)
+# print(Scalar.shape)
+# print(Scalar.ndim)
+
+#Matrix 1-D array 
+# matrix=np.array([
+#      [1,2],
+#      [3,4]
+# ])
+# print(matrix)
+# print(matrix.shape)
+# print(matrix.ndim)
+
+# matrix=np.array([
+#      [1,2],
+#      [4,5]
+# ])
+# print(matrix)
+# print(matrix.shape)
+# print(matrix.ndim)
+
+# matrix=np.array([
+#      [2,3],
+#      [6,4]
+# ])
+# print(matrix)
+# print(matrix.shape)
+# print(matrix.ndim)
+# print(matrix.size)
+
+# matrix=np.array([
+#      [3,2],
+#      [5,7]
+# ])
+# print(matrix.shape)
+# print(matrix)
+# print(matrix.ndim)
+# print(type(matrix))
+
+# matrix=np.array([
+#      [3,1],
+#      [8,4]
+# ])
+# print(matrix)
+# print(matrix.shape)
+# print(matrix.ndim)
+
+# matrix=np.array([
+#      [1,3],
+#      [6,4]
+# ])
+# print(matrix)
+# print(matrix.shape)
+# print(matrix.ndim)
+
+# matrix=np.array([
+#      [1,2],
+#      [8,9]
+# ])
+# print(matrix)
+# print(matrix.shape)
+# print(matrix.ndim)
+
+#Matrix 4*3
+# matrix=np.array([
+#      [1,2,3],
+#      [4,5,6],
+#      [7,8,9]
+# ])
+# print(matrix)
+# print(matrix.shape)
+# print(matrix.ndim)
+# matrix=np.array([
+#      [3,2,1],
+#      [6,5,4],
+#      [9,8,7]
+# ])
+# print(matrix)
+# print(matrix.ndim)
+# print(matrix.ndim)
+# print(matrix.T)
+
+# matrix=np.array([
+#      [1,2,3],
+#      [4,3,1],
+#      [5,6,3]
+# ])
+# print(matrix)
+# print(matrix.ndim)
+# print(matrix.shape)
+# print(matrix.T)
+
+#Tensor: Array more than 2-D array
+# tensor=np.array([
+#      [
+#           [1,2,3],
+#           [4,5,6]
+#      ],
+#      [
+#           [5,4,3],
+#           [8,5,9]
+#      ]
+# ])
+# print(tensor)
+# print(tensor.shape)
+# print(tensor.ndim)
+# print(tensor.T)
+
+# tensor=np.array([
+#      [
+#           [1,2,3],
+#           [5,4,3],
+#           [9,8,6]
+#      ],
+#      [
+#           [4,6,2],
+#           [9,5,1],
+#           [8,8,8]
+#      ]
+# ])
+# print(tensor)
+# print(tensor.shape)
+# print(tensor.ndim)
+# print(tensor.T)
+
+# tensor=np.array([
+#      [
+#           [1,2,3],
+#           [4,5,6],
+#           [7,8,9]
+#      ],
+#      [
+#           [1,2,3],
+#           [4,5,6],
+#           [7,8,9]
+#      ]
+# ])
+# print(tensor)
+# print(tensor.ndim)
+# print(tensor.shape)
+
+# tensor1=np.array([
+#      [1,2,3],
+#      [4,5,6],
+#      [6,7,8]
+# ])
+# tensor2=np.array([
+#      [1,3,2],
+#      [5,6,7],
+#      [7,6,3]
+# ])
+# print(tensor1)
+# print(tensor2)
+# tensor3=tensor1-tensor2
+# print(tensor3)
+
+# tensor1=np.array([
+#      [1,2,3],
+#      [4,5,6],
+#      [6,5,3]
+# ])
+# tensor2=np.array([
+#      [5,6,7],
+#      [8,5,3],
+#      [9,6,4]
+# ])
+# print(tensor1)
+# print(tensor2)
+# tensor3=tensor1+tensor2
+# tensor4=tensor1-tensor2
+# tensor5=tensor1*tensor2
+# print(tensor3)
+# print(tensor4)
+# print(tensor5)
+
+# v1=np.array([1,2,3])
+# v2=np.array([3,2,1])
+# np.dot(v1,v2)
+# v3=v1+v2
+# v4=v1-v2
+# print(v3)
+# print(v4)
+
+# v1=np.array([4,6,1])
+# v2=np.array([7,8,9])
+# np.dot(v1,v2)
+# v3=v1+v2
+# v4=v1*v2
+# print(v3)
+# print(v4)
+
+# dot=np.dot(4,5)
+# print(dot)
+# dot=np.dot(9,7)
+# print(dot)
+# dot=np.dot(5,6)
+# print(dot)
+# dot=np.dot(2,1)
+# print(dot)
+# dot=np.dot(9,8)
+# print(dot)
+
+#Vector
+# vect1=np.array([4+7j])
+# vect2=np.array([5+7j])
+# np.dot(vect1,vect2)
+# vect3=vect1+vect2
+# vect4=vect1*vect2
+# print(vect3)
+# print(vect4)
+# vect1=np.array([[1,2],[5,6]])
+# vect2=np.array([[5,4],[9,8]])
+# vect3=np.dot(vect1,vect2)
+# print(vect3)
+
+# A=np.array([[1,2,3,4],[5,6,7,8]])
+# print(A)
+# print(A.shape)
+# print(A.T)
+# print(A.size)
+# print(A.ndim)
+
+#matrix
+# A=np.array([[[1,2,3,4],[5,6,7,8]],
+#           [[10,11,12,13],[14,15,16,17]]])
+# print(A)
+# print(A.shape)
+# print(A.ndim)
+# print(A.size)
+# print(A.T)          
+
+A=np.array([[[1,2,3,4],[5,6,7,8],
+          [10,11,12,13],[15,16,17,18]]])
+print(A)
+print(A.shape)
+print(A.size)
+print(A.ndim)          
