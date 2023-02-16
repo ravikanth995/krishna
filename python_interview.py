@@ -268,10 +268,217 @@
 # print("Value of X After Swapping:{}".format(x))
 # print("Value of Y After Swapping:{}".format(y))
 
-x=int(input("Enter Value of X:"))
-y=int(input("Enter Value of Y:"))
-temp=x
-x=y
-y=temp
-print("Value of X After Swapping:{}".format(x))
-print("Value of Y after Swapping :{}".format(y))
+# x=int(input("Enter Value of X:"))
+# y=int(input("Enter Value of Y:"))
+# temp=x
+# x=y
+# y=temp
+# print("Value of X After Swapping:{}".format(x))
+# print("Value of Y after Swapping :{}".format(y))
+
+# x=int(input("Enter X value:"))
+# y=int(input("Enter Y Value:"))
+# temp=x
+# x=y
+# y=temp
+# print("Value of X after Swapping:",x)
+# print("Value of Y after Swapping:",y)
+
+# x=int(input("Enter X value:"))
+# y=int(input("Enter Y Value:"))
+# temp=x
+# x=y
+# y=temp
+# print("Value of X after swapping:",x)
+# print("Value of Y after swapping:",y)
+
+# x=int(input("Enter X Value:"))
+# y=int(input("Enter Y Value:"))
+# temp=x
+# x=y
+# y=temp
+# print("Value of X after Swapping:",x)
+# print("Value of Y after Swapping:",y)
+
+# x=int(input("Enter x Value:"))
+# y=int(input("Enter Y Value:"))
+# temp=x
+# x=y
+# y=temp
+# print("Value of X after Swapping:",x)
+# print("Value of Y after Swapping:",y)
+
+# name=input("Enter name:")
+# age=int(input("Enter Age:"))
+# address=input("Enter Address:")
+# print("Name is:{}\nAGe is:{}\nAddress is:{}".format(name,age,address))
+
+# Pi=3.142
+# r=float(input("Enter Radius of Circle:"))
+# area=Pi*r*r
+# circumference=2*Pi*area
+# print("Area of circle%.3f"%area)
+# print("Circumference of Circle:%.3f"%circumference)
+
+# Pi=3.142
+# r=float(input("Enter radius of a circle:"))
+# area=Pi*r*r
+# circumference=2*Pi*area
+# print("Area of Cicle:%.3f"%area)
+# print("Circumference of Circle:%.2f"%circumference)
+
+# num1=int(input("Enter Number 1:"))
+# num2=int(input("Enter Number 2:"))
+# sum=int(num1)+int(num2)
+# print("The Sum of Given number {0} and {1} is :{2}".format(num1,num2,sum))
+
+# num1=int(input("Enter First Number:"))
+# num2=int(input("Enter Second Number:"))
+# sum=int(num1)+int(num2)
+# sub=int(num1)-int(num2)
+# print("Sum of {0} and {1} is: {2}".format(num1,num2,sum))
+# print("Subtraction of {0} and {1} is :{2}".format(num1,num2,sub))
+
+#Without Swapping Variables
+# x=100
+# y=19
+# print("Before Swapping of X:",x,"\nBefore Swapping Y Value is",y)
+# x,y=x,y
+# print("After Swapping of X :",x,"\nY after Swapping:",y)
+
+# x=int(input("Enter X value:"))
+# y=int(input("Enter Y Value:"))
+# print("Before Swapping of X:",x,"\nY before Swapping:",y)
+# x,y=y,x
+# print("After Swapping:",x,"\nAfter Swappinng y:",y)
+
+# x=33
+# y=88
+# print("Before Swapp of x:",x,"\nBefore Y swap:",y)
+# x,y=y,x
+# print("After X swap:",x,"\nafter y swap:",y)
+
+#Without temp variable Swapping
+# x=81
+# y=90
+# print("before x swap:",x,"\nBefore Y swap:",y)
+# x,y=y,x
+# print("After swap X:",x,"\nAfter y swap:",y)
+
+# x=38
+# y=3
+# print("Before Swap of X:",x,"\nY before swap:",y)
+# x,y=y,x
+# print("After X swap:",x,"\nAfter Y swap:",y)
+
+# x=71
+# y=99
+# print("Before swapping of X:",x,"\nbefore Y swapping:",y)
+# x,y=y,x
+# print("After X swap:",x,"After y swap:",y)
+
+# x=62
+# y=78
+# print("Before X swap:",x,"\nBefore y swap:",y)
+# x,y=y,x
+# print("After x swap:",x,"\nAfter y swap:",y)
+
+# x=81
+# y=99
+# print("Before X swap:",x,"\nbefore Y Swap:",y)
+# x,y=y,x
+# print("After X Swap:",x,"\nAfter y swap:",y)
+
+# x=77
+# y=91
+# print("Before X Swap:",x,"\nBefore Y Swap:",y)
+# x,y=y,x
+# print("After X Swap:",x,"\nAfter Y Swap:",y)
+
+# x=22
+# y=88
+# print("before Swapping of x:",x,"\nBefore Swapping of y:",y)
+# temp=x
+# x=y
+# y=temp
+# print("After Swapping of X:",x,"\nAfter swapping of y:",y)
+
+# x=88
+# y=61
+# print("Before Swapping of X:",x,"\nBefore Y Swapping:",y)
+# temp=x
+# x=y
+# y=temp
+# print("After X Swapping:",x,"\nAfter Y swapping:",y)
+
+#1. 
+# name=input("Enter Name:")
+# age=int(input("Enter Age:"))
+# Address=input("Enter Address:")
+# print("Name is:{}\nAge is:{}\nAddress:{}".format(name,age,Address))
+
+# pi=3.142
+# r=float(input("Enter radius value :"))
+# area=pi*r*r
+# circumference=2*pi*area
+# print("Area of Circle:%.3f"%area)
+# print("Circumference of Circle:%.3f"%circumference)
+# pi=3.142
+# r=float(input("Enter radius of a Circle:"))
+# area=pi*r*r
+# circumference=2*pi*area
+# print("Area of the Circle:%.4f"%area)
+# print("Circumference of the Circle:%.3f"%circumference)
+
+#Swapping using temporary Variable
+# x=66
+# y=77
+# print("before x swapping:",x,"\nbefore y swapping:",y)
+# temp=x
+# x=y
+# y=temp
+# print("X after Swapping:",x,"\ny after Swapping:",y)
+
+# x=61
+# y=7
+# print("Before X Swapping:",x,"\nBefore Y swapping:",y)
+# temp=x
+# x=y
+# y=temp
+# print("After x Swapping:",x,"\nAfter y swapping:",y)
+
+#Without using temp variable
+# x=99
+# y=11
+# print("Before X swapping:",x,"\nBefore Y swapping:",y)
+# x,y=y,x
+# print("After X swapping:",x,"\nAfter y Swapping:",y)
+
+#Write a program to Enter a Name and check name==python
+# name=input("Enter Name:")
+# if name=="python":
+#     print("Hi World")
+#     print("Nice to meet you")
+# print("How are you....",name)
+
+# name=input("Enter Name:")
+# if name=="Python":
+#     print("Hi... Python!")
+# print("Hi Nice to See you")
+# print("Hi...",name)
+
+# num=int(input("Enter Number:"))
+# if num%2==0:
+#     print("Given Number is Even Number:")
+# else:
+#     print("Is not a even number")    
+
+num1=int(input("Enter num 1:"))
+num2=int(input("Enter num 2:"))
+num3=int(input("Enter num 3"))
+if num1>num2 and num1>num3:
+    print("A is greater than B and C")
+elif num2>num3:
+    print("B is Greater than C")
+else:
+    print("C is greater")        
