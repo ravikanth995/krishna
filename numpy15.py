@@ -1486,9 +1486,155 @@ import random
 # print(A.size)
 # print(A.T)          
 
-A=np.array([[[1,2,3,4],[5,6,7,8],
-          [10,11,12,13],[15,16,17,18]]])
-print(A)
-print(A.shape)
-print(A.size)
-print(A.ndim)          
+# A=np.array([[[1,2,3,4],[5,6,7,8],
+#           [10,11,12,13],[15,16,17,18]]])
+# print(A)
+# print(A.shape)
+# print(A.size)
+# print(A.ndim)          
+
+#NumPy Trigonometry:
+import numpy as np
+import math
+# in_array=[0, math.pi/2,np.pi/8,np.pi]
+# # print(in_array)
+# in_array=[0,math.pi/2,np.pi/8,np.pi]
+# print(in_array)
+# cos_values=np.cos(in_array)
+# print(cos_values)
+# print(np.sin(np.pi/2))
+# # print(np.sin(np.array((0.,30.,45.,60.,90.,)*np.pi/180)))
+# np.sin(np.array((0., 30., 45., 60., 90.)) * np.pi / 180. )
+# import matplotlib.pylab as plt
+# x=np.linspace(-np.pi,np.pi,201)
+# plt.plot(x,np.sin(x))
+# plt.xlabel("angle[rad]")
+# plt.ylabel("sin(x)")
+# plt.axis("tight")
+# print(plt.show)
+
+#Cos :
+# np.cos=(np.array([[0,np.pi/2,np.pi]]))
+# out1=np.array([0],dtype="d")
+# out2=np.cos([0,1],out1)
+# print(out2 is out1)
+
+# from math import pi
+# np.tan(np.array([pi,pi/2,pi]))
+# out1=np.array([0],dtype="d")
+# out2=np.cos([0,1],out1)
+# print(out2 is out1)
+
+#Convert Radia from degree
+from math import *
+# rad=np.arange(12.)*np.pi/6
+# print(np.degrees(rad))
+# out=np.zeros((rad.shape))
+# r=np.degrees(rad, out)
+# print(np.all(r==out))
+
+# #degree to radian
+# deg=np.arange(12.)*30
+# np.radians(deg)
+# out=np.zeros((deg.shape))
+# ret=np.zeros(deg.shape)
+# print(ret is out)
+
+#NumPy String Operations
+#Multiply
+# a=np.array(["a","b","c"])
+# np.char.multiply(a,3))
+# a=np.array(["a","b","c"])
+# print(np.char.multiply(a,4))
+# a=np.array(["a","b","c","d"])
+# print(np.char.multiply(a,3))
+# a=np.array(["a","b","1","d","e"])
+# print(np.char.multiply(a,4))
+# a=np.array(["a","b","c","d","e","f"])
+# print(np.char.multiply(a,3))
+# a=np.array(['a','b','c','d','e'])
+# print(np.char.multiply(a,4))
+# a=np.array(['a','b','c','d','e','f'])
+# print(np.char.multiply(a,5))
+# a=np.array(['a','b','c','d','e','1','2'])
+# print(np.char.multiply(a,4))
+
+#capitalize
+# a=np.array(['a1b2','1b2a','b2a1','b21a'],"S4")
+# print(np.char.capitalize(a))
+# a=np.array(["a1b1","b1a1","b1a2"],"S4")
+# print(np.char.capitalize(a))
+# a=np.array(["a1b1","b1a1","1b1a"],"S3")
+# print(np.char.capitalize(a))
+# a=np.array(["a1b1","b1a1","12ba"],"S4")
+# print(np.char.capitalize(a))
+
+#Center
+# a=np.array(["a1b1","1b2a","b21a","2ab1"])
+# print(np.char.center(a,width=9))
+# print(np.char.center(a,width=8, fillchar="*"))
+# print(np.char.center(a,width=7))
+
+# a=np.array(["ravi","kanth","chavan","kasu","bai"])
+# print(np.char.center(a,width=9))
+# print(np.char.center(a,width=10,fillchar="*"))
+# print(np.char.center(a,width=9))
+
+# a=np.array(["ravi","kanth","harisingh","narayan","omla","chavan"])
+# print(np.char.center(a,width=10))
+# print(np.char.center(a,width=10,fillchar="*"))
+# print(np.char.center(a,width=6))
+# a=np.array(["samastah","yoga","uchyate"])
+# print(np.char.center(a,width=9))
+# print(np.char.center(a,width=11,fillchar="*"))
+# print(np.char.center(a,width=11))
+
+#join
+# print(np.char.join("-","osd"))
+# print(np.char.join(["-","."],["ghc","osd"]))
+# print(np.char.join(["-","."],["Ravi","kanth"]))
+# print(np.char.join(["-",".","*"],["ravi","kanth","chavan"]))
+# print(np.char.join([">",":","'"],["ravikanth","chavan","gormati"]))
+
+#Lower
+#lstrip
+# a=np.array(["aAaAaAaA","aA","abBbBbBbB"])
+# print(np.char.lstrip(a,"a"))
+# print(np.char.lstrip(a,"A"))
+
+# a=np.array(["aA","bB","cC"])
+# print(np.char.lstrip(a,"a"))
+# print(np.char.lstrip(a,"b"))
+
+# a=np.array(["aA","Bb","Ca"])
+# print(np.char.lstrip(a,"a"))
+# print(np.char.lstrip(a,"b"))
+
+# a=np.array(["Aa","Ba","cA"])
+# print(np.char.lstrip(a,"A"))
+# print(np.char.lstrip(a,"B"))
+
+#replace
+# a=np.array(["That","is","Mango"])
+# print(np.char.replace(a,"Mango","Apple"))
+# a=np.array(["Mango","is","eaten","by","Ravikanth"])
+# print(np.char.replace(a,"Ravikanth","Shashikanth"))
+# a=np.array(["ravikanth","is","good"])
+# print(np.char.replace(a,"ravikanth","not"))
+# a=np.array(["The dish is good","This is it"])
+# print(np.char.replace(a,"is","was"))
+# a=np.array(["Dish is good","parhaps is good"])
+# print(np.char.replace(a,"is","was"))
+
+# a=np.array(["Kaun","hu","main","mera"])
+# print(np.char.replace(a,"kaun","aapki"))
+# a=np.array(["that is good","it","is","good"])
+# print(np.char.replace(a,"is","was"))
+# a=np.array(["He","is","Blessed","to","is","born"])
+# print(np.char.replace(a,"is","was"))
+
+# count
+# a=np.array(["aaabbbcccddd","aaabbbccc","aabbccss","ddaaccee"])
+# print(np.char.count(a,"aaa"))
+a=np.array(["aaatttaaattt","tttxxxtttxxxttt","tttcccttaaatttaaa"])
+print(np.char.count(a,"ttt"))
