@@ -473,12 +473,66 @@
 # else:
 #     print("Is not a even number")    
 
-num1=int(input("Enter num 1:"))
-num2=int(input("Enter num 2:"))
-num3=int(input("Enter num 3"))
-if num1>num2 and num1>num3:
-    print("A is greater than B and C")
-elif num2>num3:
-    print("B is Greater than C")
-else:
-    print("C is greater")        
+# num1=int(input("Enter num 1:"))
+# num2=int(input("Enter num 2:"))
+# num3=int(input("Enter num 3"))
+# if num1>num2 and num1>num3:
+#     print("A is greater than B and C")
+# elif num2>num3:
+#     print("B is Greater than C")
+# else:
+#     print("C is greater")   
+
+# Input : "Sky is Blue"
+# Output : "Blue is Sky"
+# str1=" Sky is Blue"
+# # str2=str1.split()
+# # print(str2) 
+# # str2=str2[::-1]
+# # str2=" ".join(str2)
+# # print(str2)
+# str2=" ".join(str1.split()[::-1])
+# print(str2)
+
+# str1="Sky is Blue"
+# str2=" ".join(str1.split()[::-1])
+# print(str1)
+# print(str2)
+# str1="Sky is Blue"
+# str2=" ".join(str1.split()[::-1])
+# print(str2)
+
+# str1="ravikanth is good"
+# str2=" ".join(str1.split()[::-1])
+# print(str2)
+
+# l="Mahashivaratri to Happy"
+# l1=" ".join(l.split()[::-1])
+# print(l1)
+# l="Lust anger and fear"
+# l1=" ".join(l.split()[::-1])
+# print(l1)
+# l="Sky is Red"
+# l1=" ".join(l.split()[::-1])
+# print(l1)
+# l="I Like You"
+# l1=" ".join(l.split()[::-1])
+# print(l1)
+# l="Gos is One"
+# l1=" ".join(l.split()[::-1])
+# print(l1)
+# a="There is no god.. but tamatar"
+# b=" ".join(a.split()[::-1])
+# print(b)
+# s="Conciousness is god"
+# l=" ".join(s.split()[::-1])
+# print(l)
+# l="God is Conciousness"
+# a=" ".join(l.split()[::-1])
+# print(a)
+# l="Python is Script-Like Language"
+# a=" ".join(l.split()[::-1])
+# print(a)
+l="Python language is good"
+l1=" ".join(l.split()[::-1])
+print(l1)

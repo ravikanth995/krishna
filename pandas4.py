@@ -284,6 +284,11 @@ import pandas as pd
 # df=pd.DataFrame(mobile, columns=["Name","Price","cell_phone"])
 # print(df)
 
-df=pd.read_csv("Sample-Spreadsheet-100-rows.csv")
-print(df.head(6))
+# df=pd.read_csv("Sample-Spreadsheet-100-rows.csv")
+# print(df.head(6))
+# df=pd.read_csv("Sample-Spreadsheet-100-rows.csv")
+# print(df.head(6))
 
+
+df=pd.read_json("jason2.json")
+print(df)
