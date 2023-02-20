@@ -432,9 +432,3 @@
 # s1.massege() 
 # s2.massege()           
 # Student.age_of(18)                
-
-a="Pie"
-if a=="pie":
-    print("Yes")
-else:
-    print("No")    

@@ -290,5 +290,6 @@ import pandas as pd
 # print(df.head(6))
 
 
-df=pd.read_json("jason2.json")
-print(df)
+# df=pd.read_json("jason2.json")
+# print(df)
+

@@ -39,7 +39,9 @@
 # finally:
 #     print("problem Ended")       
 
-def func():
-    yield
-c=func()
-print(c)
+# def func():
+#     yield
+# c=func()
+# print(c)
+
+

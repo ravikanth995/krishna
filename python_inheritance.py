@@ -424,33 +424,33 @@
 # obj4=Child_class(30,40)
 # print("Division is:",obj4.div())
 
-class Parent_class:
-    def __init__(self,a,b):
-        self.a=a
-        self.b=b
-    def add(self):
-        print("A and B Values are:",self.a, self.b)
-        return self.a+self.b
-    def sub(self):
-        print("A nd B values are:",self.a,self.b)
-        return self.a-self.b
-    def multi(self):
-        print("A and B values are:",self.a,self.b)
-        return self.a*self.b
-    def div(self):
-        print("A and B Values are:",self.a,self.b)
-        return self.a/self.b
-class Child_class(Parent_class):
-    pass
-obj1=Child_class(30,30)
-print("Addition of A and B is:",obj1.add())
-print("-"*30)
-obj2=Child_class(19,20)
-print("Subtraction of A and B is:",obj2.sub())
-print("-"*30)
-obj3=Child_class(60,30) 
-print("Multiplication of A and B is:",obj3.multi())
-print("-"*30)
-obj4=Child_class(40,2)
-print("Division of two values:",obj4.div())
+# class Parent_class:
+#     def __init__(self,a,b):
+#         self.a=a
+#         self.b=b
+#     def add(self):
+#         print("A and B Values are:",self.a, self.b)
+#         return self.a+self.b
+#     def sub(self):
+#         print("A nd B values are:",self.a,self.b)
+#         return self.a-self.b
+#     def multi(self):
+#         print("A and B values are:",self.a,self.b)
+#         return self.a*self.b
+#     def div(self):
+#         print("A and B Values are:",self.a,self.b)
+#         return self.a/self.b
+# class Child_class(Parent_class):
+#     pass
+# obj1=Child_class(30,30)
+# print("Addition of A and B is:",obj1.add())
+# print("-"*30)
+# obj2=Child_class(19,20)
+# print("Subtraction of A and B is:",obj2.sub())
+# print("-"*30)
+# obj3=Child_class(60,30) 
+# print("Multiplication of A and B is:",obj3.multi())
+# print("-"*30)
+# obj4=Child_class(40,2)
+# print("Division of two values:",obj4.div())
                    

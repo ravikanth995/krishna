@@ -1,10 +1,19 @@
-
-list1=[10,20,30,20,10,40,50,30]
-size=len(list1)
-new_list=[]
-for i in range(size):
-    k=i+1
-    for j in range(k,size):
-        if list1[i]==list1[j] and list1[i] not in new_list:
-            new_list.append(list1[i])
-print(new_list)        
+class Parent_class(object):
+    def __init__(self,name,id):
+        self.name=name
+        self.id=id
+    def Employee_details(self):
+           return self.id, self.name
+    
+    def Employee_check(self):
+          if self.id>50000:
+            return "Is a Valid Employee"
+          else:
+            return "Is not a Valid Employee"
+class Derived_class(Parent_class):
+    def end(self):
+        pass
+Employee1=Parent_class(156281, "Ravikanth")
+print(Employee1.Employee_details(), Employee1.Employee_check())
+Employee2=Derived_class("RajKumar",27171)
+print(Employee2.Employee_details(),Employee2.Employee_check())

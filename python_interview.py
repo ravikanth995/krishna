@@ -533,6 +533,356 @@
 # l="Python is Script-Like Language"
 # a=" ".join(l.split()[::-1])
 # print(a)
-l="Python language is good"
-l1=" ".join(l.split()[::-1])
-print(l1)
+# l="Python language is good"
+# l1=" ".join(l.split()[::-1])
+# print(l1)
+# str1="kya bolta re"
+# str2=" ".join(str1.split()[::-1])
+# print(str2)
+
+# list=[1,2,3,3,2,2,4,5,6]
+# print([ num for num in list if list.count(num)==1])
+# list1=[1,2,2,3,4,5,6,6,7]
+# print([num for num in list1 if list1.count(num)==1])
+# i=[1,1,2,2,3,3,4]
+# print([ num for num in i if i.count(num)==1])
+# n=[1,1,2,2,3,4,3,4,5,6,7]
+# print([i for i in n if n.count(i)==1])
+
+#input: list1[1,1,2,3,4,2,3,4,5,6,7]
+#output=[5,6,7]
+# list1=[1,1,2,3,4,2,3,4,5,6,7]
+# print([ i for i in list1 if list1.count(i)==1])
+# input1=[1,1,2,3,3,4,4,5,6,5,6,7,8,9]
+# print([ i for i in input1 if input1.count(i)==1])
+# l=[1,2,3,2,3,4,4,5,6,7,4,]
+# print([n for n in l if l.count(n)==1])
+# list1=[1,2,3,4,3,4]
+# print([i for i in list1 if list1.count(i)==1])
+# l=[3,2,1,3,2,1,4,5,6]
+# k=[]
+# for num in l:
+#     if l.count(num)==1:
+#         k.append(num)
+# print(k)   
+
+# l=[1,2,3,3,4,5,5,6,6,7,8]
+# k=[]
+# for i in l:
+#     if l.count(i)==1:
+#         k.append(i)
+# print(k)      
+
+# l=[1,2,3,4,5,5,6,7] 
+# k=[]
+# for i in l:
+#     if l.count(i)==2:
+#         k.append(i)
+# print(k)         
+
+# l=[1,1,2,3,4,5,6]
+# k=[]
+# for i in l:
+#     if l.count(i)==1:
+#         k.append(i)
+# print(k)        
+# l=[1,2,3,4,5,6,7]
+# k=[]
+# for num in l:
+#     if l.count(num)==1:
+#         k.append(num)
+# print(k)        
+
+# l=[1,1,2,2,3,4,5,6]
+# k=[]
+# for i in l:
+#     if l.count(i)==1:
+#         k.append(i)
+# print(k)        
+
+# l=[1,2,3,4,1,2,5,7]
+# k=[]
+# for i in l:
+#     if l.count(i)==1:
+#         k.append(i)
+# print(k)        
+
+# l=[1,2,3,4,5,5,4,3,7]
+# k=[]
+# for i in l:
+#     if l.count(i)==1:
+#         k.append(i)
+# print(k)        
+
+# l=[1,1,2,3,4,5,6]
+# k=[]
+# for i in l:
+#     if l.count(i)==1:
+#         k.append(i)
+# print(k)        
+
+# l=[1,2,3,4,5,5,6,6]
+# k=[]
+# #output=[1,2,3,4]
+# for i in l:
+#     if l.count(i)==1:
+#         k.append(i)
+# print(k)        
+
+# l=[1,2,2,3,4,5,6,4,5,7]
+# k=[]
+# for i in l:
+#     if l.count(i)==1:
+#         k.append(i)
+# print(k)        
+
+# l=[1,2,3,4,5,6,7,8,8]
+# k=[]
+# for i in l:
+#     if l.count(i)==1:
+#         k.append(i)
+# print(k)       
+
+# l=[1,1,2,3,4,4,5,6,7,7,8]
+# print([ i for i in l if l.count(i)==1]) 
+# l=[1,2,3,4,4,5,6,7]
+# k=[]
+# for i in l:
+#     if l.count(i)==1:
+#         k.append(i)
+# print(k)        
+
+# str1="Sky is red"
+# print(" ".join(str.split(str1)[::-1]))
+# str1="My Name is Allah"
+# print(" ".join(str1.split()[::-1]))
+# l=" Ham Tum Ham"
+# print(" ".join(str.split(l)[::-1]))
+
+# l=[1,2,3,4,4,5,6,7,7,8]
+# print([ i for i in l if l.count(i)==1])
+# a=[1,1,2,3,4,5,5,6,7]
+# print([ i for i in a if a.count(i)==1])
+
+#input : "aaabbccc"
+#output : a:3, b:2, c:3
+# str1="aaabbccc"
+# str1=str.split(",")
+# visited=[]
+# final_list=[]
+# for ch in str1:
+#     if ch not in visited:
+#           final_list(f"{ch}:{str1.count(ch)}")
+#           visited.append(ch)
+
+# count=0
+# while count<=5:
+#     print(count)
+#     count=count+1
+# print("Exit While Loop")    
+        
+# i=0
+# while i<=6:
+#     print(i)
+#     i+=1
+# print("Exit Loop")    
+
+#Write a program to print sum of n natural numbers(sum=1+2+3..+n)
+# n=int(input("Enter Number:"))
+# i=1
+# sum=0
+# while i<=n:
+#     print(i)
+#     sum=sum+i
+#     i+=1
+# print("The Sum is:",sum)
+# n=int(input("Enter Number:"))
+# i=1
+# sum=0
+# while i<n:
+#     print(i)
+#     sum+=i
+#     i+=1
+# print("Sum is:",sum)    
+
+# n=int(input("Enter Number:"))
+# i=1
+# sum=0
+# while i<=n:
+#     print(i)
+#     sum+=i
+#     i+=1
+# print(sum)  
+
+# n=int(input("Enter Number:")) 
+# i=1
+# sum=0
+# while i<=n:
+#     print(i)
+#     sum+=i
+#     i+=1
+# print("Sum is :",sum) 
+
+# num=int(input("Enter Number:")) 
+# i=1
+# sum=0
+# while i<=num:
+#     print(i)
+#     i+=1
+#     sum+=i
+# print("Sum is:",sum)       
+
+# num=int(input("Enter Number:"))
+# i=1
+# sum=0
+# while i<=num:
+#     print(i)
+#     i+=1
+#     sum+=i
+# print("Sum is:",sum)    
+
+# num=int(input("Enter Number:"))
+# i=1
+# sum=0
+# while i<=num:
+#     print(i)
+#     i+=1
+#     sum+=i
+# print("The Sum is:",sum)    
+
+# num=int(input("Enter Number:"))
+# i=1
+# sum=0
+# while i<=num:
+#     print(i)
+#     i+=1
+#     sum+=i
+# print("The Sum is:",sum)  
+
+# num=int(input("Enter Number:"))
+# i=1
+# sum=0
+# while i<=num:
+#     print(i)
+#     i+=1
+#     sum+=i
+# print(sum)      
+
+#Sum of all even and odd numbers
+# num=int(input("Enter Number:"))
+# i=1
+# e_sum=o_sum=0
+# while i<=num:
+#     print(i)
+#     if i%2==0:
+#         e_sum+=i
+#     else:
+#         o_sum+=i
+#     i+=1
+# print("The Sum of Even Number is:",e_sum)
+# print("Sum of Odd Number is:",o_sum)    
+
+# num=int(input("Enter Number:"))
+# i=1
+# e_sum=o_sum=0
+# while i<=num:
+#     print(i)
+#     if i%2==0:
+#         e_sum+=i
+#     else:
+#         o_sum+=i
+#     i+=1
+# print("Even Sum is:",e_sum)
+# print("Odd Sum is:",o_sum)        
+
+# num=int(input("Enter Number:")) 
+# i=1
+# sum=0
+# while i<=num:
+#     print(i) 
+#     i+=1
+#     sum+=i
+# print("The Sum is:",sum)   
+
+# num=int(input("Enter Number:"))
+# i=1
+# sum=0
+# while i<=num:
+#     print(i)
+#     i+=1
+#     sum+=i
+# print("Sum is:",sum)       
+
+# num=int(input("Enter Number:"))
+# i=1
+# sum=0
+# while i<=num:
+#     print(i)
+#     i+=1
+#     sum+=i
+# print("The Sum is:",sum)    
+
+# num=int(input("Enter Number:"))
+# i=1
+# sum=0
+# while i<=num:
+#     print(i)
+#     i+=1
+#     sum+=i
+# print("Sum is:",sum)    
+
+# num=int(input("Enter Number :Either Even/Odd :"))
+# i=1
+# o_num=e_num=0
+# while i<=num:
+#     print(i)
+#     if i%2==0:
+#         e_num+=i
+#     else:
+#         o_num+=i
+#     i+=1
+# print("The Even Sum is:",e_num)
+# print("The odd Sum is:",o_num)   
+
+# num=int(input("Enter Number:"))
+# i=1
+# e_sum=o_sum=0
+# while i<=num:
+#     if i%2==0:
+#         e_sum+=i
+#     else:
+#         o_sum+=i
+#     i+=1
+# print("Even Sum is:",e_sum)
+# print("Odd Sum is:",o_sum)     
+
+# num=int(input("Enter Number:")) 
+# i=1
+# E_sum=O_sum=0
+# while i<=num:
+#     print(i)
+#     if i%2==0:
+#         E_sum+=i
+#     else:
+#         O_sum+=i
+#     i+=1
+# print("The Sum is:",E_sum)
+# print("Odd Sum:",O_sum) 
+
+# num=int(input("Enter Number:")) 
+# i=1
+# sum=0
+# while i<=num:
+#     print(i)
+#     sum+=i
+#     i+=1
+# print("Sum is:",sum)   
+
+num=int(input("Enter Number:"))
+i=1
+f=1
+while i<=num:
+    f=f*i
+    i+=1
+print("the factorial is:",f)                             
+

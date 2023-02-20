@@ -166,17 +166,18 @@
 # checkBalance()        
 
 #Chaining the Decorators
-def decor(func):
-    def inner():
-        x=func()
-        return x*x
-    return inner
-def decor2(func1):
-    def inner1():
-      x=func1()
-    return 2*x
-@decor
-# @decor2
-def num():
-    return 10
-num()     
+# def decor(func):
+#     def inner():
+#         x=func()
+#         return x*x
+#     return inner
+# def decor2(func1):
+#     def inner1():
+#       x=func1()
+#     return 2*x
+# @decor
+# # @decor2
+# def num():
+#     return 10
+# num()     
+

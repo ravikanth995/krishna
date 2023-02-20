@@ -226,12 +226,13 @@
 # obj=Student()
 # obj.attendance(10)            
 
-class Company:
-    def work(self,x):
-        print("Comapany has some projects")
-class Employee(Company):
-    def work(self,x):
-        super().work("Project name is Flutter Payment app")
-        print("Project has been given to Employee")
-obj=Employee()
-obj.work("Project Flutter Payment App is Completed")
+# class Company:
+#     def work(self,x):
+#         print("Comapany has some projects")
+# class Employee(Company):
+#     def work(self,x):
+#         super().work("Project name is Flutter Payment app")
+#         print("Project has been given to Employee")
+# obj=Employee()
+# obj.work("Project Flutter Payment App is Completed")
+

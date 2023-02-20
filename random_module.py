@@ -16,4 +16,5 @@ import random
 #This functions is used to generate random number but within a specific range in its argument.
 # print(random.randrange(10))
 # print(random.randrange(3,19,2))
-print(random.randrange(1,10,2))
+# print(random.randrange(1,10,2))
+

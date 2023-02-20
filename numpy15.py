@@ -1636,5 +1636,5 @@ from math import *
 # count
 # a=np.array(["aaabbbcccddd","aaabbbccc","aabbccss","ddaaccee"])
 # print(np.char.count(a,"aaa"))
-a=np.array(["aaatttaaattt","tttxxxtttxxxttt","tttcccttaaatttaaa"])
-print(np.char.count(a,"ttt"))
+# a=np.array(["aaatttaaattt","tttxxxtttxxxttt","tttcccttaaatttaaa"])
+# print(np.char.count(a,"ttt"))

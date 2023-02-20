@@ -105,22 +105,23 @@
 # obj4=Child_class("Ravi",66)
 # print(obj4.get_name(),obj4.get_age())
 
-class XYZ:
-    def __init__(self):
-        print("Hey.. I have been Initiliazed :",XYZ)
-    def sub_xyz(self,b):
-        print("Printing from class xyz:",b)
-class XYZ1(XYZ):
-    def __init__(self):
-        print(" I am Initiliazed XYZ1") 
-        super().__init__()
-class XYZ2(XYZ1):
-    def __init__(self):
-        print("Hey I am Initialize XYZ2")
-        super().__init__()
-    def sub_xyx2(self,b):
-        print("printing from Class XYZ2")
-        super().__init__()
-if __name__=="__main__":
-    Obj=XYZ2()
-    Obj.sub_xyz(10)        
+# class XYZ:
+#     def __init__(self):
+#         print("Hey.. I have been Initiliazed :",XYZ)
+#     def sub_xyz(self,b):
+#         print("Printing from class xyz:",b)
+# class XYZ1(XYZ):
+#     def __init__(self):
+#         print(" I am Initiliazed XYZ1") 
+#         super().__init__()
+# class XYZ2(XYZ1):
+#     def __init__(self):
+#         print("Hey I am Initialize XYZ2")
+#         super().__init__()
+#     def sub_xyx2(self,b):
+#         print("printing from Class XYZ2")
+#         super().__init__()
+# if __name__=="__main__":
+#     Obj=XYZ2()
+#     Obj.sub_xyz(10)        
+

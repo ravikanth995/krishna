@@ -93,27 +93,27 @@
 # obj=Biology()
 # obj.subject()
 
-from abc import ABC, abstractmethod
-class Payment:
-    @abstractmethod
-    def payment(self,amount):
-        pass
-    def print_slip(self,amount):
-        print("Purchase of Rs...:",amount)
-class CreditCardPayment(Payment):
-    def payment(self, amount):
-        print("Credit Card Payment of Rs...:",amount)    
-class PayTmPayment(Payment):
-    def payment(self, amount):
-         print("PayTm payment of Rs...:",amount) 
-obj=CreditCardPayment()
-print(obj.payment(600))
-print(obj.print_slip(700))
-print(isinstance(obj,CreditCardPayment))
-print(issubclass(CreditCardPayment,Payment))
-print("-"*50)
-obj1=PayTmPayment()
-print(obj1.payment(700))
-print(obj1.payment(8777))
-print(isinstance(obj1,PayTmPayment))
-print(issubclass(PayTmPayment, Payment))
+# from abc import ABC, abstractmethod
+# class Payment:
+#     @abstractmethod
+#     def payment(self,amount):
+#         pass
+#     def print_slip(self,amount):
+#         print("Purchase of Rs...:",amount)
+# class CreditCardPayment(Payment):
+#     def payment(self, amount):
+#         print("Credit Card Payment of Rs...:",amount)    
+# class PayTmPayment(Payment):
+#     def payment(self, amount):
+#          print("PayTm payment of Rs...:",amount) 
+# obj=CreditCardPayment()
+# print(obj.payment(600))
+# print(obj.print_slip(700))
+# print(isinstance(obj,CreditCardPayment))
+# print(issubclass(CreditCardPayment,Payment))
+# print("-"*50)
+# obj1=PayTmPayment()
+# print(obj1.payment(700))
+# print(obj1.payment(8777))
+# print(isinstance(obj1,PayTmPayment))
+# print(issubclass(PayTmPayment, Payment))

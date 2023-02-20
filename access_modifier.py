@@ -121,20 +121,6 @@
 # e1.set_age(17)
 # print(" new age is:",e1.name,e1.get_age())   
 
-class Student:
-    def __init__(self,age,name):
-        self.__age=age
-    def __funName(self):
-        self.y=35
-        print(self.y)
-class Subject(Student):
-    pass
-e1=Student(31,"Ravi")
-e2=Subject("Kanth",65)
-
-print(e2.__funName())             
-print(e1._Student__age)
-print(e1._Student__name)
 
 
 

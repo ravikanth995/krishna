@@ -270,13 +270,14 @@
 # obj.func2()                          
 # obj.func3()
 
-class parent:
-    def func(self):
-        print("I am Parent")
-class Child(parent):
-    def func1(self):
-        print("This is Function 1")
-        super().func()
-        print("This is function 2")        
-obj=Child()
-obj.func1()        
+# class parent:
+#     def func(self):
+#         print("I am Parent")
+# class Child(parent):
+#     def func1(self):
+#         print("This is Function 1")
+#         super().func()
+#         print("This is function 2")        
+# obj=Child()
+# obj.func1()        
+
