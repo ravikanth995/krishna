@@ -293,3 +293,62 @@ import pandas as pd
 # df=pd.read_json("jason2.json")
 # print(df)
 
+import numpy as np
+import pandas as pd
+import sqlite3
+# conn=sqlite3.connect("chinook.db")
+# print("data base connected")
+# conn.execute('''
+# CREATE TABLE Purchase1(
+# Code INTEGER,
+# Name NVARCHAR,
+# Budget NVARCHAR);'''
+# )
+
+# conn.execute("INSERT INTO Purchase1(Code,Name, Budget)VALUES(91,'Ravikanth',20000);")
+# conn.execute("INSERT INTO Purchase1(Code,Name,Budget)VALUES(23,'Samsung',8800);")
+# conn.commit()
+# df=pd.read_sql_query("SELECT *FROM Purchase1",conn)
+# print(df)
+
+# conn=sqlite3.connect("Climate.db")
+# print("Table Data Base Created")
+# conn.execute('''
+# CREATE TABLE Temp3(
+# Data FLOAT,
+# Temperature FLOAT,
+# Increase FLOAT
+# );''')
+
+# conn.execute("INSERT INTO Temp3(Data, Temperature, Increase)VALUES(15.5,32.8,1.5);")
+# conn.execute("INSERT INTO Temp3(Data, Temperature, Increase)VALUES(15.5, 37,2.0);")
+# conn.commit()
+# df=pd.read_sql_query("SELECT *FROM Temp3",conn)
+# print(df)
+
+# conn=sqlite3.connect("person.db")
+# conn.execute('''
+# Create Table Person2(
+# Gender NVARCHAR,
+# Height INTEGER,
+# Weight INTEGER
+# # );''')
+# conn.execute("INSERT INTO Person1(Gender, Height, Weight)VALUES('Male',165,54);")
+# conn.execute("INSERT INTO Person2(Gender, Height, Weight)VALUES('Female',165,47);")
+# conn.commit()
+# df=pd.read_sql_query("SELECT *FROM Person2",conn)
+# print(df) 
+# conn=sqlite3.connect("person.db")
+# conn.execute("UPDATE Person2 SET Gender='Male',Height=88, Weight=77;")
+# conn.commit()
+# conn=sqlite3.connect("person.db")
+# df=pd.read_sql_query("SELECT *FROM Person2",conn)
+# print(df)
+
+
+conn=sqlite3.connect("person.db")
+cur=conn.cursor()
+cur.execute("UPDATE Person2 SET Gender='Transgender', Height=187, Weight=1=67")
+conn.commit()
+df=pd.read_sql_query("SELECT *FROM Person2",conn)
+print(df)

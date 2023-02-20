@@ -878,11 +878,29 @@
 #     i+=1
 # print("Sum is:",sum)   
 
-num=int(input("Enter Number:"))
-i=1
-f=1
-while i<=num:
-    f=f*i
-    i+=1
-print("the factorial is:",f)                             
+# num=int(input("Enter Number:"))
+# i=1
+# f=1
+# while i<=num:
+#     f=f*i
+#     i+=1
+# print("the factorial is:",f)                             
 
+# l=[1,2,3,4,5,1,2,3]
+# print([i for i in l if l.count(i)==1])
+
+# l="Sky is Blue"
+# print(" ".join(l.split()[::-1]))      
+# l="na hanyate hanya mane sharire"
+# print(" ".join(l.split()[::-1]))
+# string="Osho is Best"
+# print(" ".join(string.split()[::-1]))
+
+# string="String is a data type of Python"
+# print(" ".join(string.split()[::-1]))
+
+# str1=input("Enter String:")
+# print(" ".join(str1.split()[::-1]))
+
+string=input("Enter String:")
+print(" ".join(string.split()[::-1]))
