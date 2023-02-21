@@ -346,9 +346,63 @@ import sqlite3
 # print(df)
 
 
-conn=sqlite3.connect("person.db")
-cur=conn.cursor()
-cur.execute("UPDATE Person2 SET Gender='Transgender', Height=187, Weight=1=67")
-conn.commit()
-df=pd.read_sql_query("SELECT *FROM Person2",conn)
-print(df)
+# conn=sqlite3.connect("person.db")
+# cur=conn.cursor()
+# cur.execute("UPDATE Person2 SET Gender='Transgender', Height=187, Weight=1=67")
+# conn.commit()
+# df=pd.read_sql_query("SELECT *FROM Person2",conn)
+# print(df)
+
+# conn=sqlite3.connect("person.db")
+# cur=conn.cursor()
+# cur.execute("UPDATE Person1 SET Gender='Male',Height=145,Weight=77")
+# conn.commit()
+# df=pd.read_sql_query("SELECT *FROM Person1",conn)
+# # print(df)
+# print(df.to_sql("person.db"))
+# temp=df.append(df)
+# print(temp)
+
+# df=pd.read_csv("Sample-Spreadsheet-100-rows.csv")
+# print(df.head(5))
+# print(df.shape)
+# temp=df.append(df)
+# print(temp)
+
+# temp.rename( Columns={
+#     "color": "rang"
+# }, inplace=True)
+# print(temp)
+
+# temp = df.append(df)
+# temp = temp.drop_duplicates()
+# temp.rename(columns={
+#         'value': 'digitNum'
+#     }, inplace=True)
+# print(temp)
+
+# df=pd.read_csv("biostats.csv")
+# print(df.head(5))
+# temp=df.append(df)
+# temp=temp.drop_duplicates()
+# print(temp)
+
+# temp.rename(columns={
+#         'Age': 'age'
+#     }, inplace=True)
+# print(temp)
+# print(temp.isnull().sum())
+# print(temp.info())
+# print(temp.describe())
+# print(temp['Name'],temp.describe())
+# print(temp.iloc[0])
+df=pd.DataFrame({'A':['John','Bobby','Meena','Peter','Nicky'],
+                 'B':['Master','Graduate','Master','Graduate','Student'],
+                 'C':[23,24,25,26,20]}, index=[1,2,3,4,5])
+# print(df)
+table=pd.pivot_table(df, values='A',index=['B','C'],
+                     columns=['B'],aggfunc=np.sum)
+print(table)
+
+
+
