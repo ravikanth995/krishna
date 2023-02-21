@@ -902,5 +902,272 @@
 # str1=input("Enter String:")
 # print(" ".join(str1.split()[::-1]))
 
-string=input("Enter String:")
-print(" ".join(string.split()[::-1]))
+# string=input("Enter String:")
+# print(" ".join(string.split()[::-1]))
+
+# string=" Python is Software Language"
+# print(" ".join(string.split()[::-1]))
+
+# list1=[1,2,3,2,3,4,5,5,6,7,7]
+# print([ i for i in list1 if list1.count(i)==1])
+
+# strnum="1R3K8U"
+# alphabets=[]
+# number=[]
+# for i in strnum:
+#     if i.isalpha():
+#         alphabets.append(i)
+#     else:
+#         number.append(i)
+# final=sorted((alphabets)+sorted(number))
+# output=" ".join(final)
+# print(output)
+
+# str_num="1M8J3K"
+# str1=[]
+# num=[]
+# for i in str_num:
+#     if i.isalpha():
+#         str1.append(i)
+#     else:
+#         num.append(i)
+# final=(sorted(str1)+sorted(num))
+# output=" ".join(final)
+# print(output)    
+
+# str_num="G1N7M9U6L4"
+# str1=[]
+# num=[]
+# for ch in str_num:
+#     if ch.isalpha():
+#         str1.append(ch)
+#     else:
+#         num.append(ch)
+# final=(sorted(str1)+sorted(num)) 
+# op=" ".join(final)
+# print(op)           
+
+# str_num="O1Y0G7P6"
+# str1=[]
+# num=[]
+# for word_num in str_num:
+#     if word_num.isalpha():
+#         str1.append(word_num)
+#     else:
+#         num.append(word_num)
+# final=(sorted(str1)+sorted(num))
+# op=" ".join(final)
+# print(op)            
+
+# str_num="7U5T7H4D3S8J"
+# str1=[]
+# num=[]
+# for ch in str_num:
+#     if ch.isalpha():
+#         str1.append(ch)
+#     else:
+#         num.append(ch)
+# final=(sorted(str1)+sorted(num))
+# op=" ".join(final)
+# print(op)            
+
+# str_num="T5K8I0O4H2F1L8M6N2"
+# string1=[]
+# numbers=[]
+# for i in str_num:
+#     if str_num.isalpha():
+#         string1.append(i)
+#     else:
+#         numbers.append(i)
+# final=(sorted(string1)+sorted(numbers))
+# op=" ".join(final)
+# print(op)           
+
+# str_num="8G7H9J"
+# strr=[]
+# num=[]
+# for i in str_num:
+#     if str_num.isalpha():
+#         strr.append(i)
+#     else:
+#         num.append(i)
+# final=(sorted(strr)+sorted(num))
+# op=" ".join(final)
+# print(op)          
+
+# str_num="9h8u6i5t4h3"
+# strr=[]
+# num=[]
+# for ch in str_num:
+#     if str_num.isalpha():
+#         strr.append(ch)
+#     else:
+#         num.append(ch)
+# final_list=(sorted(strr)+sorted(num)) 
+# oup=" ".join(final_list)
+# print(oup)           
+
+# str_num='T1Q2E3R4T5Y6U7I8O9P'
+# strr=[]
+# num=[]
+# for ch in str_num:
+#     if str_num.isalpha():
+#         strr.append(ch)
+#     else:
+#         num.append(ch)
+# final_list=(sorted(strr)+sorted(num))
+# out=(" ".join(final_list)[::-1])
+# print(out)            
+
+# strr_num="7T1N8M9C4B2U5X6"
+# str1=[]
+# num=[]
+# for ch in strr_num:
+#     if strr_num.isalpha():
+#         str1.append(ch)
+#     else:
+#         num.append(ch)
+# final=(sorted(str1)+sorted(num)) 
+# output=" ".join(final)
+# print(output)           
+
+#Finding Minimum and Maximum from List
+# num=[11,2,33,4,55,6,77,88,108]
+# print(max(num))      
+# print(min(num))
+
+#extend and append
+# l=[1,2,3,4]
+# print(l.append(5))
+# print(l)
+# print(l.append(7))
+# print(l)
+
+# l=[1,2,3,4]
+# print(l.extend([5,6,7,9]))
+# print(l)
+
+# l=["ravi","kanth","python"]
+# l1=["is","a","champion"]
+# for i in l1:
+#     l.append(i)
+# print(l)    
+# final=" ".join(l+l1)
+# print(final)
+
+# l=["ravi","kanth","is","a"]
+# l2=["python","champion"]
+# # for i in l2:
+# #     l.append(i)
+# final=" ".join(l+l2)
+# print(final)    
+
+# l1=["ravi","kanth"]
+# l2=["is","a","python","champion"]
+# final=" ".join(l1+l2)
+# print(final)
+
+# l=["r","a","v","i","k","a","n","t","h"]
+# print(" ".join(l))
+
+# l={'java','C++','C','Python'}
+# print(" ".join(l))
+
+# l={'ravi':21, 'kanth':23, 'chavan':28, 'Kasubai':71}
+# print(" ".join(l))
+
+# msg="i want to be a python developer"
+# print(msg.split())
+
+# msg="i want to be a spiritual seeker"
+# print((msg.split(","), len(msg)))
+# print(" ".join(msg))
+
+# msg="Yonnodu vava ante sollamate"
+# print(msg.split(","))
+# print(" ".join(msg))
+
+# str1="ravikanth is a champion in python"
+# print(str1.split(","))
+# print(str1[::-1])
+
+# str1="ravikanth is champion in Python"
+# print(str1.split(","))
+# print(" ".join(str1[::-1]))
+
+# sam_list = [11, 13, 15, 16, 13, 15, 16, 11] 
+
+# print ("The list is: ",str(sam_list)) 
+
+# # to remove duplicates from list 
+
+# result = [] 
+
+# [result.append(x) for x in sam_list if x not in result] 
+
+# # # printing list after removal 
+
+# print ("The list after removing duplicates: ",str(result))
+
+# l=[1,2,2,3,3,1,5,6,7,7,8,8,9]
+# k=[]
+# [k.append(x) for x in l if x not in k]
+# print("the list after duplicates removal:",k)
+# l=["hari",1,1,2,2,3,3,4,5,6,7]
+# k=[]
+# [k.append(x) for x in l if x not in k]
+# print("The Duplicates after removal from list:",str(k))
+
+# str=["hari","hari","kanth",1,1,2,3,4,4,5,6,8]
+# k=[]
+# [k.append(x) for x in str if x not in k]
+# print("Dupicates after removal:",k)
+
+# list1=["ravi",1,2,3,4,4,3,2,5,6,8]
+# k=[]
+# [k.append(x) for x in list1 if x not in k]
+# print("Duplicates after removal:",k)
+
+# list1=[1,1,2,3,4,5,6,7,8]
+# k=[]
+# [k.append(x)for x in list1 if x not in k]
+# print("List after removal of Duplicates:",k)
+
+# list1=[1,2,3,4,4,4,4,4,4,4,4,4,4]
+# k=[]
+# [k.append(x) for x in list1 if x not in k]
+# print("Duplicates after removal list is:",k)
+
+# list1=["ravi","ravi","kanth","hari","kasu","others"]
+# k=[]
+# [k.append(x) for x in list1 if x not in k]
+# print("List after duplicates removal:",k)
+
+# list1=[1,"hari","hari","hari",2,2,4,5,4,2]
+# k=[]
+# [k.append(x) for x in list1 if x not in k]
+# print("List after Duplicates removal is:",k)
+
+# lst=[1,1,2,2,3,3,4,4,5,5,6,6,7,7,8]
+# k=[]
+# [k.append(x) for x in lst if x not in k]
+# print("Duplicates removal:",k)
+
+# lst=[1,2,1,2,1,2,30]
+# k=[]
+# [k.append(x) for x in lst if x not in k]
+# print("List after Duplicates removal:",k)
+
+# lst=[1,1,1,2,3,4,5]
+# k=[]
+# for i in lst:
+#     if i not in k:
+#         k.append(i)
+# print(k)    
+
+lst=[1,1,1,2,2,3,3,4,4,5]
+k=[]
+for i in lst:
+    if i not in k:
+        k.append(i)
+print("List After Duplicates removal:",k)        
