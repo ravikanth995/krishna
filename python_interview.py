@@ -1165,9 +1165,358 @@
 #         k.append(i)
 # print(k)    
 
-lst=[1,1,1,2,2,3,3,4,4,5]
-k=[]
-for i in lst:
-    if i not in k:
-        k.append(i)
-print("List After Duplicates removal:",k)        
+# lst=[1,1,1,2,2,3,3,4,4,5]
+# k=[]
+# for i in lst:
+#     if i not in k:
+#         k.append(i)
+# print("List After Duplicates removal:",k) 
+
+# lst=[1,1,2,2,3,3,4,4,5]
+# k=[]
+# for i in lst:
+#     if i not in k:
+#         k.append(i)
+# print("Duplicates after removal:",k)  
+
+#Vowel find
+# l=input("Enter String:")
+# count=0
+# vowel_list=['a','i','o','u','e']
+# for i in l:
+#     if i in vowel_list:
+#         count+=1
+# print("Vowels are in String is:",count)         
+
+# l="ravikanth"
+# count=0
+# vowel_l=['a','e','i','o','u']
+# for i in l:
+#     if i in vowel_l:
+#         count+=1
+# print("Vowels Counts are:",count)       
+
+# l=["kasubai"]
+# str1="".join(l)
+# # print(str1) 
+# count=0
+# vowels=['a','i','e','o','u']
+# for i in str1:
+#     if i in vowels:
+#         count+=1
+# print("Numbers of vowels are:",count)     
+
+# lst=["vivekachudamani"]
+# l1="".join(lst)
+# count=0
+# vowels=['a','e','i','o','u']
+# for i in l1:
+#     if i in vowels:
+#         count+=1
+# print("Numbers of Vowels are:",count)           
+
+# list1="ravikanth"
+# vowels=['a','e','i','o','u']
+# count=0
+# for i in list1:
+#     if i in vowels:
+#         count+=1
+# print("Number of Vowels are:",count)        
+
+# list1="fibonacci"
+# #output=vowels[4]
+# count=0
+# vowels=['a','e','i','o','u']
+# for i in list1:
+#     if i in vowels:
+#         count+=1
+# print("Vowel Counts are:",count)        
+
+# list1="python"
+# vowels=['a','e','i','u','o']
+# count=0
+# for i in list1:
+#     if i in vowels:
+#         count=+1
+# print("Number of Vowels are:",count)    
+
+# lst1="geronda"
+# vowels=['a','e','o','i','u']
+# count=0
+# for i in lst1:
+#     if i in vowels:
+#         count+=1
+# print("Number of Vowels are :",count)            
+
+# lst1="ieouaIOUEA"
+# vowels=["i",'o','a','u','e']
+# count=0
+# for i in lst1:
+#     if i in vowels:
+#         count+=1
+# print("Number of counts are:",count)  
+
+# lst1="Languages" 
+# vowels=['a','e','i','o','u']
+# count=0
+# for i in lst1:
+#     if i in vowels:
+#        count+=1
+# print("Number of Vowels are:",count)    
+
+# lst="interview"
+# vowels_list=['a','e','u','i','o'] 
+# count=0
+# for i in lst:
+#     if i in vowels_list:
+#         count=+1
+# print("Vowels are:",count)
+
+# lst="ravikanth"
+# print("reversed string is:",lst[::-1]) 
+
+#armstrong number
+# for i in range(1,1001):
+#     num=i
+#     n=len(str(i))
+#     sum=0
+#     i=str(i)
+#     for digit in i:
+#         sum=sum+int(digit)**n
+#         if sum==num:
+#             print(num)
+
+
+
+
+# for i in range(1,1001):
+#     num=i
+#     n=len(str(i))
+#     sum=0
+#     i=str(i)
+#     for digits in i:
+#         sum=sum+int(digits)**n
+#         if sum==num:
+#             print(num)
+
+# for i in range(1,1001):
+#     num=i
+#     n=len(str(i))
+#     sum=0
+#     i=str(i)
+#     for digits in i:
+#         sum=sum+int(digits)**n
+#         if num==sum:
+#             print(num)
+
+# for i in range(1,1001):
+#     num=i
+#     n=len(str(i))
+#     sum=0
+#     i=str(i)
+#     for digits in i:
+#         sum=sum+int(digits)**n
+#         if num==sum:
+#             print(num)
+
+# for i in range(1,1001):
+#     num=i
+#     sum=0
+#     n=len(str(i))
+#     i=str(i)
+#     for digits in i:
+#         sum=sum+int(digits)**n
+#         if num==sum:
+#             print(num)
+
+# for i in range(1,1001):
+#     num=i
+#     n=len(str(i))
+#     i=str(i)
+#     sum=0
+#     for digits in i:
+#         sum=sum+int(digits)**n
+#         if num==sum:
+#             print(num)
+
+# for i in range(1,1001):
+#      num=i
+#      n=len(str(i))
+#      sum=0
+#      i=str(i)
+#      for digits in i:
+#           sum=sum+int(digits)**n
+#           if num==sum:
+#                print(num)
+
+# for i in range(1,1001):
+#     num=i
+#     n=len(str(i))
+#     i=str(i)
+#     sum=0
+#     for digits in i:
+#         sum=sum+int(digits)**n
+#         if num==sum:
+#             print(num)
+
+# for i in range(1,1001):
+#     num=i
+#     i=str(i)
+#     sum=0
+#     n=len(str(i))
+#     for digits in i:
+#         sum=sum+int(digits)**n
+#         if num==sum:
+#             print(num)
+
+# for i in range(1,1001):
+#     sum=0
+#     num=i
+#     i=str(i)
+#     n=len(str(i))
+#     for digits in i:
+#         sum=sum+int(digits)**n
+#         if num==sum:
+#             print(sum)
+
+# for i in range(1,1001):
+#     num=i
+#     sum=0
+#     i=str(i)
+#     n=len(str(i))
+#     for digits in i:
+#         sum=sum+int(digits)**n
+#         if num==sum:
+#             print(num)
+
+# for i in range(1,1001):
+#     num=i
+#     i=str(i)
+#     n=len(str(i))
+#     sum=0
+#     for digits in i:
+#         sum=sum+int(digits)**n
+#         if num==sum:
+#             print(num)
+
+#input= armstrong number from 1-500
+# for i in range(1,501):
+#     num=i
+#     i=str(i)
+#     n=len(str(i))
+#     sum=0
+#     for digits in i:
+#         sum+=int(digits)**n
+#         if num==sum:
+#             print(num)
+
+#input: armstrong number from 1-500
+# for i in range(1,501):
+#     num=i
+#     i=str(i)
+#     n=len(str(i))
+#     sum=0
+#     for digit in i:
+#         sum+=int(digit)**n
+#         if num==sum:
+#             print(num)
+
+# for i in range(1,501):
+#     num=i
+#     i=str(i)
+#     n=len(str(i))
+#     sum=0
+#     for digit in i:
+#         sum+=int(digit)**n
+#         if num==sum:
+#             print(num)
+
+# for i in range(1,601):
+#     num=i
+#     i=str(i)
+#     n=len(str(i))
+#     sum=0
+#     for j in i:
+#         sum+=int(j)**n
+#         if num==sum:
+#             print(num)
+
+# for i in range(1,501):
+#     num=i
+#     i=str(i)
+#     n=len(str(i))
+#     sum=0
+#     for j in i:
+#         sum+=int(j)**n
+#         if num==sum:
+#             print(num)
+
+# for i in range(1,2601):
+#     num=i
+#     i=str(i)
+#     n=len(str(i))
+#     sum=0
+#     for j in i:
+#         sum+=int(j)**n
+#         if num==sum:
+#             print(num)
+
+# for i in range(1,901):
+#     num=i
+#     i=str(i)
+#     n=len(str(i))
+#     sum=0
+#     for j in i:
+#         sum+=int(j)**n
+#         if num==sum:
+#             print(num)
+
+# for i in range(1,100001):
+#     num=i
+#     i=str(i)
+#     n=len(str(i))
+#     sum=0
+#     for j in i:
+#         sum+=int(j)**n
+#         if num==sum:
+#             print(num)
+
+# for i in range(1,100000000000001):
+#     num=i
+#     i=str(i)
+#     n=len(str(i))
+#     sum=0
+#     for j in i:
+#         sum+=int(j)**n
+#         if num==sum:
+#             print(num)
+
+# for i in range(1,101):
+#     num=i
+#     i=str(i)
+#     n=len(str(i))
+#     sum=0
+#     for j in i:
+#         sum+=int(j)**n
+#         if num==sum:
+#             print(num)
+
+# for i in range(1,901):
+#     num=i
+#     i=str(i)
+#     n=len(str(i))
+#     sum=0
+#     for j in i:
+#         sum+=int(j)**n
+#         if num==sum:
+#             print(num)
+
+for i in range(1,408):
+    num=i
+    i=str(i)
+    l=len(str(i))
+    sum=0
+    for j in i:
+        sum+=int(j)**l
+        if num==sum:
+            print(num)
