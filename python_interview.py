@@ -541,7 +541,16 @@
 # print(str2)
 
 # list=[1,2,3,3,2,2,4,5,6]
-# print([ num for num in list if list.count(num)==1])
+# n = int(input("Enter any number: "))
+# sum1 = 0
+# for i in range(1, n):
+#     if(n % i == 0):
+#         sum1 = sum1 + i
+# if (sum1 == n):
+#     print("The number is a Perfect number!")
+# else:
+#     print("The number is not a Perfect number!")
+
 # list1=[1,2,2,3,4,5,6,6,7]
 # print([num for num in list1 if list1.count(num)==1])
 # i=[1,1,2,2,3,3,4]
@@ -1511,12 +1520,305 @@
 #         if num==sum:
 #             print(num)
 
-for i in range(1,408):
-    num=i
-    i=str(i)
-    l=len(str(i))
-    sum=0
-    for j in i:
-        sum+=int(j)**l
-        if num==sum:
-            print(num)
+# for i in range(1,408):
+#     num=i
+#     i=str(i)
+#     l=len(str(i))
+#     sum=0
+#     for j in i:
+#         sum+=int(j)**l
+#         if num==sum:
+#             print(num)
+
+#Find armstrong number fromm 1-500
+# for i in range(1,501):
+#     num=i
+#     i=str(i)
+#     n=len(str(i))
+#     sum=0
+#     for j in i:
+#         sum+=int(j)**n
+#         if num==sum:
+#             print(num)
+
+# for i in range(1,501):
+#     num=i
+#     i=str(i)
+#     n=len(str(i))
+#     sum=0
+#     for j in i:
+#         sum+=int(j)**n
+#         if num==sum:
+#             print(num)
+
+# for i in range(1,501):
+#     num=i
+#     i=str(i)
+#     n=len(str(i))
+#     sum=0
+#     for j in i:
+#         sum+=int(j)**n
+#         if num==sum:
+#             print(num)
+
+#Perfect Number
+# n = int(input("Enter any number: "))
+# sum1 = 0
+# for i in range(1, n):
+#     if(n % i == 0):
+#         sum1 = sum1 + i
+# if (sum1 == n):
+#     print("The number is a Perfect number!")
+# else:
+#     print("The number is not a Perfect number!")
+
+# num=int(input("Enter Number:"))
+# sum=0
+# for i in range(1,num):
+#     if num%i==0:
+#         sum+=i
+# if sum==num:
+#     print("Perfect Number!")
+# else:
+#     print("Not Perfect")            
+
+# num=int(input("Enter Number:"))
+# sum=0
+# for i in range(1,num):
+#     if num%i==0:
+#         sum+=i
+# if sum==num:
+#     print("Number is Perfect !!!") 
+# else:
+#     print("Number is not Perfect...")           
+
+# string="Aham ayam asmi"
+# print("reversed string is:",string[::-1])
+
+# string="aham ayam asmi"
+# print(" ".join(string.split()[::-1]))
+
+# string="aham ayam asmi"
+# print(" ".join(string.split()[::-1]))
+
+# str1="tat tvam asi"
+# print(" ".join(str1.split(" ")[::-1]))
+
+# str1="aham brahmah asi"
+# print(" ".join(str1.split()[::-1]))
+
+# str1="samasta yogah uchhyate"
+# print(" ".join(str1.split()[::-1]))
+
+# str1="Prajnanam Bhrahmam"
+# print(" ".join(str1.split()[::-1]))
+
+# str1="Python is a script like language"
+# print(" ".join(str1.split()[::-1]))
+
+# str1="shiv aham"
+# print(" ".join(str1.split()[::-1]))
+
+# str1="My Experiments with the truth"
+# print(" ".join(str1.split()[::-1]))
+# str1="daya darwaza tod do"
+# print(type(str1))
+# print(" ".join(str1.split()[::-1]))
+
+# num=[1,1,1,2,3,4,5,5,6,7,7,0]
+# num1=[]
+# for i in num:
+#     if i not in num1:
+#         num1.append(i)
+# print(num1)
+
+# num=[1,1,2,2,3,3,5,6,7,8]
+# num1=[]
+# for i in num:
+#     if i not in num1:
+#         num1.append(i)
+# print(num1)        
+
+# num=[1,1,2,3,4,5,5,6]
+# k=[]
+# for i in num:
+#     if i not in k:
+#         k.append(i)
+# print(k)                
+
+# n=[1,1,2,2,3,4,5,5,5,6,7]
+# print([i for i in n if n.count(i)==1])
+
+# num=[1,2,3,3,4,4,5,6,7,7,8]
+# num1=[]
+# for i in num:
+#     if num.count(i)==1:
+#         num1.append(i)
+# print(num1)        
+
+# num=[1,1,2,3,4,5,5,6,6,7,8,8,9]
+# num2=[]
+# num1=[]
+# for i in num:
+#     if num.count(i)==1:
+#         num1.append(i)
+#     else:
+#         num2.append(i)    
+# print(num1)       
+
+# num=[1,2,3,1,2,3,1,2,3]
+# num1=[]
+# num2=[]
+# for i  in num:
+#     if num.count(i)==1:
+#         num2.append(i)
+# print(num2) 
+
+# num=[1,1,2,2,3,3,4,4,5,6,6,7]
+# num1=[]
+# for i in num:
+#     if num.count(i)==1:
+#         num1.append(i)
+# print(num1)   
+
+# num=[1,2,1,2,3,4]
+# num1=[]
+# for i in num:
+#     if num.count(i)==1:
+#         num1.append(i)
+# print(num1)        
+
+# num=[1,1,2,1,3,4,5]
+# print([x for x in num if num .count(x)==1])
+
+# num=[1,1,2,3,1,3,4,5,6]
+# num1=[]
+# for i in num:
+#     if num.count(i)==1:
+#         num1.append(i)
+# print(num1)        
+
+# num=[1,1,2,3,4,5,6,7]
+# num2=[]
+# for i in num:
+#      if num.count(i)==1:
+#           num2.append(i)
+# print(num2)          
+
+# num_str="R3E4T6I"
+# alpha=[]
+# num=[]
+# for ch in num_str:
+#     if num_str.isalpha():
+#         alpha.append(ch)
+#     else:
+#         num.append(ch)
+# final=(sorted(alpha)+sorted(num))
+# output=' '.join(final)            
+# print(output)
+
+# num_str="U1N2M3C4X5Z7K9"
+# str1=[]
+# num=[]
+# for i in num_str:
+#     if num_str.isalpha():
+#         str1.append(i)
+#     else:
+#         num.append(i)
+# output=(sorted(str1)+sorted(num))
+# input1=" ".join(output)
+# print(input1)            
+
+# str_num="GO9B8R0MV1C5V7N3L6"
+# num=[]
+# str1=[]
+# for i  in str_num:
+#     if str_num.isalpha():
+#         num.append(i)
+#     else:
+#         str1.append(i)
+# final=(sorted(str1)+sorted(num))
+# new=" ".join(final)
+# print(new)            
+
+# str_num="U8N06G2S1J7L5M3K4I9"
+# string=[]
+# num=[]
+# for i in str_num:
+#     if str_num.isalpha():
+#         string.append(i)
+#     else:
+#         num.append(i)
+# output=(sorted(string)+sorted(num)) 
+# final=" ".join(output)
+# print(final)           
+
+# def str_num(ch):
+#     str1=[]
+#     num=[]
+#     for i in ch:
+#         if ch.isalpha():
+#             str1.append(i)
+#         else:
+#             num.append(i)
+#     test=sorted(str1)+sorted(num)
+#     print(" ".join(test))
+# str_num("4F6J9O7F4")
+
+# def str_num(ch):
+#     str1=[]
+#     num=[]
+#     for i in ch:
+#         if ch.isalpha():
+#             str1.append(i)
+#         else:
+#             num.append(i)
+#     test=(sorted(str1)+sorted(num))
+#     print(" ".join(test))
+# str_num("G7F5D4S4S3K9")                
+
+# def str_num(ch):
+#     str1=[]
+#     num=[]
+#     for i in ch:
+#         if ch.isalpha():
+#             str1.append(i)
+#         else:
+#             num.append(i)
+#     test=sorted(str1)+sorted(num)
+#     print(" ".join(test))
+# str_num("K3H3L")    
+
+# def str_num(ch):
+#     str=[]
+#     num=[]
+#     for i in ch:
+#         if ch.isalpha():
+#             str.append(i)
+#         else:
+#             num.append(i)
+#     test=sorted(str)+sorted(num)
+#     print(" ".join(test))
+# str_num("Y7F0J4f1S2M9")                            
+
+# num_str="3D5G9K7N1B6M9"
+# str1=[]
+# num=[]
+# for i in num_str:
+#     if num_str.isalpha():
+#         str1.append(i)
+#     else:
+#         num.append(i)
+# test=sorted(str1)+sorted(num)
+# test2=" ".join(test)
+# print(test2)       
+
+# num=[12,34,18,91]
+# print(max(num))     
+
+lang1=["Kannada","English","Hindi","Tamil","Malayalam"]
+lang2=["Spanish","Madarin","French","Japanese"]
+test=sorted((lang1)+(lang2))
+test1=" ".join(test)
+print(test1) 
+
