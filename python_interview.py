@@ -1816,9 +1816,66 @@
 # num=[12,34,18,91]
 # print(max(num))     
 
-lang1=["Kannada","English","Hindi","Tamil","Malayalam"]
-lang2=["Spanish","Madarin","French","Japanese"]
-test=sorted((lang1)+(lang2))
-test1=" ".join(test)
-print(test1) 
+# lang1=["Kannada","English","Hindi","Tamil","Malayalam"]
+# lang2=["Spanish","Madarin","French","Japanese"]
+# test=sorted((lang1)+(lang2))
+# test1=" ".join(test)
+# print(test1) 
+
+# l=list(map(int,input("Enter the Elements into list with duplication:").split(",")))
+# s=[]
+# for i in l:
+#     if i not in s:
+#         s.append(i)
+# print(s)        
+
+# list1=[10,20,30,50,20,30,40,50]
+# size=len(list1)
+# new_list=[]
+# for i in range(size):
+#     k=i+1
+#     for j in range(k,size):
+#         if list1[i]==list1[j] and list1[i] not in new_list:
+#             new_list.append(list1[i])
+# print(new_list)          
+
+# l=[10,20,30,10,20]
+# size=len(l)
+# new_list=[]
+# for i in range(size):
+#     k=i+1
+#     for j in range(k,size):
+#         if l[i]==l[j] and l[i] not in new_list:
+#             new_list.append(l[i])
+# print(new_list)          
+
+# l=[10,20,10,20,30,40,50,40,60,50]
+# size=len(l)
+# new_list=[]
+# for i in range(size):
+#     k=i+1
+#     for j in range(k,size):
+#         if l[i]==l[j] and l[i] not in new_list:
+#             new_list.append(l[i])
+# print(new_list)              
+
+l=[10,20,30,40,10,20,60,40,30]
+size=len(l)
+new_list=[]
+for i in range(size):
+    k=i+1
+    for j in range(k,size):
+        if l[i]==l[j] and l[i] not in new_list:
+            new_list.append(l[i])
+print(new_list)            
+
+
+
+
+
+
+
+
+
+
 
