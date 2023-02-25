@@ -1859,18 +1859,317 @@
 #             new_list.append(l[i])
 # print(new_list)              
 
-l=[10,20,30,40,10,20,60,40,30]
-size=len(l)
-new_list=[]
-for i in range(size):
-    k=i+1
-    for j in range(k,size):
-        if l[i]==l[j] and l[i] not in new_list:
-            new_list.append(l[i])
-print(new_list)            
+# l=[10,20,30,40,10,20,60,40,30]
+# size=len(l)
+# new_list=[]
+# for i in range(size):
+#     k=i+1
+#     for j in range(k,size):
+#         if l[i]==l[j] and l[i] not in new_list:
+#             new_list.append(l[i])
+# print(new_list)            
+
+# l=[1,1,2,3,4,4,5,5,6]
+# l1=[]
+# size=len(l)
+# for i in range(size):
+#     k=i+1
+#     for j in range(k,size):
+#         if l[i]==l[j] and l[i] not in l1:
+#             l1.append(l[i])
+# print(l1)          
+
+# l=[1,2,2,3,3,4,5,6,7,8,8]
+# l1=[]
+# size=len(l)
+# for i in range(size):
+#     k=i+1
+#     for j in range(k,size):
+#         if l[i]==l[j] and l[i] not in l1:
+#             l1.append(l[i])
+# print(l1)              
+
+# l=[1,1,2,2,3,4,4,5,6,7,7,8,8,9]
+# l1=[]
+# size=len(l)
+# for i in range(size):
+#     k=i+1
+#     for j in range(k,size):
+#         if l[i]==l[j] and l[i] not in l1:
+#             l1.append(l[i])
+# print(l1)           
+
+# l=[1,2,3,3,4,4,6,2,8]
+# l1=[]
+# size=len(l)
+# for i in range(size):
+#     k=1+i
+#     for j in range(k,size):
+#         if l[i]==l[j] and l[i] not in l1:
+#             l1.append(l[i])
+# print(l1)            
+
+# l=[1,2,3,8,2,3,8,9,4,5]
+# size=len(l)
+# l1=[]
+# for i in range(size):
+#     k=i+1
+#     for j in range(k,size):
+#         if l[i]==l[j] and l[i] not in l1:
+#             l1.append(l[i])
+# print(l1)            
+
+# l=[1,2,3,3,4,4,5,5]
+# l1=[]
+# size=len(l)
+# for i in range(size):
+#     k=i+1
+#     for j in range(k,size):
+#         if l[i]==l[j] and l[i] not in l1:
+#             l1.append(l[i])
+# print(l1)            
+
+print("*"*59)
+# str1="Sky is Blue"
+# print(str1)
+# print(" ".join(str1.split()[::-1]))
+
+# l=[1,2,2,3,3,4,5,5,6,6]
+# #Output=[1,4]
+# l1=[]
+# for i in l:
+#     if l.count(i)==1:
+#         l1.append(i)
+# print(l1)        
+
+# l=[1,2,2,3,3,4,5,5,6,6]
+# l1=[]
+# for i in l:
+#     if l.count(i)==1:
+#         l1.append(i)
+# print(l1)  
+
+# l=[1,2,2,3,3,4,4,5,6,6,7]
+# l1=[]
+# for i in l:
+#     if l.count(i)==1:
+#         l1.append(i)
+# print(l1) 
+
+# l=[1,2,3,3,2,4,5,4,5,6,7]
+# l1=[]
+# for i in l:
+#     if l.count(i)==1:
+#         l1.append(i)
+# print(l1)                     
+
+# l=[1,1,2,3,4,5,4,5,6,5,6]
+# l1=[]
+# for i in l:
+#     if  l.count(i)==1:
+#         l1.append(i)
+# print(l1)        
+
+# l=[1,2,3,2,3,4,3,4,5,6,7,8]
+# l1=[]
+# for i in l:
+#     if l.count(i)==1:
+#        l1.append(i)
+# print(l1)       
+
+# l=[1,2,1,2,4,5,4,5,6]
+# l1=[]
+# for i in l:
+#     if l.count(i)==1:
+#         l1.append(i)
+# l2=sorted(l1)
+# print(l2)
+
+# l=[1,2,2,4,4,5,5,6,6,8,7]
+# l1=[]
+# for i in l:
+#     if l.count(i)==1:
+#         l1.append(i)
+# l2=sorted(l1)
+# print(l2)        
+
+# l=[4,2,2,3,3,1,5,5,6,6]
+# l1=[]
+# for i in l:
+#     if l.count(i)==1:
+#         l1.append(i)
+# l2=sorted(l1)
+# print(l2) 
+
+# l=[1,1,2,3,4,4,4,5,6,6]
+# l1=[]
+# for i in l:
+#     if l.count(i)==1:
+#         l1.append(i)
+# print(l1)              
+
+# l=[1,1,2,2,3,3,4,5]
+# l1=[]
+# for i in l:
+#      if l.count(i)>=2:
+#           l1.append(i)
+# print(l1)    
+
+# l=[1,1,2,2,3,3,4]
+# l1=[]
+# for i in l:
+#     if i not in l1:
+#         l1.append(i)
+# print(l1)              
+# print("*"*60)
+# l=[1,1,2,2,3,3,4,5,6]
+# l1=[]
+# for i in l:
+#     if l.count(i)==1:
+#         l1.append(i)
+# print(l1)        
+
+# str_num="B5S9K3S1B2M9N7"
+# str1=[]
+# num=[]
+# for i in str_num:
+#     if i.isalpha():
+#         str1.append(i)
+#     else:
+#         num.append(i)
+# final=sorted(str1)+sorted(num)
+# print(" ".join(final))            
+
+# str_num="Q1W2E3R4T5Y6U7I8O9"
+# str=[]
+# num=[]
+# for ch in str_num:
+#     if ch.isalpha():
+#         str.append(ch)
+#     else:
+#         num.append(ch)
+# final=sorted(str)+sorted(num)
+# print(" ".join(final))            
+
+# str_num="1Q2W3E4R5T6Y7U8I9OP"
+# str=[]
+# num=[]
+# for i in str_num:
+#     if i.isalpha():
+#         str.append(i)
+#     else:
+#         num.append(i)
+# final=sorted(str)+sorted(num)
+# print(" ".join(final))   
+
+# str_num="M1N2B3V4C5X6Z7"
+# str=[]
+# num=[]
+# for i in str_num:
+#     if i.isalpha():
+#         str.append(i)
+#     else:
+#         num.append(i)
+# final=sorted(str)+sorted(num)
+# print(" ".join(final))                   
+
+# str_num="1A2S3D4F5G6H7j9L"
+# string=[]
+# num=[]
+# for i in str_num:
+#     if i.isalpha():
+#         string.append(i)
+#     else:
+#         num.append(i)
+# final=sorted(string)+sorted(num)
+# print(" ".join(final))            
+
+# str_num="M1I2S3T4A5K6E"
+# str1=[]
+# num=[]
+# for i in str_num:
+#     if i.isalpha():
+#         str1.append(i)
+#     else:
+#         num.append(i)
+# final=(sorted(str1)+sorted(num))
+# print(" ".join(final))            
+
+#Vowels
+# str="Ravikanth"
+# vowel=['a','e','i','o','u']
+# count=0
+# for i in str:
+#     if i in vowel:
+#         count+=1
+# print("Number of Vowel:",count)        
+
+# stri="RaviKanthOm"
+# vowels=['a','e','i','o','u']
+# count=0
+# for ch in stri:
+#     if ch in vowels:
+#         vowels.append(ch)
+#         count+=1
+# print("Vowels in",stri,"Are",count) 
+
+# stri="Herculus"
+# vowels=['a','e','i','o','u'] 
+# count=0
+# for ch in stri:
+#     if ch in vowels:
+#         vowels.append(ch)
+#         count+=1
+# print("Vowels in",stri,"is:",count)              
+
+# stri=input("Enter Strings:")
+# vowels=['a','e','i','o','u']
+# count=0
+# for ch in stri:
+#     if ch in vowels:
+#         vowels.append(ch)
+#         count+=1
+# print("Vowels in",stri,"are:",count)     
+
+# stri=input("Enter Strings :")
+# vowels=['a','e','o','i','u']
+# counts=0
+# for word in stri:
+#     if word in vowels:
+#         vowels.append(word)
+#         counts+=1
+# print("Vowels in",stri,"is:",counts)       
+
+# str1=input("Enter String:")
+# vowel=['a','e','i','o','u']
+# counts=0
+# for words in str1:
+#     if words in vowel:
+#         vowel.append(words)
+#         counts+=1
+# print("Vowels in",str1,"are ",counts)         
+
+# str1=input("Enter String:")
+# vowels_list=['a','e','i','o','u']
+# counts=0
+# for words in str1:
+#     if words in vowels_list:
+#         vowels_list.append(words)
+#         counts+=1
+# print("Vowels in",str1,"is ",counts)  
+
+print("-"*155)      
+#Duplicates removal
+l=[1,1,2,2,3,4,6]
+l1=[]
+for i in l:
+    if i not in l1:
+        l1.append(i)
+print("Duplicates after removed:",l1)
 
 
 
+    
 
 
 
