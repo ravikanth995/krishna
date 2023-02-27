@@ -2158,23 +2158,348 @@ print("*"*59)
 #         counts+=1
 # print("Vowels in",str1,"is ",counts)  
 
-print("-"*155)      
-#Duplicates removal
-l=[1,1,2,2,3,4,6]
-l1=[]
-for i in l:
-    if i not in l1:
-        l1.append(i)
-print("Duplicates after removed:",l1)
+# print("-"*155)      
+# #Duplicates removal
+# l=[1,1,2,2,3,4,6]
+# l1=[]
+# for i in l:
+#     if i not in l1:
+#         l1.append(i)
+# print("Duplicates after removed:",l1)
 
+# l=input("Enter String:")
+# l1=['a','e','i','o','u']
+# counts=0
+# for i in l:
+#     if i in l1:
+#         l1.append(i)
+#         counts+=1
+# print("Number of Voels in",l,"is:",counts)        
+        
+# l=input("Enter Strings:")
+# l1=['a','e','i','o','u']
+# counts=0
+# for i in l:
+#     if i in l1:
+#         l1.append(i)
+#         counts+=1
+# print("Number of Vowel in",l,"is:",counts)
 
+#reverse string
+# l="Sky is Blue"        
+# print(l)
+# print(" ".join(l.split()[::-1]))
 
-    
+# l=[1,1,2,2,3,4,5,5,6,8,8]
+# l1=[]
+# size=len(l)
+# for i in range(size):
+#     k=i+1
+#     for j in range(k,size):
+#         if l[i]==l[j] and l[i] not in l1:
+#             l1.append(l[i])
+# print("Duplicates after removal is:",l1)            
 
+# l=[1,2,3,3,4,4,5,5]
+# l1=[]
+# size=len(l)
+# for i in range(size):
+#     k=i+1
+#     for j in range(k,size):
+#         if l[i]==l[j] and l[i] not in l1:
+#             l1.append(l[i])
+# print(l1)         
+# print([i for i in l if l.count(i)==1])
 
+# l=[1,2,3,3,4,4,5,6,6,7,8]
+# print([i for i in l if l.count(i)==1])
 
+# l=[1,2,3,4,2,3,4,5]
+# print([i for i in l if l.count(i)==1])
 
+# l=[1,2,3,4,5,2,3,4,5,6,7]
+# print([i for i in l if l.count(i)==1])
 
+# l=[1,2,3,4,5,6,3,4,5,7,8,7,8]
+# print([i for i in l if l.count(i)==1])
 
+# l=[1,2,3,4,5,3,4,5,6,5,6,7,8,7,9,0]
+# print(sorted([x for x in l if l.count(x)==1]))
+
+# l=[1,2,3,3,0,9,84,4,5,5,6,7]
+# print(sorted([x for x in l if l.count(x)==1]))
+
+# str1="A5G8K9L0G5"
+# string=[]
+# num=[]
+# for i in str1:
+#     if str1.isalpha():
+#         string.append(i)
+#     else:
+#         num.append(i)
+# final=sorted(string)+sorted(num)
+# print(" ".join(final))    
+
+# str_num="R1B2X4M8Y6F4"
+# words=[]
+# num=[]
+# for i in str_num:
+#     if str_num.isalpha():
+#         words.append(i)
+#     else:
+#         num.append(i)
+# final=sorted(words)+sorted(num)
+# print(" ".join(final))            
+
+# str_num="9Q8W8E7R6T5Y4U3I2O1P"
+# words=[]
+# num=[]
+# for ch in str_num:
+#     if str_num.isalpha():
+#         words.append(ch)
+#     else:
+#         num.append(ch)
+# final=(sorted(words)+sorted(num))
+# print(" ".join(final))          
+
+# l=[1,1,2,2,3,3,4,5,6,7]
+# l1=[]
+# size=len(l)
+# for i in range(size):
+#     k=i+1
+#     for j in range(k,size):
+#         if l[i]==l[j] and l[i] not in l1:
+#             l1.append(l[i])
+# print("repeated numbers of",l,"are:",l1)              
+
+# l=[1,2,3,4,5,6,7,1,2,3,4]
+# l1=[]
+# size=len(l)
+# for i in range(size):
+#     k=i+1
+#     for j in range(k,size):
+#         if l[i]==l[j] and l[i] not in l1:
+#             l1.append(l[i])
+# print("Repeated Numbers of",l,"is:",l1)
+
+# l=[1,2,3,4,5,1,2,3]
+# l1=[]
+# size=len(l)
+# for i in range(size):
+#     k=i+1
+#     for j in range(k,size):
+#         if l[i]==l[j] and l[i] not in l1:
+#             l1.append(l[i])
+# print("Repeated Numbers of",l,"is:",l1)
+
+# for i in range(1,1002):
+#     num=i
+#     i=str(i)
+#     n=len(str(i))
+#     sum=0
+#     for digits in i:
+#         sum+=int(digits)**n
+#         if num==sum:
+#             print(num)
+
+# for i in range(1,891):
+#     num=i
+#     i=str(i)
+#     n=len(str(i))
+#     sum=0
+#     for digi in i:
+#         sum+=int(digi)**n
+#         if num==sum:
+#             print(num)
+
+# for i in range(1,801):
+#     num=i
+#     i=str(i)
+#     n=len(str(i))
+#     sum=0
+#     for digit in i:
+#         sum+=int(digit)**n
+#         if num==sum:
+#             print(num)
+
+# for i in range(1,501):
+#     num=i
+#     i=str(i)
+#     n=len(str(i))
+#     sum=0
+#     for j in i:
+#         sum+=int(j)**n
+#         if num==sum:
+#             print(num)
+
+# for i in range(1,409):
+#     num=i
+#     i=str(i)
+#     n=len(str(i))
+#     sum=0
+#     for j in i:
+#         sum+=int(j)**n
+#         if num==sum:
+#             print(num)
+
+# for i in range(1,408):
+#     num=i
+#     i=str(i)
+#     n=len(str(i))
+#     sum=0
+#     for j in i:
+#         sum+=int(j)**n
+#         if num==sum:
+#             print(num)
+
+# for i in range(1,408):
+#     num=i
+#     i=str(i)
+#     n=len(str(i))
+#     sum=0
+#     for j in i:
+#         sum+=int(j)**n
+#         if num==sum:
+#             print(num)
+
+# for i in range(1,408):
+#     num=i
+#     i=str(i)
+#     n=len(str(i))
+#     sum=0
+#     for j in i:
+#         sum+=int(j)**n
+#         if  num==sum:
+#             print(num)
+
+# for i in range(1,408):
+#     num=i
+#     n=len(str(i))
+#     i=str(i)
+#     sum=0
+#     for j in i:
+#         sum+=int(j)**n
+#         if num==sum:
+#             print(num)
+
+# for i in range(1,601):
+#     num=i
+#     i=str(i)
+#     n=len(str(i))
+#     sum=0
+#     for j in i:
+#         sum+=int(j)**n
+#         if num==sum:
+#             print(num)
+
+# for i in range(1,408):
+#     num=i
+#     i=str(i)
+#     n=len(str(i))
+#     sum=0
+#     for j in i:
+#         sum+=int(j)**n
+#         if num==sum:
+#             print(num)
+
+# for i in range(1,501):
+#     num=i
+#     i=str(i)
+#     n=len(str(i))
+#     sum=0
+#     for j in i:
+#         sum+=int(j)**n
+#         if num==sum:
+#             print(num)
+
+# for i  in range(1,408):
+#     num=i
+#     i=str(i)
+#     n=len(str(i))
+#     sum=0
+#     for j in i:
+#         sum+=int(j)**n
+#         if num==sum:
+#             print(num)
+
+# for i in range(1,607):
+#     num=i
+#     i=str(i)
+#     n=len(str(i))
+#     sum=0
+#     for j in i:
+#         sum+=int(j)**n
+#         if num==sum:
+#             print(num)
+
+# for i in range(1,408):
+#     num=i
+#     i=str(i)
+#     n=len(str(i))
+#     sum=0
+#     for j in i:
+#         sum+=int(j)**n
+#         if num==sum:
+#             print(num)
+
+# for i in range(1,501):
+#     num=i
+#     i=str(i)
+#     n=len(str(i))
+#     sum=0
+#     for j in i:
+#         sum+=int(j)**n
+#         if num==sum:
+#             print(num)
+
+# for x in range(1,601):
+#     num=x
+#     x=str(x)
+#     n=len(str(x))
+#     sum=0
+#     for y in x:
+#         sum+=int(y)**n
+#         if num==sum:
+#             print(num)
+
+# for i in range(1,408):
+#     num=i
+#     i=str(i)
+#     n=len(str(i))
+#     sum=0
+#     for j in i:
+#         sum+=int(j)**n
+#         if num==sum:
+#             print(num)
+
+# for i in range(1,501):
+#     num=i
+#     i=str(i)
+#     n=len(str(i))
+#     sum=0
+#     for  j in i:
+#         sum+=int(j)**n
+#         if num==sum:
+#             print(num)
+
+# for i in range(1,408):
+#     num=i
+#     i=str(i)
+#     n=len(str(i))
+#     sum=0
+#     for j in i:
+#         sum+=int(j)**n
+#         if sum==num:
+#             print(num)
+
+for i  in range(1,408):
+    num=i
+    i=str(i)
+    n=len(str(i))
+    sum=0
+    for j in i:
+        sum+=int(j)**n
+        if num==sum:
+            print(num)
 
 
