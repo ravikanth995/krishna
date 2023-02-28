@@ -1,35 +1,51 @@
-class Vehicle:
-    def __init__(self,model,mileage,price):
-        self.price=price
-        self.model=model
-        self.mileage=mileage
-        self.price=price
-    def showData(self):
-        print(f"model : {self.model}") 
-        print(f"price : {self.price}")
-        print(f"mileage : {self.mileage}")
-class Bike(Vehicle):
-    def __init__(self,model,mileage,price,tyre,cc):
-        super().__init__(model,mileage,price)
-        self.cc=cc
-        self.tyre=tyre
-    def showDetails(self):
-        super().showData()
-        print(f"CC :{self.cc}")
-        print(f"tyres: {self.tyre}")
-    # Method of derived class
-    def rating(self):
-        print("4 Star")
-class Car(Bike,Vehicle):
-    def rating(self):
-        print("5 Star")
-Bajaj=Bike("Dommar",40,145000,2,500)
-print("-"*30) 
-Tata=Car("Safari",25,80000,7,2000)
-Bajaj.showDetails()
-Bajaj.rating()
-print("-"*30)
-Tata.showDetails()
-# Bajaj.showData()
-Tata.rating()
-print("-"*30)
+import sys
+from PyQt6.QtWidgets import (QWidget,QRadioButton,QHBoxLayout,QVBoxLayout,
+                            QLabel, QApplication)
+class Example(QWidget):
+    def __init__(self):
+        super().__init__()
+
+        
+        self.initUI()
+
+    def initUI(self):
+
+        vbox = QVBoxLayout()
+        hbox = QHBoxLayout()
+        
+        rb1 = QRadioButton("Large", self)
+        rb1.toggled.connect(self.updateLabel)
+
+        rb2=QRadioButton("Medium", self)
+        rb2.toggled.connect(self.updateLabel)
+
+        rb3=QRadioButton("small", self)
+        rb3.toggled.connect(self.updateLabel)
+
+        self.label = QLabel('', self)
+
+        hbox.addWidget(rb1)
+        hbox.addWidget(rb2)
+        hbox.addWidget(rb3)
+        
+        vbox.addSpacing(15)
+        vbox.addLayout(hbox)
+        vbox.addWidget(self.label)
+
+        self.setLayout(vbox)
+        self.setGeometry(400, 300, 350, 250)
+        self.move(60,15)
+        self.setWindowTitle("Python Radio App")
+        self.show()
+
+    def updateLabel(self, _):
+        rbtn = self.sender()
+        if rbtn.isChecked() == True:
+            self.label.setText(rbtn.text())
+def main():
+    app = QApplication(sys.argv)
+    ex = Example()
+    sys.exit(app.exec())
+
+if __name__ == '__main__ ':
+    main()

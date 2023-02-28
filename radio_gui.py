@@ -18,7 +18,7 @@ class Example(QWidget):
         rb3=QRadioButton("Small", self)
         rb3.toggled.connect(self.updateLabel)
 
-        self.label=QLabel('', self)
+        self.label=QLabel('  ', self)
 
         hbox.addWidget(rb1)
         hbox.addWidget(rb2)
@@ -31,7 +31,7 @@ class Example(QWidget):
         vbox.addWidget(self.label)
         self.setLayout(vbox)
         self.setGeometry(400,300,350,250)
-        self.setWindowTitle(QRadioButton)
+        self.setWindowTitle("QRadioButton")
         self.show()
 
 

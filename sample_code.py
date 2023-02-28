@@ -1,20 +1,57 @@
-class Parent_Class:
-    def __init__(self,name,id):
-        self.name=name
-        self.id=id
-    def Employee_Details(self):
-        return self.id, self.name
-    def Employee_Check(self):
-        if self.id>50000:
-            return " Is valid Employee" 
-        else:
-            return "Invalid Employee" 
-class Derived_Class(Parent_Class):
-    def End(self):
-        print("End of Program")
+from PyQt6.QtWidgets import (QWidget, QRadioButton, QHBoxLayout, QVBoxLayout,
+                             QLabel, QApplication)
+import sys
 
-Employee1=Parent_Class("Ravikanth",1537199)
-print(Employee1.Employee_Details(),Employee1.Employee_Check())
+class Example(QWidget):
 
-Employee2=Derived_Class("Employee 1", 1537198)
-print(Employee2.Employee_Details, Employee2.Employee_Check())
+    def __init__(self):
+        super().__init__()
+
+        self.initUI()
+
+    def initUI(self):
+
+        vbox = QVBoxLayout()
+        hbox = QHBoxLayout()
+
+        rb1 = QRadioButton("Large", self)
+        rb1.toggled.connect(self.updateLabel)
+
+        rb2 = QRadioButton("Middle", self)
+        rb2.toggled.connect(self.updateLabel)
+
+        rb3 = QRadioButton("Small", self)
+        rb3.toggled.connect(self.updateLabel)
+
+        self.label = QLabel('', self)
+
+        hbox.addWidget(rb1)
+        hbox.addWidget(rb2)
+        hbox.addWidget(rb3)
+        
+        vbox.addSpacing(15)
+
+        vbox.addLayout(hbox)
+        vbox.addWidget(self.label)
+
+        self.setLayout(vbox)
+
+        self.setGeometry(400, 300, 350, 250)
+        self.setWindowTitle('QRadioButton')
+        self.show()
+
+    def updateLabel(self, _):
+
+        rbtn = self.sender()
+
+        if rbtn.isChecked() == True:
+            self.label.setText(rbtn.text())
+
+def main():
+
+    app = QApplication(sys.argv)
+    ex = Example()
+    sys.exit(app.exec())
+
+if __name__ == '__main__':
+    main()
