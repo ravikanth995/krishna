@@ -2492,7 +2492,137 @@ print("*"*59)
 #         if sum==num:
 #             print(num)
 
-for i  in range(1,408):
+# for i  in range(1,408):
+#     num=i
+#     i=str(i)
+#     n=len(str(i))
+#     sum=0
+#     for j in i:
+#         sum+=int(j)**n
+#         if num==sum:
+#             print(num)
+
+# a=[1,1,2,2,3,3,4,5,6]
+# b=[]
+# print([x for x in a if a.count(x)==1])
+
+# a=[1,2,3,1,2,4,5]
+# # print([x for x in a if a.count(x)==1])
+
+# list=[1,2,3,4,1,2,3,5,6,7]
+# print([i for i in list if list.count(i)==1])
+# list=[1,2,3,4,5,6,2,3,4]
+# print([i for i in list if list.count(i)>1])
+
+# list=[1,2,3,4,5,6,1,2,3,4]
+# list2=[]
+# for i in list:
+#     if i not in list2:
+#         list2.append(i)
+# print(list2)   
+
+# l=[1,2,3,4,5,1,2,3,4,6,7]
+# l1=[]
+# size=len(l)
+# for i in range(size):
+#     k=i+1
+#     for j in range(k,size):
+#         if l[i]==l[j] and l[i] not in l1:
+#             l1.append(l[i])
+# print(l1)               
+
+# string="Andhra Pradesh"
+# print(list((string.split(","))))
+
+# def add(num):
+#     return num*num
+# res=add(67)
+# print(res)
+
+# def sqrt(num):
+#     return num*num*num
+# add=sqrt(5)
+# print(add)
+
+#Armastrong number
+# for i in range(1,801):
+#     num=i
+#     i=str(i)
+#     n=len(str(i))
+#     sum=0
+#     for j in i:
+#         sum+=int(j)**n
+#         if num==sum:
+#             print(num)
+
+# l=[1,2,3,4,1,2,3]
+# size=len(l)
+# l1=[]
+# for i in range(size):
+#     k=i+1
+#     for j in range(k,size):
+#         if l[i]==l[j] and l[i] not in l1:
+#             l1.append(l[i])
+# print(l1)      
+
+# l=[1,2,3,4,5,5]
+# print(l[::-1])     
+
+# l=[1,2,3,4,5,6]
+# # print(" ".join(map(str,l)))
+# print(" ".join([str(x) for x in l]))
+
+# l=[1,2,3,4,5,6]
+# print(" ".join([str(x) for x in l]))
+
+# l=[1,2,3,4,5,6]
+# out=(" ".join([str(x) for x in l]))
+# print(out)
+# print(type(out))
+
+# l="Ravikanth"
+# print(l)
+# print(list((l.split(","))))
+# print(" ".join(map(str,l)))
+
+# l=[1,2,3,4]
+# print(" ".join(map(str,l)))
+
+# l="R1V5K7L0"
+# alpha=[]
+# num=[]
+# for i in l:
+#     if i.isalpha():
+#         alpha.append(i)
+#     else:
+#         num.append(i) 
+# s=sorted(alpha)+sorted(num)
+# out=" ".join(s)
+# print(out)        
+
+# l="E10M8H6F4L"
+# alpha=[]
+# num=[]
+# for i in l:
+#     if i.isalpha():
+#         alpha.append(i)
+#     else:
+#         num.append(i) 
+# final=sorted(alpha)+sorted(num)
+# print(" ".join(final))           
+
+# l="Rav9kan7t68"
+# alpha=[]
+# num=[]
+# for i in l:
+#     if i.isalpha():
+#         alpha.append(i)
+#     else:
+#         num.append(i)
+# final=sorted(alpha)+sorted(num)
+# print(" ".join(final))  
+
+for i in range(1,408):
     num=i
     i=str(i)
     n=len(str(i))
@@ -2500,6 +2630,4 @@ for i  in range(1,408):
     for j in i:
         sum+=int(j)**n
         if num==sum:
-            print(num)
-
-
+            print(num)          
