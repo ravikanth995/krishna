@@ -2622,6 +2622,36 @@ print("*"*59)
 # final=sorted(alpha)+sorted(num)
 # print(" ".join(final))  
 
+# for i in range(1,408):
+#     num=i
+#     i=str(i)
+#     n=len(str(i))
+#     sum=0
+#     for j in i:
+#         sum+=int(j)**n
+#         if num==sum:
+#             print(num)          
+
+# l=[1,2,3,4,5,1,2,3,5,6]
+# l1=[]
+# size=len(l)
+# for i in range(size):
+#     k=i+1
+#     for j in range(k,size):
+#         if l[i]==l[j] and l[i] not in l1:
+#             l1.append(l[i])
+# print(l1)   
+
+# l=[1,2,3,4,1,2,3,5,6,6,6,7,8]
+# l1=[]
+# size=len(l)
+# for i in range(size):
+#     k=i+1
+#     for j in range(k,size):
+#              if l[i]==l[j] and l[i] not in l1:
+#                     l1.append(l[i])
+# print(l1)
+
 for i in range(1,408):
     num=i
     i=str(i)
@@ -2630,4 +2660,4 @@ for i in range(1,408):
     for j in i:
         sum+=int(j)**n
         if num==sum:
-            print(num)          
+            print(num)
