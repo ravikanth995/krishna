@@ -771,11 +771,514 @@
 #     n//=10
 # print("reversed number is:",rev)    
 
-n=int(input("Enter Number:"))
-rev=0
-while n>0:
-    rev=(rev*10)+n%10
-    n//=10
-print(rev)    
+# n=int(input("Enter Number:"))
+# rev=0
+# while n>0:
+#     rev=(rev*10)+n%10
+#     n//=10
+# print(rev)    
 
- 
+# n=int(input("Enter Number :"))
+# rev=0
+# while n>0:
+#     rev=(rev*10)+n%10
+#     n//=10
+# print("Reversed Number is :",rev)    
+
+# n=int(input("Enter Number:"))
+# rev=0
+# while n>0:
+#     rev=(rev*10)+n%10
+#     n//=10
+# print("reversed Number is :",rev)    
+
+# n=int(input("Enter Number:"))
+# rev=0
+# num=n
+# while n>0:
+#     rev=(rev*10)+n%10
+#     n//=10
+# print("reversed number :",rev)
+# if num==rev:
+#     print("The Number is Palindrome") 
+# else:
+#     print("The Number is not Palindrome")       
+
+# n=int(input("Enter Number:"))
+# rev=0
+# num=n
+# while n>0:
+#     rev=(rev*10)+n%10
+#     n//=10
+# print("The reversed number:",rev)    
+# if num==rev:
+#     print("Palindrome")
+# else:
+#     print("Not palindrome")
+
+# n=int(input("Enter Number:"))
+# rev=0
+# num=n
+# while n>0:
+#     rev=(rev*10)+n%10
+#     n//=10
+# print("The reversed number is :",rev)    
+# if num==rev:
+#     print("The Number is Palindrome")
+# else:
+#     print("The Number is not Palindrome")    
+
+# n=int(input("Enter Number :"))
+# rev=0
+# while n>0:
+#     rev=(rev*10)+n%10
+#     n//=10
+# print("the reversed number is :",rev)    
+
+# n=int(input("Enter Number:"))
+# rev=0
+# while n>0:
+#     rev=(rev*10)+n%10
+#     n//=10
+# print("The Reversed Number is:",rev)  
+
+# n=int(input("Enter Number:"))
+# rev=0
+# while n>0:
+#     rev=(rev*10)+n%10
+#     n//=10
+# print("The reversed number is :",rev)      
+
+# n=int(input("Enter Number:"))
+# rev=0
+# while n>0:
+#     rev=(rev*10)+n%10
+#     n//=10
+# print("The reversed number is :",rev)    
+
+# n=int(input("Enter Number:"))
+# rev=0
+# while n>0:
+#     rev=(rev*10)+n%10
+#     n//=10
+# print("The reversed number is :",rev)    
+
+# n=int(input("Enter Number:"))
+# rev=0
+# while n>0:
+#     rev=(rev*10)+n%10
+#     n//=10
+# print("The reversed number is :",rev)    
+
+# n=int(input("Enter Number :"))
+# rev=0
+# while n>0:
+#     rev=(rev*10)+n%10
+#     n//=10
+# print("The reversed number is :",rev)  
+
+# n=int(input("Enter Number:"))
+# rev=0
+# while n>0:
+#     rev=(rev*10)+n%10
+#     n//=10
+# print("The reversed number is :",rev) 
+
+# n=int(input("Enter Numer:"))
+
+# def palindrome(n):
+#     rev=0
+#     num=n
+#     while n>0:
+#         rev=(rev*10)+n%10
+#         n//=10
+#     print("The reversed number is :",rev)
+#     if num==rev:
+#         print("The Number is Palindrom")
+#     else:
+#         print("The Number is not Palindrom") 
+# palindrome(n)               
+
+# n=int(input("Enter Number:"))
+# rev=0
+# while n>0:
+#         rev=(rev*10)+n%10
+#         n//=10
+# print("The reversed number is:",rev)   
+
+# n=int(input("Enter Number:"))
+# rev=0
+# while n>0:
+#     rev=(rev*10)+n%10
+#     n//=10
+# print("The Reversed Number is:",rev)     
+
+# n=int(input("Enter Number:")) 
+# rev=0
+# while n>0:
+#     rev=(rev*10)+n%10
+#     n//=10
+# print("The reversed number is:",rev)       
+
+#Fibonacci
+# num=int(input("Enter Number:"))
+# x,y=0,1
+# z=0
+# for i in range(1,num):
+#     print(z)
+#     x=y
+#     y=z
+#     z=x+y
+# print("Fibonacci number",z)    
+
+# num=int(input("Enter Number:"))
+# x,y,z=0,1,0
+# for i in range(1,num+1):
+#     print(z)
+#     x,y=y,z
+#     z=x+y
+
+# num=int(input("Enter Number:"))
+# x,y,z=0,1,0
+# for i in range(1,num+1):
+#     print(z)
+#     x,y=y,z
+#     z=x+y
+# print(z)    
+
+# n=int(input("Enter Number:"))
+# x,y,z=0,1,0
+# for i in range(1,n+1):
+#     print(z)
+#     x,y=y,z
+#     z=x+y
+# print(z)    
+
+# n=int(input("Enter Number:"))
+# x,y,z=0,1,0
+# for i in range(1,n+1):
+#     print(z)
+#     x,y=y,z
+#     z=x+y
+# print(z)    
+
+# n=int(input("Enter Number:"))
+# x,y,z=0,1,0
+# for i in range(1,n+1):
+#     print(z)
+#     x,y=y,z
+#     z=x+y
+# print(z)    
+
+# n=int(input("Enter Number:"))
+# x,y,z=0,1,0
+# for i in range(1,n+1):
+#     print(z)
+#     x,y=y,z
+#     z=x+y
+# print(z)
+
+# n=int(input("Enter Number:"))
+# i=1
+# count=0
+# while i<=n:
+#     if n%i==0:
+#         count+=1
+#     i+=1
+# if count==2:
+#     print("the number is Prime")
+# else:
+#     print("not prime")                
+
+# n=int(input("Enter Number:"))
+# i=1
+# count=0
+# while i<=n:
+#     if n%i==0:
+#         count+=1
+#     i+=1
+# if count==2:
+#     print("Prime Number")
+# else:
+#     print("Not Prime")            
+
+# n=int(input("Enter Number:"))
+# i=1
+# count=0
+# while i<=n:
+#     if n%i==0:
+#         count+=1
+#     i+=1
+# if count==2:
+#     print("Number is Prime")
+# else:
+#     print("Number is not prime")            
+
+# n=int(input("Enter Number:"))
+# count=0
+# i=1
+# while i<=n:
+#     if n%i==0:
+#         count+=1
+#     i+=1
+# if count==2:
+#     print("The Number is Prime")
+# else:
+#     print("The Number is not prime")            
+
+# n=int(input("Enter Number:"))
+# count=0
+# i=1
+# while i<=n:
+#     if n%i==0:
+#         count+=1
+#     i+=1
+# if count==2:
+#     print("The Prime Number") 
+# else:
+#     print("The Number not Prime")           
+
+# n=int(input("Enter Number:"))
+# count=0
+# i=1
+# while n>=i:
+#     if n%i==0:
+#         count+=1
+#     i+=1
+# if count==2:
+#     print("The Number is Prime")
+# else:
+#     print("The Number is not Prime") 
+
+# n=int(input("Enter Number:"))
+# count=0
+# i=1
+# while n>=i:
+#     if n%i==0:
+#         count+=1
+#     i+=1
+# if count==2:
+#     print("The Number is Prime") 
+# else:
+#     print("The Number is not Prime")         
+
+# n=int(input("Enter Number:"))
+# count=0
+# i=1
+# while n>=i:
+#     if n%i==0:
+#         count+=1
+#     i+=1
+# if count==2:
+#     print("prime number")
+# else:
+#     print("Not Prime")        
+
+# n=int(input("Enter Number:"))
+# count=0
+# i=1
+# while n>=i:
+#     if n%i==0:
+#         count+=1
+#     i+=1
+# if count==2:
+#     print("The Number is prime")
+# else:
+#     print("Not Prime Number")    
+
+# n=int(input("Enter Number:"))
+# count=0
+# i=1
+# while n>=i:
+#     if n%i==0:
+#         count+=1
+#     i+=1
+# if count==2:
+#     print("The Number is Prime") 
+# else:
+#     print("Not Prime Number")  
+
+# n=int(input("Enter Number:"))
+# count=0
+# i=1
+# while i<=n:
+#     if n%i==0:
+#         count+=1
+#     i+=1
+# if count==2:
+#     print("Prime Number")
+# else:
+#     print("Not Prime")            
+                                  
+# n=int(input("Enter Number:"))
+# rev=0
+# while n>0:
+#     rev=(rev*10)+n%10
+#     n//=10
+# print("The Reversed Number is:",rev)  
+
+# n=int(input("Enter Number:"))
+# rev=0
+# while n>0:
+#     rev=(rev*10)+n%10
+#     n//=10
+# print("reversed number is:",rev)       
+
+# n=int(input("Enter Number:"))
+# rev=0
+# while n>0:
+#     rev=(rev*10)+n%10
+#     n//=10
+# print("The reversed number is:",rev)    
+
+#Armastrong number
+# n=int(input("Enter Number:"))
+# rev=0
+# num=n
+# while n>0:
+#     rev=(rev*10)+n%10
+#     n//=10
+# print("Reversed number is:",rev)
+# if num==rev:
+#     print("The Reversed number is Armastrong:")
+# else:
+#     print("The Reversed Number is not Armastrong")        
+
+# n=int(input("Enter Number:"))
+# num=n
+# rev=0
+# while n>0:
+#     rev=(rev*10)+n%10
+#     n//=10
+# print("The reversed number is:",rev)
+# if num==rev:
+#     print("The reversed number is Armastrong")
+# else:
+#     print("The reversed number is not Armastrong")    
+
+#Palinrome
+# num=int(input("Enter Number:"))
+# x,y,z=0,1,0
+# for i in range(1,num+1):
+#     # print(z)
+#     x,y=y,z
+#     z=x+y
+#     print("Fibonacci series of:",i,"is",z)   
+    
+# num=int(input("Enter Number:"))
+# x,y,z=0,1,0
+# for i in range(1,num+1):
+#     print(z)
+#     x,y=y,z
+#     z=x+y
+# print("Fibonacci of given number is:",z)    
+
+# num=int(input("Enter NUmber:"))
+# i=1
+# count=0
+# while i<=num:
+#     if num%i==0:
+#         count+=1
+#     i+=1
+# if count==2:
+#     print("Number is Prime")
+# else:
+#     print("Number is not Prime")   
+
+# num=int(input("Enter Number:"))
+# sum=0
+# for i in range(1,num):
+#     if num%i==0:
+#         sum+=i
+# if sum==num:
+#     print("Perfect number") 
+# else:
+#     print("Not Perfect Number")            
+
+# num=int(input("Enter Number:"))
+# sum=0
+# for i in range(1,num):
+#     if num%i==0:
+#         sum+=i
+# if sum==num:
+#     print("Number is Perfect")
+# else:
+#     print("Number is not Perfect")   
+
+# num=int(input("Enter Number:"))
+# sum=0
+# for i in range(1,num):
+#     if num%i==0:
+#         sum+=i
+# if sum==num:
+#     print("Perefect Number")
+# else:
+#     print("Not perfect number")              
+
+#1. Write a program to reverse am integer 
+# n=int(input("Enter Number:"))
+# rev=0
+# while n>0:
+#     rev=(rev*10)+n%10
+#     n//=10
+# print("The reversed intger is:",rev)    
+
+#2. Write a program in python to check a given number is wether an integer is armstrong or not.
+# n=int(input("Enter Number:"))
+# num=n
+# rev=0
+# while n>0:
+#     rev=(rev*10)+n%10
+#     n//=10
+# print("The reversed number is :",rev)
+# if num==rev:
+#     print("The Number is palindrome")
+# else:
+#     print("The Given integer is not palindrome")     
+
+# num=int(input("Enter Number:"))
+# x,y,z=0,1,0
+# for i in range(num):
+#     print(z)
+#     x,y=y,z
+#     z=x+y
+# print("The Fibonacci numbers are:",z)    
+
+#3. Prime Number
+# num=int(input("Enter Number:"))
+# count=0
+# for i in range(1,num+1):
+#     if num%i==0:
+#         count+=1
+#     i+=1
+# if count==2:
+#     print("The Given Integer is Prime Number")
+# else:
+#     print("The Given Integer is not Prime Number")            
+
+#5. Perfect Number
+# num=int(input("Enter Number:"))
+# sum=0
+# for i in range(1,num):
+#     if num%i==0:
+#         sum+=i
+#     i+=1    
+# if sum==num:
+#     print("The Given Integer is Perfect")
+# else:
+#     print("The Given Integer is not Perfect")      
+
+for i in range(1,501):
+    num=i
+    i=str(i)
+    sum=0
+    n=len(str(i))
+    for j in i:
+        sum+=int(j)**n
+        if num==sum:
+            print(num)
+
+
+
+
+
