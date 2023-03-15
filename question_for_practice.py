@@ -57,6 +57,7 @@
 # else:
 #     print("Not Perfect number")       
 
+#6. Armastrong Number
 # for i in range(1,408):
 #     num=i
 #     i=str(i)
@@ -67,6 +68,7 @@
 #         if num==sum:
 #             print(num)     
 
+# 7. 
 # l=[1,1,1,2,3,4,5,5,6]
 # l1=[]
 # for i in l:
@@ -74,13 +76,15 @@
 #         l1.append(i)
 # print("Duplicates after removal is :",l1)        
 
-l=[1,1,1,2,2,3,4,4,4,5,6]
-l1=[]
-size=len(l)
-for i in range(size):
-    k=i+1
-    for j in range(k,size):
-        if l[i]==l[j] and l[i] not in l1:
-            l1.append(l[i])
-print("After Duplicates removal:",l1)            
+#8. 
+#  l=[1,1,1,2,2,3,4,4,4,5,6]
+# l1=[]
+# size=len(l)
+# for i in range(size):
+#     k=i+1
+#     for j in range(k,size):
+#         if l[i]==l[j] and l[i] not in l1:
+#             l1.append(l[i])
+# print("After Duplicates removal:",l1)            
+
 

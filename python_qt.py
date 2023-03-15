@@ -85,15 +85,17 @@
 # window.show()
 # sys.exit(app.exec())
 
-import sys
-from PyQt6.QtWidgets import QApplication, QLabel, QWidget
-app=QApplication(sys.argv)
-window=QWidget()
-window.setGeometry(100,100,300,80)
-window.setWindowTitle("Python App")
-window.move(50,40)
-msg=QLabel("Hello Human Beings !!", parent=window)
-window.show()
-sys.exit(app.exec())
+# import sys
+# from PyQt6.QtWidgets import QApplication, QLabel, QWidget
+# app=QApplication(sys.argv)
+# window=QWidget()
+# window.setGeometry(100,100,300,80)
+# window.setWindowTitle("Python App")
+# window.move(50,40)
+# msg=QLabel("Hello Human Beings !!", parent=window)
+# window.show()
+# sys.exit(app.exec())
+
+
 
 

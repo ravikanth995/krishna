@@ -2652,12 +2652,478 @@ print("*"*59)
 #                     l1.append(l[i])
 # print(l1)
 
-for i in range(1,408):
-    num=i
-    i=str(i)
-    n=len(str(i))
-    sum=0
-    for j in i:
-        sum+=int(j)**n
-        if num==sum:
-            print(num)
+# for i in range(1,408):
+#     num=i
+#     i=str(i)
+#     n=len(str(i))
+#     sum=0
+#     for j in i:
+#         sum+=int(j)**n
+#         if num==sum:
+#             print(num)
+
+#1.
+# n=int(input("Enter Number:"))
+# rev=0
+# while n>0:
+#     rev=(rev*10)+n%10
+#     n//=10
+# print("The Reversed Integers are:",rev)    
+
+#2.
+#Write a program to check wether a given number is a palindrome or not
+# n=int(input("Enter Number:"))
+# num=n
+# rev=0
+# while n>0:
+#     rev=(rev*10)+n%10
+#     n//=10
+# print("Reversed Integers are:",rev)
+# if num==rev:
+#     print("The Given Integer is Palindrome") 
+# else:
+#     print("Please.. Enter Valid Palindrome Integer i.e., 121 or 909!! ")       
+
+#3.
+#Write a python program to check wether a number is prime numbber or not
+# n=int(input("Enter Number:"))
+# count=0
+# i=1
+# while n>=i:
+#     if n%i==0:
+#         count+=1
+#     i+=1
+# if count==2:
+#     print("The Entered Integer is Prime Number")
+# else:
+#     print("Please.. Enter Valid Prime Number i.e., 2,3,5,7,11,13 !!")            
+
+#4.
+#Write a python program to print perfect number
+# n=int(input("Enter Number:"))
+# sum=0
+# for i in range(1,n):
+#     if n%i==0:
+#         sum+=i
+# if sum==n:
+#     print("The Entered Intger is Perfect Number") 
+# else:
+#     print("Please.. Enter Valid Perfect Integer i.e., 6 or 28 !!")        
+
+#5.
+# Write a python program to print armstrong number
+# n=int(input("Enter Number:"))
+# for i in range(1,n+1):
+#     num=i
+#     i=str(i)
+#     n=len(str(i))
+#     sum=0
+#     for j in i:
+#         sum+=int(j)**n
+#         if num==sum:
+#             print(num)    
+
+#6.
+#Write a python program to print fibonacci number
+x,y,z=0,1,0
+n=int(input("Enter Number:"))
+for i in range(1,n+1):
+    print(z)
+    x,y=y,z
+    z=x+y
+print("Fibonacci Numbers are:",z)    
+
+#7. i/p = "Complete Works of Swami Vivekananda"
+# o/p = "Vivekananda Swami of Works Complete"
+# l="Complete Works of Swami Vivekananda"
+# print(" ".join(l.split()[::-1]))
+
+#8. reverse the string i/p= python language 
+# l="python language"
+# print("String reverse is:",l[::-1])
+
+#9. i/p = [1,2,3,4,5,6,6,1,2,3,4]
+#o/p= [1,2,3,4,5,6]
+# l=[1,2,3,4,5,6,6,1,2,3,4]
+# l1=[]
+# for i in l:
+#     if i not in l1:
+#         l1.append(i)
+# print("List before duplicates removal:",l)
+# print("List after duplicates removal:",l1)        
+
+#10. i/p= [1,2,3,4,1,2,3,6,7]
+#o/p= [1,2,3]
+# l=[1,2,3,1,2,3,4,5,6,7]
+# l1=[]
+# size=len(l)
+# for i in range(size):
+#     k=i+1
+#     for j in range(k,size):
+#         if l[i]==l[j] and l[i] not in l1:
+#             l1.append(l[i])
+# print("List Before Duplicate Elements removal:",l)
+# print("List After Duplicate Elements removal:",l1)            
+
+#11. i/p= [1,2,3,4,1,2,3,4,5,6]
+#o/p= [5,6]
+# l=[1,2,3,1,2,3,4,4,5,6]
+# print([i for i in l if l.count(i)==1])
+
+#12. i/p= "Q1W2R4U8K7H6N9L0Y9"
+#o/p="QWR-UKH-NLY 012-67-89"
+# l= "Q1W2R4U8K7H6N9L0Y9"
+# alpha=[]
+# num=[]
+# for i in l:
+#     if i.isalpha():
+#         alpha.append(i)
+#     else:
+#         num.append(i)
+# final=(sorted(alpha)+sorted(num))
+# print(" ".join(final))        
+
+# n=int(input("Enter Number:"))
+# sum=0
+# i=1
+# while n>=i:
+#         sum+=i
+#         i+=1
+# print("The Sum of Given Integrs is:",sum)            
+
+# n=int(input("Enter Number:"))
+# sum=0
+# i=1
+# while n>=i:
+#     sum+=i
+#     i+=1
+# print("The Sum of Given Integer is:",sum)    
+
+# #13. i/p= sum of even and odd numbers
+# n=int(input("Enter Number:"))
+# i=1
+# even_sum=odd_sum=0
+# while n>=i:
+#     if i%2==0:
+#         even_sum+=i
+#     else:
+#         odd_sum+=i
+#     i+=1
+# print("Sum of Even Number is:",even_sum)
+# print("The Sum of Odd Numbers:",odd_sum)        
+
+#14. Factorial of a given integer
+# fact=1
+# i=1
+# n=int(input("Enter Number:"))
+# while n>=i:
+#     fact*=i
+#     i+=1
+# print("Factorial of given integer is:",fact)        
+
+
+# i=1
+# n=int(input("Enter Number:"))
+# while n>=i:
+#     j=1
+#     while j<=i:
+#         print(n,end="")
+#         j+=1
+#     print()
+#     i+=1
+
+# i=1
+# n=int(input("Enter Number:"))
+# while n>=i:
+#     j=1
+#     while j<=i:
+#         print("*",end="")
+#         j+=1
+#     print()
+#     i+=1
+
+# i=1
+# n=int(input("Enter Number:"))
+# while n>=i:
+#     j=1
+#     while j<=i:
+#         print("*",end="")
+#         j+=1
+#     print()
+#     i+=1
+
+# i=1
+# n=int(input("Enter Number:"))
+# while n>=i:
+#     j=1
+#     while j<=i:
+#         print("*",end="")
+#         j+=1
+#     print()
+#     i+=1    
+
+# i=1
+# n=int(input("Enter Number:"))
+# while i<=n:
+#     j=1
+#     while j<=i:
+#         print("*",end="")
+#         j+=1
+#     print()
+#     i+=1    
+
+# i=1
+# n=int(input("Enter Number:"))
+# while i<=n:
+#     j=1
+#     while j<=i:
+#         print("*",end="")
+#         j+=1
+#     print()
+#     i+=1    
+
+# i=1
+# n=int(input("Enter Number:"))
+# while i<=n:
+#     j=1
+#     while j<=i:
+#         print("*",end="")
+#         j+=1
+#     print()
+#     i+=1   
+
+# i=1
+# n=int(input("Enter Number:"))
+# while i<=n:
+#     j=1
+#     while j<=i:
+#         print("*",end="")
+#         j+=1
+#     print()
+#     i+=1     
+
+# i=1
+# n=int(input("Enter Number:"))
+# while i<=n:
+#     j=1
+#     while j<=i:
+#         print("*",end="")
+#         j+=1
+#     print()
+#     i+=1    
+
+# i=1
+# n=int(input("Enter Number:"))
+# while i<=n:
+#     j=1
+#     while j<=i:
+#         print("*",end="")
+#         j+=1
+#     print()
+#     i+=1   
+
+# i=1
+# n=int(input("Enter Number:"))
+# while i<=n:
+#     b=1
+#     while b<=5-i:
+#         print(" ",end="")
+#         b=b+1
+#     j=1
+#     while j<=i:
+#         print("*",end="")
+#         j+=1
+#     print()
+#     i+=1   
+
+# i=1
+# n=int(input("Enter Number:"))
+# while i<=n:
+#     b=1
+#     while b<=n-i:
+#         print(" ",end="")
+#         b+=1
+#     j=1    
+#     while j<=i:
+#         print("*",end="")
+#         j+=1
+#     print()
+#     i+=1   
+
+# i=1
+# n=int(input("Enter Integer:"))
+# while i<=n:
+#     b=1
+#     while b<=n-i:
+#         print(" ",end="")
+#         b+=1
+#     j=1
+#     while j<=i:
+#         print("*",end="")
+#         j+=1
+#     print()
+#     i+=1   
+
+# i=1
+# n=int(input("Enter Integer:"))
+# while i<=n:
+#     b=1
+#     while b<=n-i:
+#         print(" ",end="")
+#         b+=1
+#     j=1
+#     while j<=i:
+#         print("*",end="")
+#         j+=1
+#     print()
+#     i+=1        
+
+# i=1
+# n=int(input("Enter Integer:"))
+# while i<=n:
+#     b=1
+#     while b<=n-i:
+#         b+=1
+#         print(" ",end="")
+#     j=1
+#     while j<=i:
+#         print("*",end="")
+#         j+=1
+#     print()
+#     i+=1        
+
+# i=1
+# n=int(input("Enter Integer:"))
+# while i<=n:
+#     b=1
+#     while b<=n-i:
+#         print(" ",end="")
+#         b+=1
+#     j=1
+#     while j<=i:
+#         print("*",end="")
+#         j+=1
+#     print()
+#     i+=1      
+
+# i=1
+# n=int(input("Enter Integer:"))
+# while i<=n:
+#     b=1
+#     while b<=n-i:
+#         print(" ",end="")
+#         b+=1
+#     j=1
+#     while j<=i:
+#         print("*",end="")
+#         j+=1
+#     print()
+#     i+=1   
+
+# i=1
+# n=int(input("Enter Integer:"))
+# while i<=n:
+#     b=1
+#     while b<=n-i:
+#         print(" ",end="")
+#         b+=1
+#     j=1
+#     while j<=i:
+#         print("*",end="")
+#         j+=1
+#     print()
+#     i+=1        
+
+# i=1
+# n=int(input("Enter Integer:"))
+# while i<=n:
+#     b=1
+#     while b<=n-i:
+#         print(" ",end="")
+#         b+=1
+#     j=1
+#     while j<=i:
+#         print("*",end="")
+#         j+=1
+#     print()
+#     i+=1     
+
+# i=1
+# n=int(input("Enter Integer:"))
+# while i<=n:
+#     b=1
+#     while b<=n-i:
+#         print(" ",end="")
+#         b+=1
+#     j=1
+#     while j<=i:
+#         print("*",end="") 
+#         j+=1
+#     print()
+#     i+=1      
+
+# i=1
+# k=1
+# n=int(input("Enter Integer:"))    
+# while i<=n:
+#     b=1
+#     while b<=n-i:
+#         print(" ",end="")
+#         b+=1
+#     j=1
+#     while j<=k:
+#         print("*",end="")
+#         j+=1
+#     k+=2
+#     print()
+#     i+=1        
+
+# i=1
+# k=1
+# n=int(input("Enter Number:"))
+# while i<=n:
+#     b=1
+#     while b<=n-i:
+#         print(" ",end="")
+#         b+=1
+#     j=1
+#     while j<=k:
+#         print("*",end="")
+#         j+=1
+#     k+=2
+#     print()
+#     i+=1        
+
+# i=1
+# k=1
+# n=int(input("Enter Number:"))
+# while i<=n:
+#     b=1
+#     while b<=n-i:
+#         print(" ",end="")
+#         b+=1
+#     j=1
+#     while j<=k:
+#         print(n,end="")
+#         j+=1
+#     k+=2
+#     print()
+#     i+=1        
+
+# i=1
+# k=1
+# n=int(input("Enter Number:"))
+# while i<=n:
+#     b=1
+#     while b<=n-i:
+#         print(" ",end="")
+#         b+=1
+#     j=1
+#     while j<=k:
+#         print(j,end="")
+#         j+=1
+#     k+=2
+#     print()
+#     i+=1        
+
+

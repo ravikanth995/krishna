@@ -1,51 +1,24 @@
 import sys
-from PyQt6.QtWidgets import (QWidget,QRadioButton,QHBoxLayout,QVBoxLayout,
-                            QLabel, QApplication)
-class Example(QWidget):
-    def __init__(self):
-        super().__init__()
-
-        
-        self.initUI()
-
-    def initUI(self):
-
-        vbox = QVBoxLayout()
-        hbox = QHBoxLayout()
-        
-        rb1 = QRadioButton("Large", self)
-        rb1.toggled.connect(self.updateLabel)
-
-        rb2=QRadioButton("Medium", self)
-        rb2.toggled.connect(self.updateLabel)
-
-        rb3=QRadioButton("small", self)
-        rb3.toggled.connect(self.updateLabel)
-
-        self.label = QLabel('', self)
-
-        hbox.addWidget(rb1)
-        hbox.addWidget(rb2)
-        hbox.addWidget(rb3)
-        
-        vbox.addSpacing(15)
-        vbox.addLayout(hbox)
-        vbox.addWidget(self.label)
-
-        self.setLayout(vbox)
-        self.setGeometry(400, 300, 350, 250)
-        self.move(60,15)
-        self.setWindowTitle("Python Radio App")
-        self.show()
-
-    def updateLabel(self, _):
-        rbtn = self.sender()
-        if rbtn.isChecked() == True:
-            self.label.setText(rbtn.text())
-def main():
-    app = QApplication(sys.argv)
-    ex = Example()
-    sys.exit(app.exec())
-
-if __name__ == '__main__ ':
-    main()
+from PyQt6.QtWidgets import (
+    QApplication,
+    QLabel,
+    QPushButton,
+    QVBoxLayout,
+    QWidget
+)
+def greet(self):
+    if msgLabel.text():
+        msgLabel.setText("")
+    else:
+        msgLabel.setText("Hello, World")
+app=QApplication([sys.argv])
+window=QWidget()
+layout=QVBoxLayout()
+button=QPushButton("Greet")
+button.clicked.connect(greet)
+layout.addWidget(button)
+msgLabel=QLabel("")
+layout.addWidget(msgLabel)
+window.setLayout(layout)
+window.show()
+sys.exit(app.exec())

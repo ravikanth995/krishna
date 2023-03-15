@@ -107,42 +107,64 @@
 
 
 # if __name__ == '__main__':
-#     main()
+# #     main()
 
 
-import sys
-from PyQt6.QtWidgets import (
-    QApplication,
-    QWidget,
-    QLabel,
-    QMainWindow,
-    QStatusBar,
-    QToolBar
-)
-class Window(QMainWindow):
-    def __init__(self):
-        super().__init__(parent=None)
-        self.setWindowTitle("Main WIndow")
-        self.setCentralWidget(QLabel("I Am the Central Widget"))
-        self._createMenu()
-        self._createToolBox()
-        self._createStatusBar()
+# import sys
+# from PyQt6.QtWidgets import (
+#     QApplication,
+#     QWidget,
+#     QLabel,
+#     QMainWindow,
+#     QStatusBar,
+#     QToolBar
+# )
+# class Window(QMainWindow):
+#     def __init__(self):
+#         super().__init__(parent=None)
+#         self.setWindowTitle("Main WIndow")
+#         self.setCentralWidget(QLabel("I Am the Central Widget"))
+#         self._createMenu()
+#         self._createToolBox()
+#         self._createStatusBar()
 
-    def _createMenu(self):
-        menu=self.menuBar().addMenu("&Menu")
-        menu.addAction("&Exit",self.close)
+#     def _createMenu(self):
+#         menu=self.menuBar().addMenu("&Menu")
+#         menu.addAction("&Exit",self.close)
 
-    def _createToolBox(self):
-        tool=QToolBar()
-        tool.addAction("&Exit",self.close)
-        self.addToolBar(tool)
+#     def _createToolBox(self):
+#         tool=QToolBar()
+#         tool.addAction("&Exit",self.close)
+#         self.addToolBar(tool)
 
-    def _createStatusBar(self):
-        status=QStatusBar()
-        status.showMessage("I am Status Bar")
-        self.setStatusBar(status)
-if __name__=="__main__":
-    app=QApplication(sys.argv)
-    Window=Window()
-    Window.show()
-    sys.exit(app.exec())                    
+#     def _createStatusBar(self):
+#         status=QStatusBar()
+#         status.showMessage("I am Status Bar")
+#         self.setStatusBar(status)
+# if __name__=="__main__":
+#     app=QApplication(sys.argv)
+#     Window=Window()
+#     Window.show()
+#     sys.exit(app.exec())                    
+
+# import sys
+# from PyQt6.QtWidgets import (
+#     QApplication.
+#     QLabel,
+#     QMainWindow,
+#     QWidget,
+#     QStatusBar,
+#     QToolBar
+# )
+# class Window(QMainWindow):
+#     def __init__(self):
+#         super().__init__(parent=None)
+#         self.setWindowTitle("QMain Window")
+#         self.setCentralWindow(QLabel("I Am Central Widget"))
+#         self._createMenu()
+#         self._createToolBar()
+#         self._createStatusBar()
+
+#     def _createMenu(self):
+#         menu=self.menuBar().addMenu('&Exit')
+#         menu.addAction("&Exit",self.close)

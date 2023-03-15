@@ -396,13 +396,15 @@ import sqlite3
 # print(temp.describe())
 # print(temp['Name'],temp.describe())
 # print(temp.iloc[0])
-df=pd.DataFrame({'A':['John','Bobby','Meena','Peter','Nicky'],
-                 'B':['Master','Graduate','Master','Graduate','Student'],
-                 'C':[23,24,25,26,20]}, index=[1,2,3,4,5])
-# print(df)
-table=pd.pivot_table(df, values='A',index=['B','C'],
-                     columns=['B'],aggfunc=np.sum)
-print(table)
+# df=pd.DataFrame({'A':['John','Bobby','Meena','Peter','Nicky'],
+#                  'B':['Master','Graduate','Master','Graduate','Student'],
+#                  'C':[23,24,25,26,20]}, index=[1,2,3,4,5])
+# # print(df)
+# table=pd.pivot_table(df, values='A',index=['B','C'],
+#                      columns=['B'],aggfunc=np.sum)
+# print(table)
+
+
 
 
 

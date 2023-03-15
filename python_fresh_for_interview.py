@@ -1268,15 +1268,17 @@
 # else:
 #     print("The Given Integer is not Perfect")      
 
-for i in range(1,501):
-    num=i
-    i=str(i)
-    sum=0
-    n=len(str(i))
-    for j in i:
-        sum+=int(j)**n
-        if num==sum:
-            print(num)
+# for i in range(1,501):
+#     num=i
+#     i=str(i)
+#     sum=0
+#     n=len(str(i))
+#     for j in i:
+#         sum+=int(j)**n
+#         if num==sum:
+#             print(num)
+
+
 
 
 

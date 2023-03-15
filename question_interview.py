@@ -561,16 +561,439 @@
 # else:
 #     print("Please.. Enter Valid Perfect Number")              
 
-n=int(input("Enter Number:"))
-sum=0
-for i in range(1,n):
-    if n%i==0:
-        sum+=i
-if sum==n:
-    print("Perfect Number")
-else:
-    print("No Perfect")            
+# n=int(input("Enter Number:"))
+# sum=0
+# for i in range(1,n):
+#     if n%i==0:
+#         sum+=i
+# if sum==n:
+#     print("Perfect Number")
+# else:
+#     print("No Perfect")            
 
-          
-  
-           
+#Prime Number
+# n=int(input("Enter Number:"))
+# count=0
+# i=1
+# while n>=i:
+#     if n%i==0:
+#         count+=1
+#     i+=1
+# if count==2:
+#     print("The Given Number is Prime")
+# else:
+#     print("The Given integer is not Prime")            
+
+# n=int(input("Enter Number:"))
+# i=1
+# count=0
+# while n>=i:
+#     if n%i==0:
+#         count+=1
+#     i+=1
+# if count==2:
+#     print("Prime Number")
+# else:
+#     print("Not Prime Number")     
+
+# n=int(input("Enter Number:"))
+# count=0
+# i=1
+# while n>=i:
+#     if n%i==0:
+#         count+=1
+#     i+=1
+# if count==2:
+#     print("The Entered Integer is Prime Number")
+# else:
+#     print("Please... Enter Valid Prime Number i.e., 2,3,5,7,11,13 !!")                   
+
+# n=int(input("Enter Number:"))
+# i=1
+# count=0
+# while i<=n:
+#     if n%i==0:
+#         count+=1
+#     i+=1
+# if count==2:
+#     print("The Entered Integer is Prime Number")
+# else:
+#     print("Please.. Enter Valid Prime Number i.e., 2,3,5,7,11,13!!")       
+
+# n=int(input("Enter Number:"))
+# count=0
+# i=1
+# while n>=i:
+#     if n%i==0:
+#         count+=1
+#     i+=1
+# if count==2:
+#     print("Entered Integer is Prime Number")
+# else:
+#     print("Please.. Enter Valid Prime Number i.e., 2,3,5,7,11,13 !!")    
+
+# n=int(input("Enter Number:"))
+# count=0
+# i=1
+# while n>=i:
+#     if n%i==0:
+#         count+=1
+#     i+=1
+# if count==2:
+#     print("Entered Integer is Prime Number")
+# else:
+#     print("Please... Enter Valid Prime Number i.e., 2,3,5,7,11 !!")           
+
+#1. Reverse an Integer
+# n=int(input("Enter Number:"))
+# rev=0
+# while n>0:
+#     rev=(rev*10)+n%10
+#     n//=10
+# print("Reversed Integer:",rev)    
+            
+#2. Write a program to check a wether a number is a Palindrome or not
+# n=int(input("Enter Number:"))
+# rev=0
+# num=n
+# while n>0:
+#     rev=(rev*10)+n%10
+#     n//=10
+# if num==rev:
+#     print("The Entered Integers are Palindrome")
+# else:
+#     print("Please.. Enter Valid Integer i.e., 121, 131, 909 !!")    
+
+#3. Write a program to print Fibonacci numbers
+# n=int(input("Enter Number:"))
+# x,y,z=0,1,0
+# for i in range(1,n+1):
+#     print(z)
+#     x,y=y,z
+#     z=x+y
+# print(z)    
+
+#4. Prime Number
+# n=int(input("Enter Number:"))
+# count=0
+# i=1
+# while n>=i:
+#     if n%i==0:
+#         count+=1
+#     i+=1
+# if count==2:
+#     print("Integer is Prime")
+# else:
+#     print("Not prime")            
+
+# n=int(input("Enter Number:"))
+# count=0
+# i=1
+# while n>=i:
+#     if n%i==0:
+#         count+=1
+#     i+=1
+# if count==2:
+#     print("Integer is Prime")
+# else:
+#     print("Not prime")          
+
+# n=int(input("Enter Number:")) 
+# count=0
+# i=1
+# while n>=i:
+#     if n%i==0:
+#         count+=1
+#     i+=1
+# if count==2:
+#     print("The Entered integer is Prime")
+# else:
+#     print("Not prime")             
+
+# l="Sky is Blue"
+# final=(l.split()[::-1])
+# print(" ".join(l))
+
+# l="Sky is Blue"
+# final=(l.split()[::-1])
+# print(" ".join(l))          
+
+#1.
+# n=int(input("Enter Number:"))
+# rev=0
+# while n>0:
+#     rev=(rev*10)+n%10
+#     n//=10
+# print("The reversed integers are:",rev)    
+
+#2.
+# n=int(input("Enter Number:"))
+# rev=0
+# num=n
+# while n>0:
+#     rev=(rev*10)+n%10
+#     n//=10
+# print("Reversed Integers are:",rev)
+# if num==rev:
+#     print("The Entered Integer is Palindrome")
+# else:
+#     print("Please.. Enter Valid Palindrome i.e., 121 or 545")        
+
+#3.
+# n=int(input("Enter Number:"))
+# i=1
+# count=0
+# while n>=i:
+#     if n%i==0:
+#         count+=1
+#     i+=1
+# if count==2:
+#     print("The Integer is Prime")
+# else:
+#     print("Please.. Enter Valid Prime Number i.e., 2,3,5,7,11,13")            
+
+#4.
+# n=int(input("Enter Number:"))
+# sum=0
+# num=n
+# for i in range(1,n):
+#     if n%i==0:
+#         sum+=i
+# if sum==num:
+#     print("The Entered Integer is Perfect Number")
+# else:
+#     print("Please.. Enter Valid Perfect Integer i.e., 6 or 28")            
+
+#5.
+# n=int(input("Enter Number:"))
+# for i in range(1,n):
+#     num=i
+#     i=str(i)
+#     n=len(str(i))
+#     sum=0
+#     for j in i:
+#         sum+=int(j)**n
+#         if num==sum:
+#             print(num)
+
+#6.
+# x,y,z=0,1,0
+# n=int(input("Enter Number:"))
+# for i in range(1,n+1):
+#     print(z)
+#     x,y=y,z
+#     z=x+y
+# print(z)
+
+#7.
+# l="Ravi is Dark"
+# print(l)
+# final=(l.split()[::-1])
+# print(" ".join(final))
+
+#8.
+# l="Python is Best"
+# print(l[::-1])
+
+#9.
+# l=[1,2,3,4,1,2,3,5,6]
+# l1=[]
+# for i in l:
+#     if i not in l1:
+#         l1.append(i)
+# print("List Before Duplicates Removal:",l)
+# print("List After duplicates removal:",l1)        
+
+#10.
+# l=[1,2,3,1,2,3,4,5]
+# l1=[]
+# size=len(l)
+# for i in range(size):
+#     k=i+1
+#     for j in range(k,size):
+#         if l[i]==l[j] and l[i] not in l1:
+#             l1.append(l[i])
+# print("List Before Duplicates Removal:",l)
+# print("List After Duplicates removal:",l1)            
+
+#11. o/p = [4,5]
+# l=[1,2,3,1,2,3,4,5]
+# print([i for i in l if l.count(i)==1])
+
+# n=int(input("Enter Number:"))
+# i=1
+# sum=0
+# while n>=i:
+#     sum+=i
+#     i+=1
+# print("Sum is :",sum)
+    
+#13.
+# n=int(input("Enter Number:"))
+# even_sum=odd_sum=0
+# for i in range(1,n+1):
+#     if i%2==0:
+#         even_sum+=i
+#     else:
+#         odd_sum+=i
+#     i+=1
+# print("The Sum of Even Number is:",even_sum)
+# print("The Sum of Odd Number is",odd_sum)            
+    
+# n=int(input("Enter Number:"))
+# fact=1
+# i=1
+# while n>=i:
+#     fact*=i
+#     i+=1
+# print("factorial iS:",fact)    
+
+# celcius=int(input("Enter Number:"))
+# far=(celcius*1.8)+32
+# print("convertinng {0} into {1}".format(celcius,far))
+
+#1.
+# n=int(input("Enter Number:"))
+# rev=0
+# while n>0:
+#     rev=(rev*10)+n%10
+#     n//=10
+# print("The Reversed Integers are:",rev)    
+
+# n=int(input("Enter Number:"))
+# rev=0
+# num=n
+# while n>0:
+#     rev=(rev*10)+n%10
+#     n//=10
+# print("The Reversed Integers are:",rev)
+# if num==rev:
+#     print("The Entered Integer is Palindrome")
+# else:
+#     print("Please... Enter Valid Palindrome i.e., 121 or 545 !!")        
+
+# n=int(input("Enter Number:"))
+# count=0
+# i=1
+# while n>=i:
+#     if n%i==0:
+#         count+=1
+#     i+=1
+# if count==2:
+#     print("The Entered Integer is Prime Number")
+# else:
+#     print("Please.. Enter Valid Prime Number i.e., 2,3,5,7,11,13 !!")            
+
+# n=int(input("Enter Number:"))
+# sum=0
+# for i in range(1,n):
+#     if n%i==0:
+#         sum+=i
+# if sum==n:
+#     print("The Entered Integer is Perfect Number")
+# else:
+#     print("Please.. Enter Valid Perfect Integer e.g., 6 or 28!!")    
+
+# n=int(input("Enter Number:"))
+# for i in range(1,n+1):
+#     num=i
+#     i=str(i)
+#     n=len(str(i))
+#     sum=0
+#     for j in i:
+#         sum+=int(j)**n
+#         if num==sum:
+#             print(num)
+
+# n=int(input("Enter Number:"))
+# x,y,z=0,1,0
+# for i in range(1,n+1):
+#     print(z)
+#     x,y=y,z
+#     z=x+y
+# print(z)    
+
+#i/p = "boAt is a company"
+#o/p = "company a is boAt"
+# l="boAt is a company"
+# print((" ".join(l.split()[::-1])))
+
+# l="company of strings"
+# print(l[::-1])
+
+# l=[1,1,2,2,3,3,5,5,4]
+# l1=[]
+# for i in l:
+#     if i not in l1:
+#         l1.append(i)
+# print(l)
+# print(sorted(l1))        
+
+# l=[1,1,2,2,3,3,4,4,5,6,7,7]
+# l1=[]
+# size=len(l)
+# for i in range(size):
+#     k=i+1
+#     for j in range(k,size):
+#         if l[i]==l[j] and l[i] not in l1:
+#             l1.append(l[i])
+# print("List Elements before duplicates removal:",l)
+# print("List Elements after duplicates removal:",l1)             
+
+# l=[1,2,1,2,3,3,4,5,4,6]
+# print(l)
+# print([x for x in l if l.count(x)==1])
+
+# l="A1S2D3F4G5H6J7K8L9"
+# alpha=[]
+# nums=[]
+# for i in l:
+#     if i.isalpha():
+#         alpha.append(i)
+#     else:
+#         nums.append(i)
+# final=(sorted(alpha)+sorted(nums))
+# print(" ".join(final))               
+
+# n=int(input("Enter Number:"))
+# i=1
+# sum=0
+# while n>=i:
+#     sum+=i
+#     i+=1
+# print("The Sum of Given Integer is:",sum)        
+
+# n=int(input("Enter Number:"))
+# i=1
+# even_sum=odd_sum=0
+# while n>=i:
+#     if n%i==0:
+#         even_sum+=i
+#     else:
+#         odd_sum+=i
+#     i+=1
+# print("The Sum of Even Integers is:",even_sum)
+# print("The Sum of Odd Integers is:",odd_sum)            
+
+# fact=1
+# i=1
+# n=int(input("Enter Number:"))
+# while n>=i:
+#     fact*=i
+#     i+=1
+# print("factorial of the given integer is:",fact)    
+
+# celcius=int(input("Enter celcius degree:"))
+# far=(celcius*1.8)+32
+# print("%.2f of celcius degree is equal to %.2f of farhenheit"%(celcius,far))
+
+# PI=3.142
+# r=int(input("Enter Radius of the Circle:"))
+# area=2*r*r
+# circumference=2*PI*area
+# print("Area of Circle is:",area)
+# print("Circumference of the Circle is:",circumference)
+
+
+
+

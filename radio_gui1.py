@@ -156,49 +156,49 @@
 # if __name__=='__main__':
 #     main()                  
 
-import sys
-from PyQt6.QtWidgets import (QApplication,QWidget, QRadioButton, QHBoxLayout, QVBoxLayout, QLabel)
-class Example(QWidget):
-    def __init__(self):
-        super().__init__()
-        self.initUI()
+# import sys
+# from PyQt6.QtWidgets import (QApplication,QWidget, QRadioButton, QHBoxLayout, QVBoxLayout, QLabel)
+# class Example(QWidget):
+#     def __init__(self):
+#         super().__init__()
+#         self.initUI()
 
-    def initUI(self):
-        vbox=QVBoxLayout()
-        hbox=QHBoxLayout()
+#     def initUI(self):
+#         vbox=QVBoxLayout()
+#         hbox=QHBoxLayout()
 
-        a=QRadioButton("Large:",self)
-        b=QRadioButton("Middle:",self)
-        c=QRadioButton("Small:",self)
-        a.toggled.connect(self.updateLabel)
-        b.toggled.connect(self.updateLabel)
-        c.toggled.connect(self.updateLabel)
-        self.label=QLabel(' ',self)
+#         a=QRadioButton("Large:",self)
+#         b=QRadioButton("Middle:",self)
+#         c=QRadioButton("Small:",self)
+#         a.toggled.connect(self.updateLabel)
+#         b.toggled.connect(self.updateLabel)
+#         c.toggled.connect(self.updateLabel)
+#         self.label=QLabel(' ',self)
 
-        hbox.addWidget(a)
-        hbox.addWidget(b)
-        hbox.addWidget(c)
+#         hbox.addWidget(a)
+#         hbox.addWidget(b)
+#         hbox.addWidget(c)
 
-        vbox.setSpacing(20)
-        vbox.addLayout(hbox)
-        vbox.addWidget(self.label)
-        self.setLayout(vbox)
+#         vbox.setSpacing(20)
+#         vbox.addLayout(hbox)
+#         vbox.addWidget(self.label)
+#         self.setLayout(vbox)
 
-        self.setGeometry(400,350,300,200)
-        self.setWindowTitle("Python Radio GUI")
-        self.move(60,20)
-        self.show()
+#         self.setGeometry(400,350,300,200)
+#         self.setWindowTitle("Python Radio GUI")
+#         self.move(60,20)
+#         self.show()
 
-    def updateLabel(self,_):
-        rbtn=self.sender()
-        if rbtn.isChecked==True:
-            self.label.setText(rbtn.text())
+#     def updateLabel(self,_):
+#         rbtn=self.sender()
+#         if rbtn.isChecked==True:
+#             self.label.setText(rbtn.text())
 
-def main():
-    app=QApplication(sys.argv)
-    ex=Example()
-    sys.exit(app.exec())
-if __name__=='__main__':
-    main()                
+# def main():
+#     app=QApplication(sys.argv)
+#     ex=Example()
+#     sys.exit(app.exec())
+# if __name__=='__main__':
+#     main()                
 
 
